@@ -48,7 +48,7 @@
                 "code": "newworldcrops:vegetable-{type}",
                 "quantity": {
                     "avg": 3,
-                    "var": 1.5
+                    "var": 1
                 }
             }
         ]

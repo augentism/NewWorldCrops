@@ -3,8 +3,8 @@
 	"maxstacksize": 64,
 	"variantgroups": [
 		{
-			"code": "vegetable",
-			"states": [ "beet", "cauliflower", "corn", "eggplant", "jalapeno", "potato", "yam" ]
+			"code": "type",
+			"states": ["potato"]
 		}
 	],
     "attributesByType": {
@@ -22,14 +22,6 @@
 		"items": [ "*" ]
 	},
     "nutritionPropsByType": {
-		"*-cauliflower": {
-			"satiety": 315,
-			"foodcategory": "Vegetable"
-		},
-		"*-eggplant": {
-			"satiety": 100,
-			"foodcategory": "Fruit"
-		},
 		"*": {
 			"satiety": 100,
 			"foodcategory": "Vegetable"
@@ -49,5 +41,9 @@
 			}
 		]
 	},
+    "shapebytype": {
+        "*-potato": { "base": "item/food/vegetable/potato"},
+        "*":{"base": "item/food/vegetable/{type}"}
+    },
     "materialDensity": 600
 }
