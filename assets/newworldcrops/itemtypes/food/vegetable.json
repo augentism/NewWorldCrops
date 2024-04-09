@@ -42,8 +42,8 @@
 		]
 	},
     "shapebytype": {
-        "*-potato": { "base": "item/food/vegetable/potato"},
-        "*":{"base": "item/food/vegetable/{type}"}
+        "*-potato": { "base": "game:item/food/vegetable/potato"},
+        "*":{"base": "newworldcrops:item/food/vegetable/{type}"}
     },
     "materialDensity": 600
 }

@@ -6,7 +6,10 @@
 		{ "code": "type",
         "states": ["potato"] }
 	],
-	"texture": { "base": "morecrops:item/resource/seeds/{type}" },
+    "shape": { "base": "game:item/resource/seeds/seedbag" },
+	"textures": {
+		"seed": { "base": "game:item/resource/seeds/{type}" }
+	},
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
 	"fpHandTransform": {
 		"translation": { "x": 0, "y": 0, "z": 0 },
