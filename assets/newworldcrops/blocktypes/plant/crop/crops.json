@@ -51,7 +51,15 @@
                     "var": 1
                 }
             }
+        ],
+        "*": [
+            {
+                "type": "item",
+                "code": "newworldcrops:seeds-{type}",
+                "quantity": {"avg": 0.7}
+            }
         ]
+        
     },
     "cropPropsByType": {
         "*potato*": {
