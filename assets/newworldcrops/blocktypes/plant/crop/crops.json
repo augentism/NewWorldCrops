@@ -4,14 +4,21 @@
     "behaviors": [ { "name": "Unstable" } ],
     "variantgroups": [
         {
-            "code": "vegetable",
+            "code": "type",
             "states": ["potato"]
         },
         {
             "code": "stage",
-            "states": ["0","1","2","3","4","5","6","7"]
+            "states": ["1","2","3","4","5","6","7","8"]
         }
     ],
+    "skipVariants": [
+        "crop-potato-8"
+    ],
+    "textures":{
+        "s": { "base": "block/plant/crop/{type}/s{stage}" },
+        "e": { "base": "block/plant/crop/{type}/e{stage}" }
+    },
     "creativeinventory": {
         "general": [ "*" ],
         "plants": [ "*" ]
@@ -50,7 +57,7 @@
         "*potato*": {
             "requiredNutrient": "N",
             "nutrientConsumption": 35,
-            "growthStages": 7,
+            "growthStages": 8,
             "totalGrowthDays": 8,
             "coldDamageBelow": 4,
             "heatDamageAbove": 35

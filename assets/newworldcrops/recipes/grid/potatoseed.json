@@ -13,12 +13,11 @@
                 "code": "newworldcrops:vegetable-potato"
             }
         },
-
         "width": 1,
         "height": 2,
         "output": { 
             "type": "item",
-            "code": "newworlscrops:seeds-potato",
+            "code": "newworldcrops:seeds-potato",
             "quantity": 4
         }
     }
