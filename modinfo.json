@@ -1,0 +1,17 @@
+{
+    "Type": "content",
+    "TextureSize": 32,
+    "Name": "New World Crops",
+    "Version": "0.0.0",
+    "NetworkVersion": null,
+    "Description": "Adds more crops.",
+    "Website": "no",
+    "ModID": "newworldcrops",
+    "Authors": [
+      "augentism"
+    ],
+    "Side": "Universal",
+    "RequiredOnClient": true,
+    "RequiredOnServer": true,
+    "Dependencies": {}
+  }
