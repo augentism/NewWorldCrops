@@ -9,11 +9,65 @@
         },
         {
             "code": "stage",
-            "states": ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15"]
+            "states": ["0","1","2","3","4","5","6","7"]
         }
     ],
     "creativeinventory": {
         "general": [ "*" ],
         "plants": [ "*" ]
-      }
+    },
+    "renderpass": "OpaqueNoCull",
+    "shapeByType": {
+        "*": { "base": "newworldcrops:block/plant/crop/{vegetable}/stage{stage}"}
+    },
+    "blockmaterial": "Plant",
+    "attributes": {
+        "butterflyFeedByType": {
+        "*": true
+        },
+        "beeFeedByType": {
+        "*": true
+        },
+        "sitHeight": 0.3,
+        "tickGrowthProbability": 0.05,
+        "handbook": {
+        "include": true
+        }
+    },
+    "dropsByType": {
+        "*potato-7": [
+            {
+                "type": "item",
+                "code": "newworldcrops:vegetable-{type}",
+                "quantity": {
+                    "avg": 3,
+                    "var": 1.5
+                }
+            }
+        ]
+    },
+    "cropPropsByType": {
+        "*potato*": {
+            "requiredNutrient": "N",
+            "nutrientConsumption": 35,
+            "growthStages": 7,
+            "totalGrowthDays": 8,
+            "coldDamageBelow": 4,
+            "heatDamageAbove": 35
+        }
+    },
+    "collisionbox": null,
+    "selectionbox": {
+        "x1": 0.0625,
+        "y1": 0,
+        "z1": 0.0625,
+        "x2": 0.9375,
+        "y2": 0.25,
+        "z2": 0.9375
+    },
+    "materialDensity": 200,
+    "combustibleProps": {
+        "burnTemperature": 600,
+        "burnDuration": 10
+    }
 }
