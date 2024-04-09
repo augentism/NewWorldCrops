@@ -1,0 +1,25 @@
+[
+    {
+        "ingredientPattern": "K,V",
+        "recipeGroup": 1,
+        "ingredients": {
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            },
+            "V": {
+                "type": "item",
+                "code": "newworldcrops:vegetable-potato"
+            }
+        },
+
+        "width": 1,
+        "height": 2,
+        "output": { 
+            "type": "item",
+            "code": "newworlscrops:seeds-potato",
+            "quantity": 4
+        }
+    }
+]
