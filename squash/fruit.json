@@ -1,0 +1,91 @@
+{
+	"code": "squash",
+	"class": "Block",
+	"behaviors": [
+		{ "name": "GroundStorable", "properties": { "layout": "SingleCenter", "collisionBox": { "x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.4375, "z2": 1 } } },
+		{ "name": "Unplaceable", "__comment": "The ground storable obsoletes this being a block. Should be an item, but is kept a block for backwards compatibility" },
+		{ "name": "RightClickPickup" }
+	],
+	"variantgroups": [
+		{ "code": "variant", "states": ["fruit"] },
+		{ "code": "stage", "states": ["1", "2", "3", "4"] }
+	],
+	"maxstacksize": 8,
+	"creativeinventory": { "general": ["squash-fruit-4"], "flora": ["squash-fruit-4"] },
+	"shape": { "base": "game:block/plant/pumpkin/fruit/pumpkin-stage{stage}" },
+	"blockmaterial": "Plant",
+	"randomizeRotations": true,
+	"heldTpIdleAnimation": "holdbothhandslarge",
+	"attributes": {
+		"canChiselByType": {
+			"*-4": true
+		},		
+		"chiselShapeFromCollisionBox": true
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 5000,
+	"lightAbsorption": 0,
+	"resistance": 1,
+	"collisionboxByType": {
+		"pumpkin-fruit-1": { "x1": 0.40625, "y1": 0, "z1": 0.40625,   "x2": 0.59375, "y2": 0.1875, "z2": 0.59375 },
+		"pumpkin-fruit-2": { "x1": 0.3125, "y1": 0, "z1": 0.3125,   "x2": 0.6875, "y2": 0.375, "z2": 0.6875 },
+		"pumpkin-fruit-3": { "x1": 0.21875, "y1": 0, "z1": 0.21875,   "x2": 0.78125, "y2": 0.5625, "z2": 0.78125 },
+		"pumpkin-fruit-4": { "x1": 0.125, "y1": 0, "z1": 0.125,   "x2": 0.875, "y2": 0.75, "z2": 0.875 }
+	},
+	"selectionboxByType": {
+		"pumpkin-fruit-1": { "x1": 0.40625, "y1": 0, "z1": 0.40625,   "x2": 0.59375, "y2": 0.1875, "z2": 0.59375 },
+		"pumpkin-fruit-2": { "x1": 0.3125, "y1": 0, "z1": 0.3125,   "x2": 0.6875, "y2": 0.375, "z2": 0.6875 },
+		"pumpkin-fruit-3": { "x1": 0.21875, "y1": 0, "z1": 0.21875,   "x2": 0.78125, "y2": 0.5625, "z2": 0.78125 },
+		"pumpkin-fruit-4": { "x1": 0.125, "y1": 0, "z1": 0.125,   "x2": 0.875, "y2": 0.75, "z2": 0.875 }
+	},
+	"texturesByType": {
+		"*-4": {
+			"sides": { "base": "block/plant/squash/fruit/stage4-side" },
+			"up": { "base": "block/plant/squash/fruit/stage4-top" },
+			"down": { "base": "block/plant/squash/fruit/stage4-bottom" },
+			"inside-north": { "base": "game:block/fire" },
+			"inside-east": { "base": "game:block/fire" },
+			"inside-south": { "base": "game:block/fire" },
+			"inside-west": { "base": "game:block/fire" },
+			"inside-up": { "base": "game:block/fire" },
+			"inside-down": { "base": "game:block/fire" }
+		}
+	},
+	"guitransform": {
+		"rotation": { "x": 0, "y": 0, "z": 0 }
+	},
+	"sounds": {
+		"place": "game:block/pumpkin",
+		"break": "game:block/pumpkin",
+		"hit": "game:block/pumpkin"
+	},
+	"materialDensity": 200,
+	"transitionableProps": [{
+		"type": "Perish",
+		"freshHours": { "avg": 432 },
+		"transitionHours": { "avg": 144 },
+		"transitionedStack": { "type": "item", "code": "rot" },
+		"transitionRatio": 2
+	}],
+	"guiTransform": {
+		"translation": { "x": 0, "y": -1, "z": 0 },
+		"rotation": { "x": -27, "y": -39, "z": 0 },
+		"scale": 1.11
+	},
+	"tpHandTransform": {
+		"translation": { "x": -1.4, "y": -0.8, "z": -0.59 },
+		"rotation": { "x": -59, "y": 18, "z": -100 },
+		"scale": 0.43
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": -45, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 2.47
+	}
+}

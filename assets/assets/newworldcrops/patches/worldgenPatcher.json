@@ -31,4 +31,53 @@
             "chance": 0.036
         }
     }
+
+    {
+        "file": "game:worldgen/blockpatches/crop.json",
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+            "comment": "Small patches of black beans",
+            "blockCodes": ["newworldcrops:crop-blackbean-4", "newworldcrops:crop-blackbean-6", "newworldcrops:crop-blackbean-11","newworldcrops:crop-blackbean-2"],
+            "minTemp": -10,
+            "maxTemp": 14,
+            "minRain": 0.35,
+            "maxRain": 0.75,
+            "maxForest": 0.5,
+            "quantity": { "avg": 5, "var": 4 },
+            "chance": 0.036
+        }
+    }
+    {
+        "file": "game:worldgen/blockpatches/crop.json",
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+            "comment": "Small patches of green beans",
+            "blockCodes": ["newworldcrops:crop-greenbean-4", "newworldcrops:crop-greenbean-6", "newworldcrops:crop-greenbean-11","newworldcrops:crop-greenbean-2"],
+            "minTemp": -10,
+            "maxTemp": 14,
+            "minRain": 0.35,
+            "maxRain": 0.75,
+            "maxForest": 0.5,
+            "quantity": { "avg": 5, "var": 4 },
+            "chance": 0.036
+        }
+    }
+    {
+        "file": "game:worldgen/blockpatches/crop.json",
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+            "comment": "Small patches of kidney beans",
+            "blockCodes": ["newworldcrops:crop-kidneybean-4", "newworldcrops:crop-kidneybean-6", "newworldcrops:crop-kidneybean-11","newworldcrops:crop-kidneybean-2"],
+            "minTemp": -10,
+            "maxTemp": 14,
+            "minRain": 0.35,
+            "maxRain": 0.75,
+            "maxForest": 0.5,
+            "quantity": { "avg": 5, "var": 4 },
+            "chance": 0.036
+        }
+    }
 ]
