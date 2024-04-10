@@ -11,6 +11,12 @@
     "newworldcrops:item-bread-potato-partbaked": "Potato (part-baked)",
     "newworldcrops:item-bread-potato-perfect": "Potato (perfected)",
     "newworldcrops:item-bread-potato-charred": "Potato (charred)",
+    "newworldcrops:item-legume-blackbean": "Black Beans",
+    "newworldcrops:item-legume-greenbean": "Green Beans",
+    "newworldcrops:item-legume-kidneybean": "Kidney Beans",
+    "newworldcrops:item-seed-blackbean": "Black Bean seeds",
+    "newworldcrops:item-seed-greenbean": "Green Bean seeds",
+    "newworldcrops:item-seed-kidneybean": "Kidney Bean seeds",
 
     "game:meal-ingredient-porridge-primary-grain-corn": "Corn",
     "game:meal-ingredient-porridge-secondary-grain-corn": "Corn",
@@ -23,5 +29,23 @@
     "game:meal-ingredient-stew-primary-vegetable-potato": "Potato",
     "game:meal-ingredient-stew-primary-grain-corn": "Corn",
     "game:meal-ingredient-stew-secondary-vegetable-potato": "Potato",
-    "game:meal-ingredient-stew-secondary-grain-corn": "Corn"
+    "game:meal-ingredient-stew-secondary-grain-corn": "Corn",
+
+
+    "game:meal-ingredient-soup-primary-legume-blackbean": "Black Bean",
+    "game:meal-ingredient-soup-secondary-legume-blackbean": "Black Bean",
+    "game:meal-ingredient-stew-primary-legume-blackbean": "Black Bean",
+    "game:meal-ingredient-stew-secondary-legume-blackbean": "Black Bean",
+
+    "game:meal-ingredient-soup-primary-legume-kidneybean": "Kidney Bean",
+    "game:meal-ingredient-soup-secondary-legume-kidneybean": "Kidney Bean",
+    "game:meal-ingredient-stew-primary-legume-kidneybean": "Kidney Bean",
+    "game:meal-ingredient-stew-secondary-legume-kidneybean": "Kidney Bean",
+
+    "game:meal-ingredient-soup-primary-legume-greenbean": "Green Bean",
+    "game:meal-ingredient-soup-secondary-legume-greenbean": "Green Bean",
+    "game:meal-ingredient-stew-primary-legume-greenbean": "Green Bean",
+    "game:meal-ingredient-stew-secondary-legume-greenbean": "Green Bean"
+
+
 }
