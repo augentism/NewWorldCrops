@@ -63,7 +63,7 @@
     },
     "cropPropsByType": {
         "*potato*": {
-            "requiredNutrient": "N",
+            "requiredNutrient": "K",
             "nutrientConsumption": 35,
             "growthStages": 8,
             "totalGrowthDays": 8,

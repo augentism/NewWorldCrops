@@ -1,0 +1,51 @@
+{
+	"code": "flour",
+	"maxstacksize": 64,
+	"attributes": {
+		"dissolveInWater": true
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["corn"] }
+	],
+	"shape": { "base": "game:item/food/flour" },
+	"texture": { "base": "item/food/grain/{type}-flour" },
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"materialDensity": 600,
+	"transitionableProps": [{
+		"type": "Perish",
+		"freshHours": { "avg": 4320 },
+		"transitionHours": { "avg": 336 },
+		"transitionedStack": { "type": "item", "code": "rot" },
+		"transitionRatio": 0.25
+	}],
+	"guiTransform": {
+		"translation": { "x": 0, "y": 0, "z": -25 },
+		"rotation": { "x": 171, "y": 57, "z": -20 },
+		"origin": { "x": 0.46, "y": 0.08, "z": 0.48 },
+		"scale": 2.75
+	},
+	"fpHandTransform": {
+		"translation": { "x": 0.1, "y": 0.16, "z": 0 },
+		"rotation": { "x": 37, "y": 77, "z": 2 },
+		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+		"scale": 1.95
+	},
+	"tpHandTransform": {
+		"translation": { "x": -0.04, "y": -0.6, "z": -0.8 },
+		"rotation": { "x": 119, "y": -7, "z": -72 },
+		"origin": { "x": -0.1, "y": 0.32, "z": 0.82 },
+		"scale": 0.48
+	},
+	"groundTransform": {
+		"translation": { "x": 0, "y": 0, "z": 0 },
+		"rotation": { "x": 0, "y": 0, "z": 0 },
+		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+		"scale": 3
+	},
+	"heldRightReadyAnimationByType": {
+		"*": "holdbothhands"
+	},
+	"heldTpIdleAnimationByType": {
+		"*": "holdbothhands"
+    }
+}
