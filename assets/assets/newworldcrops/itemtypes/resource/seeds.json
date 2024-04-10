@@ -4,7 +4,7 @@
 	"maxstacksize": 64,
 	"variantgroups": [
 		{ "code": "type",
-        "states": ["potato", "corn"] }
+        "states": ["potato", "corn", "blackbean", "greenbean","kidneybean"] }
 	],
     "shape": { "base": "game:item/resource/seeds/seedbag" },
 	"textures": {

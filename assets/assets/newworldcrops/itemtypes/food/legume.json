@@ -1,0 +1,85 @@
+{
+	"code": "legume",
+	"maxstacksize": 32,
+	"variantgroups": [
+		{ "code": "type", "states": ["blackbean", "greenbean","kidneybean"] }
+	],
+	"attributes": {
+		"foodTags": ["{type}"],
+		"inContainerTexture": { "base": "game:block/wood/barrel/raw-{type}" },
+		"crockable": true,
+		"inPieProperties": { "texture": "newworldcrops:block/food/pie/fill-{type}", "partType": "Filling", "allowMixing": false },
+		"nutritionPropsWhenInMeal": { 
+			"satietyByType": {
+				"*bean": 160
+			},
+			"foodcategory": "Vegetable" 
+		}
+	},
+	"texture": { "base": "newworldcrops:item/food/legume/{type}" },
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"transitionableProps": [{
+		"type": "Perish",
+		"freshHours": { "avg": 8760 },
+		"transitionHours": { "avg": 876 },
+		"transitionedStack": { "type": "item", "code": "rot" },
+		"transitionRatio": 0.33
+	}],
+	"materialDensity": 600,
+	"nutritionPropsByType": {
+		"*-peanut": { "saturation": 160, "foodcategory": "Protein" }
+	},
+	"guiTransformByType": {
+		"*-soybean": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": -44, "y": -14, "z": 1 },
+			"origin": { "x": 0.4, "y": 0.45, "z": 0 },
+			"scale": 2.58
+		},
+		"*-peanut": {
+			"translation": { "x": -1, "y": 1, "z": 0 },
+			"rotation": { "x": -43, "y": 60, "z": -180 },
+			"origin": { "x": 0.6, "y": 0.1, "z": 0.5 },
+			"scale": 2.01
+		}
+	},
+	"fpHandTransformByType": {
+		"*-peanut": {
+			"rotation": { "x": -8, "y": -81, "z": -27 }
+		}
+	},
+	"groundTransformByType": {
+		"*-soybean": {
+			"translation": { "x": 0, "y": 0.39, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
+			"scale": 4
+		},
+		"*-peanut": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 1.9
+		}
+	},
+	"tpHandTransformByType": {
+		"*-soybean": {
+			"translation": { "x": 0.02, "y": -0.7, "z": -0.35 },
+			"rotation": { "x": 122, "y": -2, "z": -67 },
+			"origin": { "x": -0.05, "y": 0.16, "z": 0.46 },
+			"scale": 0.45
+		},
+		"*-peanut": {
+			"translation": { "x": -0.05, "y": -1.45, "z": -1.3 },
+			"rotation": { "x": 116, "y": -4, "z": -69 },
+			"origin": { "x": -0.1, "y": 0.42, "z": 0.73 },
+			"scale": 0.32
+		}
+	},
+	"heldRightReadyAnimationByType": {
+		"*": "holdbothhands"
+	},
+	"heldTpIdleAnimationByType": {
+		"*": "holdbothhands"
+    }
+}

@@ -65,7 +65,7 @@
         "*potato*": {
             "requiredNutrient": "K",
             "nutrientConsumption": 35,
-            "growthStages": 8,
+            "growthStages": 7,
             "totalGrowthDays": 8,
             "coldDamageBelow": 4,
             "heatDamageAbove": 35
