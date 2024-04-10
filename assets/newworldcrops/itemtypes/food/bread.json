@@ -102,29 +102,5 @@
 			"transitionRatio": 1
 		}]
 	},
-	"materialDensity": 200,
-	"guiTransform": {
-		"translation": { "x": 0, "y": 0,  "z": 0 },
-		"rotation": { "x": -30, "y": 26,  "z": 180 },
-		"origin": { "x": 0.52, "y": 0.07,  "z": 0.5 },
-		"scale": 4.9
-	},
-	"groundTransform": {
-		"translation": { "x": 0, "y": 0,  "z": 0 },
-		"rotation": { "x": 0, "y": 0,  "z": 1 },
-		"origin": { "x": 0.5, "y": 0,  "z": 0.5 },
-		"scale": 4.5
-	},
-	"tpHandTransform": {
-		"translation": { "x": -0.54, "y": -0.16,  "z": -0.4 },
-		"rotation": { "x": 88, "y": -85,  "z": 2 },
-		"origin": { "x": 0.5, "y": 0.13,  "z": 0.5 },
-		"scale": 1
-	},
-	"fpHandTransform": {
-		"translation": { "x": 0, "y": 0.24,  "z": 0.3 },
-		"rotation": { "x": 104, "y": 0,  "z": 71 },
-		"origin": { "x": 0.5, "y": 0.1,  "z": 0.5 },
-		"scale": 2.5
-	}
+	"materialDensity": 200
 }

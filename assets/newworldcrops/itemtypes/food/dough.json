@@ -24,7 +24,7 @@
 	],
 	"shape": { "base": "game:item/food/bread/amaranthbread-dough" },
 	"textures": {
-		"amaranth": {"base": "newworldcrops:item/food/grain/cornbread" }
+		"amaranth": {"base": "newworldcrops:item/food/grain/cornbread-dough" }
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
 	"materialDensity": 200,
