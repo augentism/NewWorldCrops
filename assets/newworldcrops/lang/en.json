@@ -3,5 +3,11 @@
     "newworldcrops:item-seeds-potato": "Potato Seeds",
     "newworldcrops:item-grain-corn": "Corn",
     "newworldcrops:item-seeds-corn": "Corn Seeds",
-    "newworldcrops:item-flour-corn": "Corn Flour"
+    "newworldcrops:item-flour-corn": "Corn Flour",
+    "newworldcrops:item-bread-corn-partbaked": "Cornbread (part-baked)",
+    "newworldcrops:item-bread-corn-perfect": "Cornbread",
+    "newworldcrops:item-bread-corn-charred": "Cornbread (charred)",
+    "newworldcrops:item-bread-potato-partbaked": "Potato (part-baked)",
+    "newworldcrops:item-bread-potato-perfect": "Potato",
+    "newworldcrops:item-bread-potato-charred": "Potato (charred)"
 }
