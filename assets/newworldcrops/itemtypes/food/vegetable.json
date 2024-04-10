@@ -8,6 +8,22 @@
 		}
 	],
     "attributesByType": {
+		"*-potato": {
+			"displaycaseable": true,
+			"shelvable": true,
+			"bakingProperties": {
+				"temp": 160,
+				"levelFrom": 0.0,
+				"levelTo": 0.25,
+				"startScaleY": 0.9,
+				"endScaleY": 0.95,
+				"resultCode": "newworldcrops:bread-{type}-partbaked"
+			},
+			"nutritionPropsWhenInMeal": {
+				"satiety": 150,
+				"foodcategory": "Vegetable"
+			}
+		},
         "*": {
             "displaycaseable": true,
 			"shelvable": true,
