@@ -4,10 +4,24 @@
     "newworldcrops:item-grain-corn": "Corn",
     "newworldcrops:item-seeds-corn": "Corn Seeds",
     "newworldcrops:item-flour-corn": "Corn Flour",
+    "newworldcrops:item-dough-corn": "Cornbread dough",
     "newworldcrops:item-bread-corn-partbaked": "Cornbread (part-baked)",
     "newworldcrops:item-bread-corn-perfect": "Cornbread",
     "newworldcrops:item-bread-corn-charred": "Cornbread (charred)",
     "newworldcrops:item-bread-potato-partbaked": "Potato (part-baked)",
-    "newworldcrops:item-bread-potato-perfect": "Potato",
-    "newworldcrops:item-bread-potato-charred": "Potato (charred)"
+    "newworldcrops:item-bread-potato-perfect": "Potato (perfected)",
+    "newworldcrops:item-bread-potato-charred": "Potato (charred)",
+
+    "game:meal-ingredient-porridge-primary-grain-corn": "Corn",
+    "game:meal-ingredient-porridge-secondary-grain-corn": "Corn",
+
+    "game:meal-ingredient-soup-primary-vegetable-potato": "Potato",
+    "game:meal-ingredient-soup-primary-grain-corn": "Corn",
+    "game:meal-ingredient-soup-secondary-vegetable-potato": "Potato",
+    "game:meal-ingredient-soup-secondary-grain-corn": "Corn",
+
+    "game:meal-ingredient-stew-primary-vegetable-potato": "Potato",
+    "game:meal-ingredient-stew-primary-grain-corn": "Corn",
+    "game:meal-ingredient-stew-secondary-vegetable-potato": "Potato",
+    "game:meal-ingredient-stew-secondary-grain-corn": "Corn"
 }

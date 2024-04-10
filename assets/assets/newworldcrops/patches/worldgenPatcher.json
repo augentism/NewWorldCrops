@@ -1,0 +1,34 @@
+[
+    {
+        "file": "game:worldgen/blockpatches/crop.json",
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+            "comment": "Small patches of potato",
+            "blockCodes": ["newworldcrops:crop-potato-4", "newworldcrops:crop-potato-6", "newworldcrops:crop-potato-7","newworldcrops:crop-potato-2"],
+            "minTemp": -10,
+            "maxTemp": 14,
+            "minRain": 0.35,
+            "maxRain": 0.75,
+            "maxForest": 0.5,
+            "quantity": { "avg": 5, "var": 4 },
+            "chance": 0.036
+        }
+    },
+    {
+        "file": "game:worldgen/blockpatches/crop.json",
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+            "comment": "Small patches of corn",
+            "blockCodes": ["newworldcrops:crop-corn-4", "newworldcrops:crop-corn-6", "newworldcrops:crop-corn-9","newworldcrops:crop-corn-2"],
+            "minTemp": -10,
+            "maxTemp": 14,
+            "minRain": 0.35,
+            "maxRain": 0.75,
+            "maxForest": 0.5,
+            "quantity": { "avg": 5, "var": 4 },
+            "chance": 0.036
+        }
+    }
+]
