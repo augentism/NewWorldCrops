@@ -14,9 +14,9 @@
     "newworldcrops:item-legume-blackbean": "Black Beans",
     "newworldcrops:item-legume-greenbean": "Green Beans",
     "newworldcrops:item-legume-kidneybean": "Kidney Beans",
-    "newworldcrops:item-seed-blackbean": "Black Bean seeds",
-    "newworldcrops:item-seed-greenbean": "Green Bean seeds",
-    "newworldcrops:item-seed-kidneybean": "Kidney Bean seeds",
+    "newworldcrops:item-seeds-blackbean": "Black Bean seeds",
+    "newworldcrops:item-seeds-greenbean": "Green Bean seeds",
+    "newworldcrops:item-seeds-kidneybean": "Kidney Bean seeds",
 
     "game:meal-ingredient-porridge-primary-grain-corn": "Corn",
     "game:meal-ingredient-porridge-secondary-grain-corn": "Corn",
