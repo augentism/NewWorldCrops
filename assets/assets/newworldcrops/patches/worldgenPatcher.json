@@ -30,7 +30,7 @@
             "quantity": { "avg": 5, "var": 4 },
             "chance": 0.036
         }
-    }
+    },
 
     {
         "file": "game:worldgen/blockpatches/crop.json",
@@ -47,7 +47,7 @@
             "quantity": { "avg": 5, "var": 4 },
             "chance": 0.036
         }
-    }
+    },
     {
         "file": "game:worldgen/blockpatches/crop.json",
         "op": "addmerge",
@@ -63,7 +63,7 @@
             "quantity": { "avg": 5, "var": 4 },
             "chance": 0.036
         }
-    }
+    },
     {
         "file": "game:worldgen/blockpatches/crop.json",
         "op": "addmerge",
