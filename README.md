@@ -18,6 +18,7 @@ Legumes:
 Vegetables:
 
 - Potato
+- bell pepper
 
 
 
