@@ -49,7 +49,7 @@
         {
             "*pepper*": 10
         },
-        "interactionInterval": 5.00
+        "interactionInterval": 1.00
         
     },
     "dropsByType": {
