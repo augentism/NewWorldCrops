@@ -2,11 +2,10 @@
     "code": "crop",
     "class": "BlockCropFruit",
     "behaviors": [ { "name": "Unstable" } ],
-    "fruitStage": 10,
     "variantgroups": [
         {
             "code": "type",
-            "states": ["bebber"]
+            "states": ["pepper"]
         },
         {
             "code": "stage",
@@ -14,8 +13,8 @@
         }
     ],
     "textures":{
-        "s": { "base": "game:block/plant/crop/{type}/w{stage}" },
-        "e": { "base": "game:block/plant/crop/{type}/e{stage}" }
+        "s": { "base": "newworldcrops:block/plant/crop/{type}/e{stage}" },
+        "e": { "base": "newworldcrops:block/plant/crop/{type}/e{stage}" }
     },
     "creativeinventory": {
         "general": [ "*" ],
@@ -25,7 +24,12 @@
     "shapeByType": {
         "*-5": { "base": "newworldcrops:block/plant/crop/{type}/stage5" },
 		"*-6": { "base": "newworldcrops:block/plant/crop/{type}/stage6" },
-		"*-7": { "base": "newworldcrops:block/plant/crop/{type}/stage7" },
+		"*-7": { "base": "newworldcrops:block/plant/crop/{type}/stage6" },
+        "*-8": { "base": "newworldcrops:block/plant/crop/{type}/stage6" },
+        "*-9": { "base": "newworldcrops:block/plant/crop/{type}/stage6" },
+        "*-10": { "base": "newworldcrops:block/plant/crop/{type}/stage7" },
+        "*-11": { "base": "newworldcrops:block/plant/crop/{type}/stage7" },
+        "*-12": { "base": "newworldcrops:block/plant/crop/{type}/stage7" },
 		"*": { "base": "newworldcrops:block/plant/crop/{type}/stage1to4" }
 	},
     "blockmaterial": "Plant",
@@ -40,22 +44,58 @@
         "tickGrowthProbability": 0.05,
         "handbook": {
         "include": true
-        }
+        },
+        "fruitStageByType": 
+        {
+            "*pepper*": 10
+        },
+        "interactionInterval": 5.00
+        
     },
     "dropsByType": {
-        "*bebber-1*": [
+        "*pepper-10": [
             {
                 "type": "item",
-                "code": "newworldcrops:vegetable-{type}",
+                "code": "game:vegetable-bellpepper",
                 "quantity": {
-                    "avg": 1,
+                    "avg": 1.1,
                     "var": 0
                 }
             },
             {
                 "type": "item",
                 "code": "newworldcrops:seeds-{type}",
-                "quantity": {"avg": 0.2}
+                "quantity": {"avg": 0.4, "var": 0.2}
+            }
+        ],
+        "*pepper-11": [
+            {
+                "type": "item",
+                "code": "game:vegetable-bellpepper",
+                "quantity": {
+                    "avg": 1.1,
+                    "var": 0
+                }
+            },
+            {
+                "type": "item",
+                "code": "newworldcrops:seeds-{type}",
+                "quantity": {"avg": 0.4, "var": 0.2}
+            }
+        ],
+        "*pepper-12": [
+            {
+                "type": "item",
+                "code": "game:vegetable-bellpepper",
+                "quantity": {
+                    "avg": 1.1,
+                    "var": 0
+                }
+            },
+            {
+                "type": "item",
+                "code": "newworldcrops:seeds-{type}",
+                "quantity": {"avg": 0.4, "var": 0.2}
             }
         ],
         "*": [
@@ -68,7 +108,7 @@
         
     },
     "cropPropsByType": {
-        "*": {
+        "*pepper*": {
             "requiredNutrient": "K",
             "nutrientConsumption": 35,
             "growthStages": 12,
@@ -77,6 +117,7 @@
             "heatDamageAbove": 35
         }
     },
+    
     "collisionbox": null,
     "selectionbox": {
         "x1": 0.0625,
