@@ -68,7 +68,7 @@
         
     },
     "cropPropsByType": {
-        "*pepper*": {
+        "*": {
             "requiredNutrient": "K",
             "nutrientConsumption": 35,
             "growthStages": 12,
