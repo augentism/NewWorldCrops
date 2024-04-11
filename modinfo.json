@@ -13,5 +13,7 @@
     "Side": "Universal",
     "RequiredOnClient": true,
     "RequiredOnServer": true,
-    "Dependencies": {}
+    "Dependencies": {
+      "augplantlib": "0.0.1"
+    }
   }
