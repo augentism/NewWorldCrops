@@ -79,5 +79,21 @@
             "quantity": { "avg": 5, "var": 4 },
             "chance": 0.036
         }
+    },
+    {
+        "file": "game:worldgen/blockpatches/crop.json",
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+            "comment": "Small patches of bell peppers",
+            "blockCodes": ["newworldcrops:crop-pepper-4", "newworldcrops:crop-pepper-10", "newworldcrops:crop-pepper-13","newworldcrops:crop-kidneybean-2"],
+            "minTemp": -10,
+            "maxTemp": 14,
+            "minRain": 0.35,
+            "maxRain": 0.75,
+            "maxForest": 0.5,
+            "quantity": { "avg": 5, "var": 4 },
+            "chance": 0.036
+        }
     }
 ]
