@@ -67,9 +67,9 @@
 	"lightAbsorption": 0,
 	"resistance": 0.5,
 	"sounds": {
-		"place": "block/plant",
-		"break": "block/plant",
-		"hit": "block/plant"
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
 	},
 	"rainPermeable": false,
 	"dropsByType": {
