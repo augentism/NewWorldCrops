@@ -25,7 +25,7 @@
 		"type": "Perish",
 		"freshHours": { "avg": 2160 },
 		"transitionHours": { "avg": 224 },
-		"transitionedStack": { "type": "item", "code": "rot" },
+		"transitionedStack": { "type": "item", "code": "game:rot" },
 		"transitionRatio": 0.25
 	}],
 	"grindingProps": {
