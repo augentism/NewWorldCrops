@@ -4,7 +4,7 @@
 	"variantgroups": [
 		{
 			"code": "type",
-			"states": ["potato"]
+			"states": ["potato","bebber"]
 		}
 	],
     "attributesByType": {

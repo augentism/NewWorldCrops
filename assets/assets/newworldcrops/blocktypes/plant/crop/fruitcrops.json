@@ -1,0 +1,94 @@
+{
+    "code": "crop",
+    "class": "BlockCropFruit",
+    "behaviors": [ { "name": "Unstable" } ],
+    "fruitStage": 10,
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": ["bebber"]
+        },
+        {
+            "code": "stage",
+            "states": ["1","2","3","4","5","6","7","8","9","10","11","12"]
+        }
+    ],
+    "textures":{
+        "s": { "base": "game:block/plant/crop/{type}/w{stage}" },
+        "e": { "base": "game:block/plant/crop/{type}/e{stage}" }
+    },
+    "creativeinventory": {
+        "general": [ "*" ],
+        "plants": [ "*" ]
+    },
+    "renderpass": "OpaqueNoCull",
+    "shapeByType": {
+        "*-5": { "base": "newworldcrops:block/plant/crop/{type}/stage5" },
+		"*-6": { "base": "newworldcrops:block/plant/crop/{type}/stage6" },
+		"*-7": { "base": "newworldcrops:block/plant/crop/{type}/stage7" },
+		"*": { "base": "newworldcrops:block/plant/crop/{type}/stage1to4" }
+	},
+    "blockmaterial": "Plant",
+    "attributes": {
+        "butterflyFeedByType": {
+        "*": true
+        },
+        "beeFeedByType": {
+        "*": true
+        },
+        "sitHeight": 0.3,
+        "tickGrowthProbability": 0.05,
+        "handbook": {
+        "include": true
+        }
+    },
+    "dropsByType": {
+        "*bebber-1*": [
+            {
+                "type": "item",
+                "code": "newworldcrops:vegetable-{type}",
+                "quantity": {
+                    "avg": 1,
+                    "var": 0
+                }
+            },
+            {
+                "type": "item",
+                "code": "newworldcrops:seeds-{type}",
+                "quantity": {"avg": 0.2}
+            }
+        ],
+        "*": [
+            {
+                "type": "item",
+                "code": "newworldcrops:seeds-{type}",
+                "quantity": {"avg": 0.7}
+            }
+        ]
+        
+    },
+    "cropPropsByType": {
+        "*pepper*": {
+            "requiredNutrient": "K",
+            "nutrientConsumption": 35,
+            "growthStages": 12,
+            "totalGrowthDays": 8,
+            "coldDamageBelow": 4,
+            "heatDamageAbove": 35
+        }
+    },
+    "collisionbox": null,
+    "selectionbox": {
+        "x1": 0.0625,
+        "y1": 0,
+        "z1": 0.0625,
+        "x2": 0.9375,
+        "y2": 0.25,
+        "z2": 0.9375
+    },
+    "materialDensity": 200,
+    "combustibleProps": {
+        "burnTemperature": 600,
+        "burnDuration": 10
+    }
+}
