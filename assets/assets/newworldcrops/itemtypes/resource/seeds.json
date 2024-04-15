@@ -4,7 +4,7 @@
 	"maxstacksize": 64,
 	"variantgroups": [
 		{ "code": "type",
-        "states": ["potato", "corn", "blackbean", "greenbean","kidneybean","pepper"] }
+        "states": ["potato", "corn", "blackbean", "greenbean","kidneybean","pepper", "tomato"] }
 	],
     "shape": { "base": "game:item/resource/seeds/seedbag" },
 	"texturesByType": {
@@ -12,10 +12,6 @@
 		"*": {"seed": { "base": "newworldcrops:item/resource/seeds/{type}" }}
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
-	"fpHandTransform": {
-		"translation": { "x": 0, "y": 0, "z": 0 },
-		"rotation": { "x": 180, "y": 90, "z": 13 }
-	},
 	"materialDensity": 450,
 	"guiTransform": {
 		"translation": { "x": 0, "y": 0, "z": 0 },
