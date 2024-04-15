@@ -13,26 +13,23 @@
         }
     ],
     "textures":{
-        "s": { "base": "newworldcrops:block/plant/crop/{type}/e{stage}" },
-        "e": { "base": "newworldcrops:block/plant/crop/{type}/e{stage}" }
+        "crop": { "base": "newworldcrops:block/plant/crop/{type}/e{stage}" }
     },
     "creativeinventory": {
-        "general": [ "" ],
-        "plants": [ "" ]
+        "general": [ "*" ],
+        "plants": [ "*" ]
     },
     "renderpass": "OpaqueNoCull",
     "shapeByType": {
-        "*-5": { "base": "newworldcrops:block/plant/crop/{type}/stage5" },
-		"*-6": { "base": "newworldcrops:block/plant/crop/{type}/stage6" },
-		"*-7": { "base": "newworldcrops:block/plant/crop/{type}/stage6" },
-        "*-8": { "base": "newworldcrops:block/plant/crop/{type}/stage6" },
-        "*-9": { "base": "newworldcrops:block/plant/crop/{type}/stage6" },
-        "*-10": { "base": "newworldcrops:block/plant/crop/{type}/stage7" },
-        "*-11": { "base": "newworldcrops:block/plant/crop/{type}/stage7" },
-        "*-12": { "base": "newworldcrops:block/plant/crop/{type}/stage7" },
-		"*": { "base": "newworldcrops:block/plant/crop/{type}/stage1to4" }
+		"*": { "base": "game:block/plant/crop/vegetable" }
 	},
     "blockmaterial": "Plant",
+    "sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
     "attributes": {
         "butterflyFeedByType": {
         "*": true
@@ -47,23 +44,19 @@
         },
         "fruitStageByType": 
         {
-            "*pepper*": 10
+            "*pepper*": 10,
+            "*tomato*": 10,
+            "*": 10
         },
         "interactionInterval": 1.00
         
     },
     "dropsByType": {
-        "*tomato-1": [
+
+        "@.*tomato-(10|11|12)": [
             {
                 "type": "item",
-                "code": "newworldcrops:seeds-{type}",
-                "quantity": {"avg": 0.7}
-            }
-        ],
-        "*tomato-1*": [
-            {
-                "type": "item",
-                "code": "game:vegetable-bellpepper",
+                "code": "newworldcrops:vegetable-tomato",
                 "quantity": {
                     "avg": 1.1,
                     "var": 0
@@ -132,6 +125,14 @@
     },
     "cropPropsByType": {
         "*pepper*": {
+            "requiredNutrient": "K",
+            "nutrientConsumption": 35,
+            "growthStages": 12,
+            "totalGrowthDays": 8,
+            "coldDamageBelow": 4,
+            "heatDamageAbove": 35
+        },
+        "*tomato*": {
             "requiredNutrient": "K",
             "nutrientConsumption": 35,
             "growthStages": 12,

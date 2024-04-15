@@ -34,8 +34,8 @@
         }
     },
     "creativeinventory": {
-		"general": [ "" ],
-		"items": [ "" ]
+		"general": [ "*" ],
+		"items": [ "*" ]
 	},
     "nutritionPropsByType": {
 		"*": {
