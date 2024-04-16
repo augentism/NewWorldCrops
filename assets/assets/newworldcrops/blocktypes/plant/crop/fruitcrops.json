@@ -126,17 +126,17 @@
     "cropPropsByType": {
         "*pepper*": {
             "requiredNutrient": "K",
-            "nutrientConsumption": 35,
+            "nutrientConsumption": 20,
             "growthStages": 12,
-            "totalGrowthDays": 8,
+            "totalGrowthDays": 10,
             "coldDamageBelow": 4,
             "heatDamageAbove": 35
         },
         "*tomato*": {
             "requiredNutrient": "K",
-            "nutrientConsumption": 35,
+            "nutrientConsumption": 20,
             "growthStages": 12,
-            "totalGrowthDays": 8,
+            "totalGrowthDays": 10,
             "coldDamageBelow": 4,
             "heatDamageAbove": 35
         }

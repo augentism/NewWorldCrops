@@ -88,7 +88,7 @@
 	"cropProps": {
 		"__comment": "corn lol",
 		"requiredNutrient": "N",
-		"nutrientConsumption": 15,
+		"nutrientConsumption": 25,
 		"growthStages": 9,
 		"totalGrowthMonths": 2,
 		"coldDamageBelow": 6,
