@@ -70,14 +70,13 @@
 			"origin": { "x": 0.5, "y": 0.22, "z": 0.5 },
 			"scale": 3
 		},
-		"*-tomato":{
-			"guiTransform": {
-				"translation": { "x": 19, "y": -20, "z": 0 },
-				"rotation": { "x": -22, "y": -53, "z": -174 },
-				"scale": 1.67
-			}
+		"*tomato":{
+			"translation": { "x": 19, "y": -20, "z": 0 },
+			"rotation": { "x": -22, "y": -53, "z": -174 },
+			"scale": 1.67
 		}
 	},
+	
 	"fpHandTransformByType": {
 		"*-potato": {
 			"translation": { "x": 0, "y": 0, "z": 0 },

@@ -46,7 +46,12 @@
     "game:meal-ingredient-soup-primary-legume-greenbean": "Green Bean",
     "game:meal-ingredient-soup-secondary-legume-greenbean": "Green Bean",
     "game:meal-ingredient-stew-primary-legume-greenbean": "Green Bean",
-    "game:meal-ingredient-stew-secondary-legume-greenbean": "Green Bean"
+    "game:meal-ingredient-stew-secondary-legume-greenbean": "Green Bean",
+
+    "game:meal-ingredient-soup-primary-vegetable-tomato": "Tomato",
+    "game:meal-ingredient-soup-secondary-vegetable-tomato": "Tomato",
+    "game:meal-ingredient-stew-primary-vegetable-tomato": "Tomato",
+    "game:meal-ingredient-stew-secondary-vegetable-tomato": "Tomato"
 
 
 }
