@@ -1,5 +1,6 @@
 {
 	"code": "dough",
+	"storageFlags": 33,
 	"class": "ItemDough",
 	"maxstacksize": 32,
 	"attributes": {

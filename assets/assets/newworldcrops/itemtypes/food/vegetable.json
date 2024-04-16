@@ -1,5 +1,6 @@
 {
     "code": "vegetable",
+	"storageFlags": 33,
 	"maxstacksize": 64,
 	"variantgroups": [
 		{
@@ -68,6 +69,13 @@
 			"rotation": { "x": -37, "y": 135, "z": -155 },
 			"origin": { "x": 0.5, "y": 0.22, "z": 0.5 },
 			"scale": 3
+		},
+		"*-tomato":{
+			"guiTransform": {
+				"translation": { "x": 19, "y": -20, "z": 0 },
+				"rotation": { "x": -22, "y": -53, "z": -174 },
+				"scale": 1.67
+			}
 		}
 	},
 	"fpHandTransformByType": {
@@ -85,6 +93,15 @@
 			"rotation": { "x": 0, "y": 0, "z": -76 },
 			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
 			"scale": 0.69
+		}
+	},
+	"groundTransformByType":{
+
+		"*-tomato": {
+			"translation": { "x": 0, "y": 0.5, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
+			"scale": 1.5
 		}
 	}
 }

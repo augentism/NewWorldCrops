@@ -4,16 +4,19 @@
 		"*-charred": 48,
 		"*": 32
 	},
+	"storageFlags": 33,
 	"variantgroups": [
 		{"code": "type", "states": ["corn", "potato"] },
 		{"code": "state", "states": ["partbaked", "perfect", "charred" ] }
 	],
-    "shapesByType": { 
-        "*": "game:item/food/bread/ryebread"},
+    "shapeByType": { 
+		"*potato*":{ "base": "game:item/food/vegetable/potato"},
+        "*": { "base": "item/food/bread"}
+	},
 	"texturesbytype": {
-		"*-partbaked": { "bread": {"base": "newworldcrops:item/food/grain/{type}bread2" }},
-		"*-perfect": { "bread": {"base": "newworldcrops:item/food/grain/{type}bread" }},
-		"*-charred": { "bread": {"base": "newworldcrops:item/food/grain/{type}bread1" }}
+		"*-partbaked": { "cornbread": {"base": "newworldcrops:item/food/grain/{type}bread2" }},
+		"*-perfect": { "cornbread": {"base": "newworldcrops:item/food/grain/{type}bread" }},
+		"*-charred": { "cornbread": {"base": "newworldcrops:item/food/grain/{type}bread1" }}
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
 	"attributesByType": {
@@ -102,5 +105,36 @@
 			"transitionRatio": 1
 		}]
 	},
-	"materialDensity": 200
+	"materialDensity": 200,
+	"guiTransformByType": {
+		"*-potato*": {
+			"translation": { "x": 3, "y": 0, "z": 0 },
+			"rotation": { "x": -37, "y": 135, "z": -155 },
+			"origin": { "x": 0.5, "y": 0.22, "z": 0.5 },
+			"scale": 3
+		},
+		"*": {
+			"translation": { "x": 18, "y": -10, "z": 9 },
+			"rotation": { "x": 154, "y": -17, "z": -3 },
+			"scale": 1.99
+		}
+	},
+	"fpHandTransformByType": {
+		"*-potato*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 45, "y": 47, "z": -30 },
+			"origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+			"scale": 1.9
+		}
+		
+	},
+	"tpHandTransformByType": {
+		"*-potato*": {
+			"translation": { "x": -0.8, "y": -0.18, "z": -0.7 },
+			"rotation": { "x": 0, "y": 0, "z": -76 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 0.69
+		}
+	}
+	
 }
