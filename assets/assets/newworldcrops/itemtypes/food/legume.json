@@ -13,7 +13,7 @@
 			"satietyByType": {
 				"*bean": 160
 			},
-			"foodcategory": "Vegetable" 
+			"foodcategory": "Protein" 
 		}
 	},
 	"texture": { "base": "newworldcrops:item/food/legume/{type}" },
