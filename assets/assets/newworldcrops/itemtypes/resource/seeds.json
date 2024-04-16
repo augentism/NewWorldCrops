@@ -1,6 +1,7 @@
 {
 	"code": "seeds",
 	"class": "ItemPlantableSeed",
+	"storageFlags": 33,
 	"maxstacksize": 64,
 	"variantgroups": [
 		{ "code": "type",
