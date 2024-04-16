@@ -41,6 +41,12 @@
         "include": true
         }
     },
+    "sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
     "dropsByType": {
         "*potato-7": [
             {

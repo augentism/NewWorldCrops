@@ -1,5 +1,6 @@
 {
 	"code": "flour",
+	"storageFlags": 33,
 	"maxstacksize": 64,
 	"attributes": {
 		"dissolveInWater": true
@@ -7,8 +8,16 @@
 	"variantgroups": [
 		{ "code": "type", "states": ["corn"] }
 	],
-	"shape": { "base": "game:item/food/flour" },
-	"texture": { "base": "item/food/grain/{type}-flour" },
+	"shapeByType": { 
+		"*corn*":{ "base": "item/food/flour/jiffycornmuffin"},
+        "*": { "base": "game:item/food/flour"}
+	},
+	"texturesbytype": {
+		"*corn*": { "cornmuffinmix": {"base": "newworldcrops:item/food/flour/cornmuffinmix" },
+					"jiffyblue": {"base": "newworldcrops:item/food/flour/jiffyblue"}
+				  },
+		"*": { "base": "item/food/grain/{type}-flour" }
+	},
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
 	"materialDensity": 600,
 	"transitionableProps": [{
@@ -19,28 +28,28 @@
 		"transitionRatio": 0.25
 	}],
 	"guiTransform": {
-		"translation": { "x": 0, "y": 0, "z": -25 },
-		"rotation": { "x": 171, "y": 57, "z": -20 },
-		"origin": { "x": 0.46, "y": 0.08, "z": 0.48 },
-		"scale": 2.75
+		"translation": { "x": 12, "y": 16, "z": -22 },
+		"rotation": { "x": -25, "y": -28, "z": 180 },
+		"origin": { "x": 0, "y": 0, "z": 0 },
+		"scale": 0.20
 	},
 	"fpHandTransform": {
-		"translation": { "x": 0.1, "y": 0.16, "z": 0 },
-		"rotation": { "x": 37, "y": 77, "z": 2 },
-		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
-		"scale": 1.95
+		"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 45, "y": 47, "z": -30 },
+			"origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
+			"scale": 0.05
 	},
 	"tpHandTransform": {
-		"translation": { "x": -0.04, "y": -0.6, "z": -0.8 },
-		"rotation": { "x": 119, "y": -7, "z": -72 },
-		"origin": { "x": -0.1, "y": 0.32, "z": 0.82 },
-		"scale": 0.48
+		"translation": { "x": 5.96, "y": -3.6, "z": -2.8 },
+		"rotation": { "x": 137, "y": 20, "z": -74 },
+		"origin": { "x": 0, "y": 0, "z": 0 },
+		"scale": 0.25
 	},
 	"groundTransform": {
 		"translation": { "x": 0, "y": 0, "z": 0 },
 		"rotation": { "x": 0, "y": 0, "z": 0 },
 		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
-		"scale": 3
+		"scale": 0.5
 	},
 	"heldRightReadyAnimationByType": {
 		"*": "holdbothhands"

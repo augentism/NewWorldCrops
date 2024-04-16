@@ -1,0 +1,47 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"cornbread": "item/food/grain/cornbread"
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"from": [ 4.0, 0.0, 2.0 ],
+			"to": [ 12.0, 4.0, 14.0 ],
+			"autoUnwrap": false,
+			"uv": [ 0.0, 0.0 ],
+			"rotationOrigin": [ 4.0, 0.0, 2.0 ],
+			"faces": {
+				"north": { "texture": "#cornbread", "uv": [ 0.0, 4.0, 8.0, 8.0 ], "windMode": [0,0,0,0] },
+				"east": { "texture": "#cornbread", "uv": [ 0.0, 1.0, 12.0, 5.0 ], "windMode": [0,0,0,0] },
+				"south": { "texture": "#cornbread", "uv": [ 0.0, 2.0, 8.0, 6.0 ], "windMode": [0,0,0,0] },
+				"west": { "texture": "#cornbread", "uv": [ 0.0, 2.0, 12.0, 6.0 ], "windMode": [0,0,0,0] },
+				"up": { "texture": "#cornbread", "uv": [ 0.0, 8.0, 12.0, 16.0 ], "rotation": 90, "windMode": [0,0,0,0] },
+				"down": { "texture": "#cornbread", "uv": [ 0.0, 0.0, 8.0, 12.0 ], "windMode": [0,0,0,0] }
+			},
+			"children": [
+				{
+					"name": "Cube3",
+					"from": [ 1.0, 4.0, 0.0 ],
+					"to": [ 7.0, 5.0, 12.0 ],
+					"autoUnwrap": false,
+					"uv": [ 0.0, 3.0 ],
+					"rotationOrigin": [ 1.0, 4.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#cornbread", "uv": [ 0.0, 15.0, 6.0, 16.0 ], "windMode": [0,0,0,0] },
+						"east": { "texture": "#cornbread", "uv": [ 4.0, 15.0, 16.0, 16.0 ], "windMode": [0,0,0,0] },
+						"south": { "texture": "#cornbread", "uv": [ 9.0, 13.0, 15.0, 14.0 ], "windMode": [0,0,0,0] },
+						"west": { "texture": "#cornbread", "uv": [ 3.0, 14.0, 15.0, 15.0 ], "windMode": [0,0,0,0] },
+						"up": { "texture": "#cornbread", "uv": [ 2.0, 9.0, 14.0, 15.0 ], "rotation": 90, "windMode": [0,0,0,0] }
+					}
+				}
+			]
+		}
+	]}

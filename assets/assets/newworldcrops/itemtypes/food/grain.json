@@ -1,5 +1,6 @@
 {
 	"code": "grain",
+	"storageFlags": 33,
 	"maxstacksize": 64,
 	"attributes": {"inContainerTexture": { "base": "block/food/grain/{type}" }},
 	"attributesByType": {

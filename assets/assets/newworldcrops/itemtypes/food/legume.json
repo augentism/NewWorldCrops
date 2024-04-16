@@ -1,5 +1,6 @@
 {
 	"code": "legume",
+	"storageFlags": 33,
 	"maxstacksize": 32,
 	"variantgroups": [
 		{ "code": "type", "states": ["blackbean", "greenbean","kidneybean"] }

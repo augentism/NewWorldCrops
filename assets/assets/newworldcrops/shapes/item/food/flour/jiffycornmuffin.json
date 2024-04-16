@@ -1,0 +1,29 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 64,
+	"textureHeight": 128,
+	"textureSizes": {
+		"cornmuffinmix": [64,128]
+	},
+	"textures": {
+		"cornmuffinmix": "cornmuffinmix",
+		"jiffyblue": "jiffyblue"
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 64.0, 110.0, 30.0 ],
+			"faces": {
+				"north": { "texture": "#jiffyblue", "uv": [ 0.0, 0.0, 64.0, 110.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,6,6,0] },
+				"east": { "texture": "#jiffyblue", "uv": [ 0.0, 0.0, 30.0, 110.0 ] },
+				"south": { "texture": "#cornmuffinmix", "uv": [ 0.0, 0.0, 64.0, 110.0 ] },
+				"west": { "texture": "#jiffyblue", "uv": [ 0.0, 0.0, 30.0, 110.0 ], "windMode": [-1,-1,-1,-1], "windData": [0,0,6,6] },
+				"up": { "texture": "#jiffyblue", "uv": [ 0.0, 0.0, 64.0, 30.0 ], "windMode": [-1,-1,-1,-1], "windData": [6,6,6,6] },
+				"down": { "texture": "#jiffyblue", "uv": [ 0.0, 0.0, 64.0, 30.0 ], "windMode": [-1,-1,-1,-1] }
+			}
+		}
+	]}
