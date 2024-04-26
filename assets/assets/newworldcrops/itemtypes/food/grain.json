@@ -2,7 +2,7 @@
 	"code": "grain",
 	"storageFlags": 33,
 	"maxstacksize": 64,
-	"attributes": {"inContainerTexture": { "base": "block/food/grain/{type}" }},
+	"attributes": {"inContainerTexture": { "base": "newworldcrops:block/food/grain/{type}" }},
 	"attributesByType": {
 		"*": { "foodTags": ["{type}"], "nutritionPropsWhenInMeal": { "satiety": 240, "foodcategory": "Grain" }}
 	},

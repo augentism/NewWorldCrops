@@ -7,9 +7,9 @@
 	],
 	"attributes": {
 		"foodTags": ["{type}"],
-		"inContainerTexture": { "base": "game:block/wood/barrel/raw-{type}" },
+		"inContainerTexture": { "base": "newworldcrops:block/wood/barrel/{type}" },
 		"crockable": true,
-		"inPieProperties": { "texture": "newworldcrops:block/food/pie/fill-{type}", "partType": "Filling", "allowMixing": false },
+		"inPieProperties": { "texture": "newworldcrops:block/wood/barrel/{type}", "partType": "Filling", "allowMixing": false },
 		"nutritionPropsWhenInMeal": { 
 			"satietyByType": {
 				"*bean": 160

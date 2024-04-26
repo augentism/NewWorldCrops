@@ -2,9 +2,9 @@
 	"code": "pickledlegume",
 	"maxstacksize": 64,
 	"attributes": {
-		"inContainerTexture": { "base": "game:block/wood/barrel/pickled-{type}" },
+		"inContainerTexture": { "base": "newworldcrops:block/wood/barrel/{type}" },
 		"crockable": true,
-		"inPieProperties": { "texture": "game:block/food/pie/fill-soybean", "partType": "Filling" }
+		"inPieProperties": { "texture": "newworldcrops:block/wood/barrel/{type}", "partType": "Filling" }
 	},
 	"variantgroups": [
 		{ "code": "type", "states": ["greenbean"] }

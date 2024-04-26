@@ -10,6 +10,7 @@
 	],
     "attributesByType": {
 		"*-potato": {
+			"inContainerTexture": { "base": "game:block/wood/barrel/raw-potato" },
 			"displaycaseable": true,
 			"shelvable": true,
 			"bakingProperties": {
@@ -20,6 +21,15 @@
 				"endScaleY": 0.95,
 				"resultCode": "newworldcrops:bread-{type}-partbaked"
 			},
+			"nutritionPropsWhenInMeal": {
+				"satiety": 150,
+				"foodcategory": "Vegetable"
+			}
+		},
+		"*-tomato": {
+			"inContainerTexture": { "base": "game:block/wood/barrel/raw-tomato" },
+			"displaycaseable": true,
+			"shelvable": true,
 			"nutritionPropsWhenInMeal": {
 				"satiety": 150,
 				"foodcategory": "Vegetable"
