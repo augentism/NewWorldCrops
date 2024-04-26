@@ -17,7 +17,14 @@
 			"foodcategory": "Protein" 
 		}
 	},
-	"texture": { "base": "newworldcrops:item/food/legume/{type}" },
+	"shapeByType": { 
+		"*greenbean":{ "base": "game:item/food/legume/soybean"},
+        "*bean": { "base": "game:item/resource/crushed/normal"}
+	},
+	"texturesbytype": {
+		"*greenbean":{"soybean": {"base": "newworldcrops:item/food/legume/greenbean"}},
+		"*": {"quartz":{"base": "newworldcrops:block/food/legume/{type}-pile" }}
+	},
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
 	"transitionableProps": [{
 		"type": "Perish",
@@ -28,53 +35,56 @@
 	}],
 	"materialDensity": 600,
 	"nutritionPropsByType": {
-		"*-peanut": { "saturation": 160, "foodcategory": "Protein" }
+		"*": { "saturation": 160, "foodcategory": "Protein" }
 	},
 	"guiTransformByType": {
-		"*-soybean": {
+		"*-greenbean": {
 			"translation": { "x": 0, "y": 0, "z": 0 },
 			"rotation": { "x": -44, "y": -14, "z": 1 },
 			"origin": { "x": 0.4, "y": 0.45, "z": 0 },
 			"scale": 2.58
 		},
-		"*-peanut": {
-			"translation": { "x": -1, "y": 1, "z": 0 },
-			"rotation": { "x": -43, "y": 60, "z": -180 },
-			"origin": { "x": 0.6, "y": 0.1, "z": 0.5 },
-			"scale": 2.01
+		"@.*(black|kidney)bean": {
+			"translation": { "x": 0, "y": 0, "z": -25 },
+			"rotation": { "x": 171, "y": 57, "z": -20 },
+			"origin": { "x": 0.46, "y": 0.11, "z": 0.39 },
+			"scale": 2.64
 		}
 	},
 	"fpHandTransformByType": {
-		"*-peanut": {
-			"rotation": { "x": -8, "y": -81, "z": -27 }
+		"@.*(black|kidney)bean": {
+			"translation": { "x": 0.1, "y": 0.16, "z": 0 },
+			"rotation": { "x": 37, "y": 77, "z": 2 },
+			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
+			"scale": 1.95
 		}
 	},
 	"groundTransformByType": {
-		"*-soybean": {
+		"*-greenbean": {
 			"translation": { "x": 0, "y": 0.39, "z": 0 },
 			"rotation": { "x": 0, "y": 0, "z": 0 },
 			"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
 			"scale": 4
 		},
-		"*-peanut": {
+		"@.*(black|kidney)bean": {
 			"translation": { "x": 0, "y": 0, "z": 0 },
-			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 3, "y": 1, "z": 0 },
 			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
-			"scale": 1.9
+			"scale": 3
 		}
 	},
 	"tpHandTransformByType": {
-		"*-soybean": {
+		"*-greenbean": {
 			"translation": { "x": 0.02, "y": -0.7, "z": -0.35 },
 			"rotation": { "x": 122, "y": -2, "z": -67 },
 			"origin": { "x": -0.05, "y": 0.16, "z": 0.46 },
 			"scale": 0.45
 		},
-		"*-peanut": {
-			"translation": { "x": -0.05, "y": -1.45, "z": -1.3 },
-			"rotation": { "x": 116, "y": -4, "z": -69 },
-			"origin": { "x": -0.1, "y": 0.42, "z": 0.73 },
-			"scale": 0.32
+		"@.*(black|kidney)bean": {
+			"translation": { "x": -0.04, "y": -0.6, "z": -0.8 },
+			"rotation": { "x": 119, "y": -7, "z": -72 },
+			"origin": { "x": -0.1, "y": 0.32, "z": 0.82 },
+			"scale": 0.48
 		}
 	},
 	"heldRightReadyAnimationByType": {

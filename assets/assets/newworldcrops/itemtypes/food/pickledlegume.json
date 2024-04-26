@@ -1,0 +1,68 @@
+{
+	"code": "pickledlegume",
+	"maxstacksize": 64,
+	"attributes": {
+		"inContainerTexture": { "base": "game:block/wood/barrel/pickled-{type}" },
+		"crockable": true,
+		"inPieProperties": { "texture": "game:block/food/pie/fill-soybean", "partType": "Filling" }
+	},
+	"variantgroups": [
+		{ "code": "type", "states": ["greenbean"] }
+	],
+	"shapebytype": {
+		"*-greenbean": { "base": "game:item/food/pickledvegetable/soypile" }
+	},
+	"texturesbytype":{
+		"*-greenbean": { "soypile": {"base": "item/food/vegetable/greenbeanpile"}}
+	},
+	"creativeinventory": { "general": ["*"], "items": ["*"] },
+	"nutritionPropsByType": {
+		"*": { "saturation": 150, "health": 0, "foodcategory": "Protein" }
+	},
+	"transitionableProps": [{
+		"type": "Perish",
+		"freshHours": { "avg": 4320 },
+		"transitionHours": { "avg": 432 },
+		"transitionedStack": { "type": "item", "code": "game:rot" },
+		"transitionRatio": 0.5
+	}],
+	"materialDensity": 600,
+	"guiTransformByType": {
+		"*": {
+			"translation": { "x": 2.5, "y": 1, "z": 0 },
+			"rotation": { "x": 137, "y": 131, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.2, "z": 0.5 },
+			"scale": 1.38
+		}
+	},
+	"fpHandTransformByType": {
+		"*":	{
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 51, "y": 90, "z": -30 },
+			"scale": 1.9
+		}
+	},
+	"tpHandTransformByType": {
+		"*": {
+			"translation": { "x": -0.05, "y": -1.45, "z": -1.3 },
+			"rotation": { "x": 116, "y": -4, "z": -69 },
+			"origin": { "x": -0.1, "y": 0.42, "z": 0.73 },
+			"scale": 0.32
+		}
+		
+	},
+	"groundTransformByType": {
+		"*": {
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 0, "y": 0, "z": 0 },
+			"origin": { "x": 0.5, "y": 0, "z": 0.5 },
+			"scale": 3.5
+		}
+	},
+	"heldRightReadyAnimationByType": {
+		"*": "holdbothhands"
+	},
+	"heldTpIdleAnimationByType": {
+		"*": "holdbothhands"
+    }
+}

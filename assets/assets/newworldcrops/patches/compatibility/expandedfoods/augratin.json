@@ -1,0 +1,8 @@
+{
+    "file": "game:recipes/cooking/augratin.json",
+     "op": "add", 
+     "path": "/ingredients/2/validstacks/-", 
+     "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 2/*" },
+     "side": "server",
+     "dependsOn": [{ "modid": "expandedfoods", "invert": true }]
+}

@@ -9,8 +9,8 @@
 		"cornmuffinmix": [64,128]
 	},
 	"textures": {
-		"cornmuffinmix": "cornmuffinmix",
-		"jiffyblue": "jiffyblue"
+		"cornmuffinmix": "item/food/flour/cornmuffinmix",
+		"jiffyblue": "item/food/flour/jiffyblue"
 	},
 	"elements": [
 		{

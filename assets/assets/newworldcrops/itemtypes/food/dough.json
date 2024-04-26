@@ -29,10 +29,6 @@
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
 	"materialDensity": 200,
-	"fpHandTransform": {
-		"translation": { "x": 0, "y": -0.1, "z": 0 },
-		"rotation": { "x": 180, "y": 90, "z": 22 }
-	},
 	"combustibleProps": {
    	     "meltingPoint": 200,
 	     "meltingDuration": 20,
