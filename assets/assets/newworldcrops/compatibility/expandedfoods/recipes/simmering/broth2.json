@@ -8,7 +8,7 @@
             },
             {
             "type": "item",
-            "code": "newworldcrops:*vegetable*",
+            "code": "newworldcrops:vegetable-*",
             "quantity": 1
             }
         ],
