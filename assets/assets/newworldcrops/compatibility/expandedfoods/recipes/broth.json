@@ -1,0 +1,54 @@
+[
+    {
+        "Ingredients": [
+            {
+            "type": "item",
+            "code": "waterportion",
+            "quantity": 100
+            },
+            {
+            "type": "item",
+            "code": "newworldcrops:*vegetable*",
+            "quantity": 1
+            }
+        ],
+        "Simmering": {
+            "meltingPoint": 200,
+            "meltingDuration": 110,
+            "smeltedRatio": 1,
+            "smeltingType": "bake",
+            "smeltedStack": {
+            "type": "item",
+            "code": "expandedfoods:brothportion-vegetable",
+            "quantity":  50
+            },
+            "requiresContainer": false
+        }
+    },
+    {
+        "Ingredients": [
+            {
+            "type": "item",
+            "code": "waterportion",
+            "quantity": 100
+            },
+            {
+            "type": "item",
+            "code": "newworldcrops:grain-corn",
+            "quantity": 1
+            }
+        ],
+        "Simmering": {
+            "meltingPoint": 200,
+            "meltingDuration": 110,
+            "smeltedRatio": 1,
+            "smeltingType": "bake",
+            "smeltedStack": {
+            "type": "item",
+            "code": "expandedfoods:brothportion-vegetable",
+            "quantity":  50
+            },
+            "requiresContainer": false
+        }
+    }
+]
