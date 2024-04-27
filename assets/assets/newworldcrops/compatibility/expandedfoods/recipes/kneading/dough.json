@@ -1,0 +1,9 @@
+[
+    {
+        "ingredients": [
+            {"inputs": [{ "type": "item", "code": "game:waterportion",  "quantity": 10 }, { "type": "item", "code": "game:milkportion",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:pasteurizedmilkportion",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:brothportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:clarifiedbrothportion-*",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:lard",  "quantity": 10 }, { "type": "item", "code": "expandedfoods:soymilk-edible", "quantity": 10 }]},
+            {"inputs": [{ "type": "item", "code": "newworldcrops:flour-corn", "quantity": 1 }]}
+        ],
+        "output": { "type": "item", "code": "newworldcrops:dough-corn", "stackSize": 1}
+    }
+]
