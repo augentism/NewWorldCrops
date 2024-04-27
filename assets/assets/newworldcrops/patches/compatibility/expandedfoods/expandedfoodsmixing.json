@@ -1,0 +1,9 @@
+[
+    {
+        "file": "expandedfoods:recipes/mixing/salad.json",
+        "op": "addmerge", 
+        "path": "/ingredients/0/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    }
+]

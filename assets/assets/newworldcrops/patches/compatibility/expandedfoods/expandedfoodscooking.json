@@ -1,0 +1,16 @@
+[
+    {
+        "file": "game:recipes/cooking/augratin.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/riceandbeans.json",
+        "op": "addmerge", 
+        "path": "/ingredients/1/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/null" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    }
+]
