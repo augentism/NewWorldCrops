@@ -1,5 +1,6 @@
 {
 	"code": "pickledgrain",
+	"storageFlags": 33,
 	"maxstacksize": 64,
 	"attributes": {
 		"inContainerTexture": { "base": "newworldcrops:block/wood/barrel/{type}" },
