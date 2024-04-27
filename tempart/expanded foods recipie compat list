@@ -1,0 +1,24 @@
+newworldcrops-vegetable-*
+    augratin 2,3 - bowl/vegetable 1/*, bowl/vegetable 2/*
+    pastahot 2,3 - bowl/vegetable 1/*, bowl/vegetable 2/*
+    riceandbeans 2,3 - bowl/vegetable 1/*, bowl/vegetable 2/*
+    pastacold 1,2 - bowl/vegetable 1/*, bowl/vegetable 2/*
+    salad 0,1,2,3 - "bowl/vegetable 1-4/*"
+Corn - Grain and Vegetable
+    augratin 2,3 - bowl/vegetable 1/*, bowl/vegetable 2/*
+    pastahot 2,3 - bowl/vegetable 1/*, bowl/vegetable 2/*
+    riceandbeans 2,3 - bowl/vegetable 1/*, bowl/vegetable 2/*
+    pastacold 1,2 - bowl/vegetable 1/*, bowl/vegetable 2/*
+    salad 0,1,2,3 - "bowl/vegetable 1-4/*"
+newworldcrops:legume-*
+    augratin 2,3 - bowl/vegetable 1/*, bowl/vegetable 2/*
+    pastahot 2,3 - bowl/vegetable 1/*, bowl/vegetable 2/*
+    riceandbeans 2,3 - bowl/vegetable 1/*, bowl/vegetable 2/*
+    pastacold 1,2 - bowl/vegetable 1/*, bowl/vegetable 2/*
+    salad 0,1,2,3 - "bowl/vegetable 1-4/*"
+pickled*
+    augratin 2,3 - bowl/vegetable 1/*, bowl/vegetable 2/*
+    pastahot 2,3 - bowl/vegetable 1/*, bowl/vegetable 2/*
+    riceandbeans 2,3 - bowl/vegetable 1/*, bowl/vegetable 2/*
+    pastacold 1,2 - bowl/vegetable 1/*, bowl/vegetable 2/*
+    salad 0,1,2,3 - "bowl/vegetable 1-4/*"
