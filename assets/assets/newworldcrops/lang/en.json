@@ -18,6 +18,11 @@
     "newworldcrops:item-seeds-greenbean": "Green Bean seeds",
     "newworldcrops:item-seeds-kidneybean": "Kidney Bean seeds",
     "item-seeds-pepper": "Bell pepper seeds",
+    "newworldcrops:item-vegetable-tomato": "Tomato",
+    "newworldcrops:item-seeds-tomato": "Tomato Seeds",
+    "newworldcrops:item-pickledlegume-greenbean": "Pickled Green Beans",
+    "newworldcrops:item-pickledgrain-corn": "Pickled Corn",
+
 
     "game:meal-ingredient-porridge-primary-grain-corn": "Corn",
     "game:meal-ingredient-porridge-secondary-grain-corn": "Corn",
@@ -51,7 +56,21 @@
     "game:meal-ingredient-soup-primary-vegetable-tomato": "Tomato",
     "game:meal-ingredient-soup-secondary-vegetable-tomato": "Tomato",
     "game:meal-ingredient-stew-primary-vegetable-tomato": "Tomato",
-    "game:meal-ingredient-stew-secondary-vegetable-tomato": "Tomato"
+    "game:meal-ingredient-stew-secondary-vegetable-tomato": "Tomato",
+
+
+
+    "game:meal-ingredient-soup-primary-pickledgrain-corn": "Pickled Corn",
+    "game:meal-ingredient-soup-secondary-pickledgrain-corn": "Pickled Corn",
+    "game:meal-ingredient-stew-primary-pickledgrain-corn": "Pickled Corn",
+    "game:meal-ingredient-stew-secondary-pickledgrain-corn": "Pickled Corn",
+
+
+    "game:meal-ingredient-soup-primary-pickledlegume-greenbean": "Pickled Green Bean",
+    "game:meal-ingredient-soup-secondary-pickledlegume-greenbean": "Pickled Green Bean",
+    "game:meal-ingredient-stew-primary-pickledlegume-greenbean": "Pickled Green Bean",
+    "game:meal-ingredient-stew-secondary-pickledlegume-greenbean": "Pickled Green Bean"
+
 
 
 }
