@@ -58,9 +58,6 @@
     "game:meal-ingredient-stew-primary-vegetable-tomato": "Tomato",
     "game:meal-ingredient-stew-secondary-vegetable-tomato": "Tomato",
 
-    "game:recipeingredient-item-legume-greenbean": "green beans",
-
-
 
     "game:meal-ingredient-soup-primary-pickledgrain-corn": "Pickled Corn",
     "game:meal-ingredient-soup-secondary-pickledgrain-corn": "Pickled Corn",
@@ -71,7 +68,21 @@
     "game:meal-ingredient-soup-primary-pickledlegume-greenbean": "Pickled Green Bean",
     "game:meal-ingredient-soup-secondary-pickledlegume-greenbean": "Pickled Green Bean",
     "game:meal-ingredient-stew-primary-pickledlegume-greenbean": "Pickled Green Bean",
-    "game:meal-ingredient-stew-secondary-pickledlegume-greenbean": "Pickled Green Bean"
+    "game:meal-ingredient-stew-secondary-pickledlegume-greenbean": "Pickled Green Bean",
+
+
+
+    "game:recipeingredient-item-legume-greenbean": "green beans",
+    "game:recipeingredient-item-legume-blackbean": "black beans",
+    "game:recipeingredient-item-legume-kidneybean": "kidney beans",
+
+    "game:recipeingredient-item-vegetable-potato": "potatoes",
+    "game:recipeingredient-item-vegetable-tomato": "tomatoes",
+    "game:recipeingredient-item-grain-corn": "corn",
+
+    "game:recipeingredient-item-pickledlegume-greenbean": "pickled green beans",
+    "game:recipeingredient-item-pickledgrain-corn": "pickled corn"
+
 
 
 
