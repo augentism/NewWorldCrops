@@ -31,13 +31,13 @@
         "file": "game:recipes/cooking/porridge.json",
         "op": "addmerge",
         "path": "/ingredients/0/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:grain-*",  "shapeElement": "game:bowl/grain/*" }
+        "value": { "type": "item", "code": "newworldcrops:grain-*",  "shapeElement": "bowl/grain/*"}
     },
     {
         "file": "game:recipes/cooking/porridge.json",
         "op": "addmerge",
         "path": "/ingredients/3/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 1/*" }
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "bowl/vegetable 1/*", "textureMapping": ["vegetable","group1"] }
     },
     {
         "file": "game:recipes/cooking/porridge.json",
