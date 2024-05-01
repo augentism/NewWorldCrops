@@ -1,6 +1,12 @@
 # New World Crops
 Adds some more crops to the game:
 
+Polycultures:
+
+-Three sisters
+
+-Sun Susters
+
 Grain:
 
 - Corn
@@ -18,7 +24,8 @@ Legumes:
 Vegetables:
 
 - Potato
-- bell pepper
+- Bell Pepper
+- Tomatoes
 
 
 
