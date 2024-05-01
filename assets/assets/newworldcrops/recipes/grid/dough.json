@@ -43,7 +43,7 @@
 		"height": 1,
 		"attributes": {
 			"liquidContainerProps": {
-				"requiresContent": { "type": "item", "''code''": "game:waterportion" },
+				"requiresContent": { "type": "item", "code": "game:waterportion" },
 				"requiresLitres": 1
 			}
 		},
