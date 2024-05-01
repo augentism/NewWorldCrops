@@ -3,9 +3,9 @@ Adds some more crops to the game:
 
 Polycultures:
 
--Three sisters
+- Three sisters
 
--Sun Susters
+- Sun Susters
 
 Grain:
 
