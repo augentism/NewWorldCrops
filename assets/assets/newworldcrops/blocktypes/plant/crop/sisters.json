@@ -1,0 +1,149 @@
+{
+	"code": "crop",
+	"class": "BlockCropSisters",
+	"behaviors": [{"name": "Unstable"}],
+	"variantgroups": [
+		{ "code": "type", "states": ["sisterblack","sisterkidney","sistergreen","sisterblacksun","sisterkidneysun","sistergreensun"] },
+		{ "code": "stage", "states": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"] }
+	],
+	"creativeinventory": { "general": ["*"], "plants": ["*"] },
+	"renderpass": "OpaqueNoCull",
+	"shape": { "base": "game:block/plant/crop/cross" },
+	"blockmaterial": "Plant",
+	"randomizeRotations": true,
+	"textures": {
+		"all": { "base": "newworldcrops:block/plant/crop/{type}/normal{stage}" }
+	},
+	"attributes": {
+		"foodTags": ["nibbleCrop"],
+		"butterflyFeedByType": {
+			"*-1": false,
+			"*-11": false,
+			"*": true
+		},
+		"beeFeedByType": {
+			"*-1": false,
+			"*-11": false,
+			"*": true
+		},
+		"sitHeight": 0.35,
+		"tickGrowthProbability": 0.05,
+		"handbook": {
+			"include": true
+		}
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+	"replaceable": 3000,
+	"lightAbsorption": 0,
+	"resistance": 0.5,
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	},
+	"rainPermeable": false,
+	"dropsByType": {
+		"*black-10": [
+			{ "type": "item", "code": "seeds-{type}", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "legume-black", "quantity": { "avg": 1, "var": 1 } },
+			{ "type": "item", "code": "grain-corn", "quantity": { "avg": 1, "var": 1 } }
+		],
+		"*black-11": [
+			{ "type": "item", "code": "seeds-{type}", "quantity": { "avg": 1.2 }  },
+			{ "type": "item", "code": "legume-black", "quantity": { "avg": 6, "var": 1 } },
+            { "type": "item", "code": "game:block-pumpkin", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "grain-corn", "quantity": { "avg": 3, "var": 1 } }
+		],
+        "*green-10": [
+			{ "type": "item", "code": "seeds-{type}", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "legume-green", "quantity": { "avg": 1, "var": 1 } },
+			{ "type": "item", "code": "grain-corn", "quantity": { "avg": 1, "var": 1 } }
+		],
+		"*green-11": [
+			{ "type": "item", "code": "seeds-{type}", "quantity": { "avg": 1.2 }  },
+			{ "type": "item", "code": "legume-green", "quantity": { "avg": 6, "var": 1 } },
+            { "type": "item", "code": "game:block-pumpkin", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "grain-corn", "quantity": { "avg": 3, "var": 1 } }
+		],
+        "*kidney-10": [
+			{ "type": "item", "code": "seeds-{type}", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "legume-kidney", "quantity": { "avg": 1, "var": 1 } },
+			{ "type": "item", "code": "grain-corn", "quantity": { "avg": 1, "var": 1 } }
+		],
+		"*kidney-11": [
+			{ "type": "item", "code": "seeds-{type}", "quantity": { "avg": 1.2 }  },
+			{ "type": "item", "code": "legume-kidney", "quantity": { "avg": 6, "var": 1 } },
+            { "type": "item", "code": "game:block-pumpkin", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "grain-corn", "quantity": { "avg": 3, "var": 1 } }
+		],
+
+
+
+        "*blacksun-10": [
+			{ "type": "item", "code": "seeds-{type}", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "legume-black", "quantity": { "avg": 1, "var": 1 } },
+			{ "type": "item", "code": "grain-corn", "quantity": { "avg": 1, "var": 1 } },
+            { "type": "item", "code": "game:grain-sunflower", "quantity": { "avg": 1, "var": 1 } }
+		],
+		"*blacksun-11": [
+			{ "type": "item", "code": "seeds-{type}", "quantity": { "avg": 1.2 }  },
+			{ "type": "item", "code": "legume-black", "quantity": { "avg": 6, "var": 1 } },
+            { "type": "item", "code": "game:block-pumpkin", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "grain-corn", "quantity": { "avg": 3, "var": 1 } },
+            { "type": "item", "code": "game:grain-sunflower", "quantity": { "avg": 8, "var": 2 } }
+		],
+        "*greensun-10": [
+			{ "type": "item", "code": "seeds-{type}", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "legume-green", "quantity": { "avg": 1, "var": 1 } },
+			{ "type": "item", "code": "grain-corn", "quantity": { "avg": 1, "var": 1 } },
+            { "type": "item", "code": "game:grain-sunflower", "quantity": { "avg": 1, "var": 1 } }
+		],
+		"*greensun-11": [
+			{ "type": "item", "code": "seeds-{type}", "quantity": { "avg": 1.2 }  },
+			{ "type": "item", "code": "legume-green", "quantity": { "avg": 6, "var": 1 } },
+            { "type": "item", "code": "game:block-pumpkin", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "grain-corn", "quantity": { "avg": 3, "var": 1 } },
+            { "type": "item", "code": "game:grain-sunflower", "quantity": { "avg": 8, "var": 2 } }
+		],
+        "*kidneysun-10": [
+			{ "type": "item", "code": "seeds-{type}", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "legume-kidney", "quantity": { "avg": 1, "var": 1 } },
+			{ "type": "item", "code": "grain-corn", "quantity": { "avg": 1, "var": 1 } },
+            { "type": "item", "code": "game:grain-sunflower", "quantity": { "avg": 1, "var": 1 } }
+		],
+		"*kidneysun-11": [
+			{ "type": "item", "code": "seeds-{type}", "quantity": { "avg": 1.2 }  },
+			{ "type": "item", "code": "legume-kidney", "quantity": { "avg": 6, "var": 1 } },
+            { "type": "item", "code": "game:block-pumpkin", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "grain-corn", "quantity": { "avg": 3, "var": 1 } },
+            { "type": "item", "code": "game:grain-sunflower", "quantity": { "avg": 8, "var": 2 } }
+		],
+
+		"*": [
+			{ "type": "item", "code": "seeds-{type}", "quantity": { "avg": 0.7 }  }
+		]
+	},
+	"cropProps": {
+		"__comment": "https://objects.lib.uidaho.edu/uiext/uiext26873.pdf",
+		"requiredNutrient": "K",
+		"nutrientConsumption": 25,
+		"growthStages": 11,
+		"totalGrowthMonths": 2.0
+	},
+	"collisionbox": null,
+	"selectionbox": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 0.25, "z2": 0.9375 },
+	"materialDensity": 200,
+	"vertexFlags": {
+		"grassWindwave": true,
+		"weakWave": true
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 10
+	}
+}
