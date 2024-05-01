@@ -20,6 +20,19 @@
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
 	"attributesByType": {
+		"*potato-partbaked": {
+			"displaycaseable": true,
+			"shelvable": true,
+			"bakingProperties": {
+				"temp": 160,
+				"levelFrom": 0.25,
+				"levelTo": 0.5,
+				"startScaleY": 0.95,
+				"endScaleY": 1.10,
+				"resultCode": "newworldcrops:bread-{type}-perfect",
+				"initialCode": "newworldcrops:vegetable-{type}"
+			}
+		},
 		"*-partbaked": {
 			"displaycaseable": true,
 			"shelvable": true,

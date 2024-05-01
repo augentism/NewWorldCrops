@@ -1,0 +1,63 @@
+Running on 64 bit Windows 10.0.19045.0 with 31894 MB RAM
+Game Version: v1.19.7 (Stable)
+5/1/2024 4:48:58 PM: Critical error occurred
+Loaded Mods: game@1.19.7, augplantlib@0.0.3, creative@1.19.7, survival@1.19.7, newworldcrops@0.0.6
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Vintagestory.GameContent.BlockLiquidContainerBase.OnHandbookRecipeRender(ICoreClientAPI capi, GridRecipe gridRecipe, ItemSlot dummyslot, Double x, Double y, Double z, Double size) in VSSurvivalMod\Systems\Liquid\BlockLiquidContainerBase.cs:line 32
+   at Vintagestory.API.Client.SlideshowGridRecipeTextComponent.RenderInteractiveElements(Single deltaTime, Double renderX, Double renderY, Double renderZ) in VintagestoryApi\Client\UI\Elements\Impl\Interactive\Text\Richtext\SlideshowGridRecipeTextComponent.cs:line 269
+   at Vintagestory.API.Client.GuiElementRichtext.RenderInteractiveElements(Single deltaTime) in VintagestoryApi\Client\UI\Elements\Impl\Interactive\Text\GuiElementRichtext.cs:line 484
+   at Vintagestory.API.Client.GuiComposer.Render(Single deltaTime) in VintagestoryApi\Client\UI\GuiComposer.cs:line 716
+   at Vintagestory.API.Client.GuiDialog.OnRenderGUI(Single deltaTime) in VintagestoryApi\Client\UI\Dialog\GuiDialog.cs:line 385
+   at Vintagestory.GameContent.GuiDialogHandbook.OnRenderGUI(Single deltaTime) in VSSurvivalMod\Systems\Handbook\Gui\GuiDialogHandbook.cs:line 500
+   at Vintagestory.Client.NoObf.GuiManager.OnRenderFrameGUI(Single deltaTime) in VintagestoryLib\Client\Systems\Gui\GuiManager.cs:line 318
+   at Vintagestory.Client.NoObf.ClientEventManager.TriggerRenderStage(EnumRenderStage stage, Single dt) in VintagestoryLib\Client\Util\ClientEventManager.cs:line 186
+   at Vintagestory.Client.NoObf.ClientMain.TriggerRenderStage(EnumRenderStage stage, Single dt) in VintagestoryLib\Client\ClientMain.cs:line 809
+   at Vintagestory.Client.NoObf.ClientMain.RenderToDefaultFramebuffer(Single dt) in VintagestoryLib\Client\ClientMain.cs:line 1013
+   at Vintagestory.Client.ScreenManager.Render(Single dt) in VintagestoryLib\Client\ScreenManager.cs:line 676
+   at Vintagestory.Client.ScreenManager.OnNewFrame(Single dt) in VintagestoryLib\Client\ScreenManager.cs:line 651
+   at Vintagestory.Client.NoObf.ClientPlatformWindows.window_RenderFrame(FrameEventArgs e) in VintagestoryLib\Client\ClientPlatform\GameWindow.cs:line 88
+   at OpenTK.Windowing.Desktop.GameWindow.Run()
+   at Vintagestory.Client.ClientProgram.Start(ClientProgramArgs args, String[] rawArgs) in VintagestoryLib\Client\ClientProgram.cs:line 324
+   at Vintagestory.Client.ClientProgram.<>c__DisplayClass9_0.<.ctor>b__1() in VintagestoryLib\Client\ClientProgram.cs:line 128
+   at Vintagestory.ClientNative.CrashReporter.Start(ThreadStart start) in VintagestoryLib\Client\ClientPlatform\ClientNative\CrashReporter.cs:line 102
+   at Vintagestory.Client.ClientProgram..ctor(String[] rawArgs) in VintagestoryLib\Client\ClientProgram.cs:line 128
+   at Vintagestory.Client.ClientProgram.Main(String[] rawArgs) in VintagestoryLib\Client\ClientProgram.cs:line 47
+   at VintagestoryClientWindows.ClientWindows.Main(String[] args) in VintagestoryClient\Windows\ClientWindows.cs:line 9
+
+Event Log entries for Vintagestory.exe, the latest 3
+==================================
+{ TimeGenerated = 4/15/2024 2:41:09 AM, Site = , Source = Application Error, Message = Faulting application name: Vintagestory.exe, version: 1.19.7.0, time stamp: 0x65310000
+Faulting module name: KERNELBASE.dll, version: 10.0.19041.4291, time stamp: 0xa956ff71
+Exception code: 0xe0434352
+Fault offset: 0x000000000002ab89
+Faulting process id: 0x72d0
+Faulting application start time: 0x01da8effd946c640
+Faulting application path: C:\Users\Calvin\AppData\Roaming\Vintagestory\Vintagestory.exe
+Faulting module path: C:\Windows\System32\KERNELBASE.dll
+Report Id: a967a375-5dae-4fa8-b243-ec97649a31f1
+Faulting package full name: 
+Faulting package-relative application ID:  }
+--------------
+{ TimeGenerated = 4/15/2024 2:20:37 AM, Site = , Source = Application Error, Message = Faulting application name: Vintagestory.exe, version: 1.19.7.0, time stamp: 0x65310000
+Faulting module name: KERNELBASE.dll, version: 10.0.19041.4291, time stamp: 0xa956ff71
+Exception code: 0xe0434352
+Fault offset: 0x000000000002ab89
+Faulting process id: 0x6f98
+Faulting application start time: 0x01da8efcfab2ef12
+Faulting application path: C:\Users\Calvin\AppData\Roaming\Vintagestory\Vintagestory.exe
+Faulting module path: C:\Windows\System32\KERNELBASE.dll
+Report Id: 5767d0fd-3e26-4d41-838e-e86113a73258
+Faulting package full name: 
+Faulting package-relative application ID:  }
+--------------
+{ TimeGenerated = 4/15/2024 2:16:35 AM, Site = , Source = Application Error, Message = Faulting application name: Vintagestory.exe, version: 1.19.7.0, time stamp: 0x65310000
+Faulting module name: KERNELBASE.dll, version: 10.0.19041.4291, time stamp: 0xa956ff71
+Exception code: 0xe0434352
+Fault offset: 0x000000000002ab89
+Faulting process id: 0x6c14
+Faulting application start time: 0x01da8efc6c1f357c
+Faulting application path: C:\Users\Calvin\AppData\Roaming\Vintagestory\Vintagestory.exe
+Faulting module path: C:\Windows\System32\KERNELBASE.dll
+Report Id: 4c9e9f18-003f-4992-9b69-3ef3980b47bd
+Faulting package full name: 
+Faulting package-relative application ID:  }

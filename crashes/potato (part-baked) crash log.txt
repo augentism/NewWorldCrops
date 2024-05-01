@@ -1,0 +1,77 @@
+Running on 64 bit Windows 10.0.19045.0 with 31894 MB RAM
+Game Version: v1.19.7 (Stable)
+5/1/2024 4:43:34 PM: Critical error occurred
+Loaded Mods: game@1.19.7, augplantlib@0.0.3, creative@1.19.7, survival@1.19.7, newworldcrops@0.0.6
+System.Exception: Can't create itemstack without collectible!
+   at Vintagestory.API.Common.ItemStack..ctor(CollectibleObject collectible, Int32 stacksize) in VintagestoryApi\Common\Collectible\ItemStack.cs:line 198
+   at Vintagestory.GameContent.CollectibleBehaviorHandbookTextAndExtraInfo.addCreatedByInfo(ICoreClientAPI capi, ItemStack[] allStacks, ActionConsumable`1 openDetailPageFor, ItemStack stack, List`1 components, Single marginTop, Boolean haveText) in VSSurvivalMod\Systems\Handbook\CollectibleBehaviorHandbookTextAndExtraInfo.cs:line 1137
+   at Vintagestory.GameContent.CollectibleBehaviorHandbookTextAndExtraInfo.GetHandbookInfo(ItemSlot inSlot, ICoreClientAPI capi, ItemStack[] allStacks, ActionConsumable`1 openDetailPageFor) in VSSurvivalMod\Systems\Handbook\CollectibleBehaviorHandbookTextAndExtraInfo.cs:line 58
+   at Vintagestory.GameContent.GuiHandbookItemStackPage.GetPageText(ICoreClientAPI capi, ItemStack[] allStacks, ActionConsumable`1 openDetailPageFor) in VSSurvivalMod\Systems\Handbook\Gui\GuiHandbookItemStackPage.cs:line 117
+   at Vintagestory.GameContent.GuiHandbookItemStackPage.ComposePage(GuiComposer detailViewGui, ElementBounds textBounds, ItemStack[] allstacks, ActionConsumable`1 openDetailPageFor) in VSSurvivalMod\Systems\Handbook\Gui\GuiHandbookItemStackPage.cs:line 111
+   at Vintagestory.GameContent.ModSystemSurvivalHandbook.onComposePage(GuiHandbookPage page, GuiComposer detailViewGui, ElementBounds textBounds, ActionConsumable`1 openDetailPageFor) in VSSurvivalMod\Systems\Handbook\SurvivalHandbook.cs:line 97
+   at Vintagestory.GameContent.GuiDialogHandbook.initDetailGui() in VSSurvivalMod\Systems\Handbook\Gui\GuiDialogHandbook.cs:line 258
+   at Vintagestory.GameContent.GuiDialogHandbook.onLeftClickListElement(Int32 index) in VSSurvivalMod\Systems\Handbook\Gui\GuiDialogHandbook.cs:line 349
+   at Vintagestory.GameContent.GuiElementFlatList.OnMouseUpOnElement(ICoreClientAPI api, MouseEvent args) in VSSurvivalMod\Systems\Handbook\Gui\GuiElementFlatList.cs:line 117
+   at Vintagestory.GameContent.GuiElementFlatList.OnMouseUp(ICoreClientAPI api, MouseEvent args) in VSSurvivalMod\Systems\Handbook\Gui\GuiElementFlatList.cs:line 172
+   at Vintagestory.API.Client.GuiComposer.OnMouseUp(MouseEvent mouse) in VintagestoryApi\Client\UI\GuiComposer.cs:line 445
+   at Vintagestory.API.Client.GuiDialog.OnMouseUp(MouseEvent args) in VintagestoryApi\Client\UI\Dialog\GuiDialog.cs:line 570
+   at Vintagestory.Client.NoObf.GuiManager.OnMouseUp(MouseEvent args) in VintagestoryLib\Client\Systems\Gui\GuiManager.cs:line 415
+   at Vintagestory.Client.NoObf.ClientMain.UpdateMouseButtonState(EnumMouseButton button, Boolean down) in VintagestoryLib\Client\ClientMain.cs:line 1909
+   at Vintagestory.Client.SystemHotkeys.OnPrimaryMouseButton(KeyCombination mb) in VintagestoryLib\Client\Systems\Player\Hotkeys.cs:line 50
+   at Vintagestory.Client.HotkeyManager.TriggerHotKey(KeyEvent keyEventargs, IWorldAccessor world, IPlayer player, Boolean allowCharacterControls, Boolean isGlobal, Boolean fallBack, Boolean keyup) in VintagestoryLib\Client\HotkeyManager.cs:line 431
+   at Vintagestory.Client.HotkeyManager.TriggerHotKey(KeyEvent keyEventargs, IWorldAccessor world, IPlayer player, Boolean allowCharacterControls, Boolean keyUp) in VintagestoryLib\Client\HotkeyManager.cs:line 392
+   at Vintagestory.Client.HotkeyManager.OnMouseButton(ClientMain game, EnumMouseButton button, Int32 modifiers, Boolean buttonDown) in VintagestoryLib\Client\HotkeyManager.cs:line 574
+   at Vintagestory.Client.NoObf.ClientMain.OnMouseUpRaw(MouseEvent args) in VintagestoryLib\Client\ClientMain.cs:line 1939
+   at Vintagestory.Client.GuiScreenRunningGame.OnMouseUp(MouseEvent args) in VintagestoryLib\Client\MainMenu\Screens\GuiScreenRunningGame.cs:line 349
+   at Vintagestory.Client.ScreenManager.OnMouseUp(MouseEvent e) in VintagestoryLib\Client\ScreenManager.cs:line 890
+   at Vintagestory.Client.NoObf.ClientPlatformWindows.Mouse_ButtonUp(MouseButtonEventArgs e) in VintagestoryLib\Client\ClientPlatform\Input.cs:line 211
+   at OpenTK.Windowing.Desktop.NativeWindow.OnMouseUp(MouseButtonEventArgs e)
+   at OpenTK.Windowing.Desktop.NativeWindow.MouseButtonCallback(Window* window, MouseButton button, InputAction action, KeyModifiers mods)
+--- End of stack trace from previous location ---
+   at OpenTK.Windowing.Desktop.NativeWindow.RethrowCallbackExceptionsIfNeeded()
+   at OpenTK.Windowing.Desktop.NativeWindow.ProcessWindowEvents(Boolean waitForEvents)
+   at OpenTK.Windowing.Desktop.GameWindow.Run()
+   at Vintagestory.Client.ClientProgram.Start(ClientProgramArgs args, String[] rawArgs) in VintagestoryLib\Client\ClientProgram.cs:line 324
+   at Vintagestory.Client.ClientProgram.<>c__DisplayClass9_0.<.ctor>b__1() in VintagestoryLib\Client\ClientProgram.cs:line 128
+   at Vintagestory.ClientNative.CrashReporter.Start(ThreadStart start) in VintagestoryLib\Client\ClientPlatform\ClientNative\CrashReporter.cs:line 102
+   at Vintagestory.Client.ClientProgram..ctor(String[] rawArgs) in VintagestoryLib\Client\ClientProgram.cs:line 128
+   at Vintagestory.Client.ClientProgram.Main(String[] rawArgs) in VintagestoryLib\Client\ClientProgram.cs:line 47
+   at VintagestoryClientWindows.ClientWindows.Main(String[] args) in VintagestoryClient\Windows\ClientWindows.cs:line 9
+
+Event Log entries for Vintagestory.exe, the latest 3
+==================================
+{ TimeGenerated = 4/15/2024 2:41:09 AM, Site = , Source = Application Error, Message = Faulting application name: Vintagestory.exe, version: 1.19.7.0, time stamp: 0x65310000
+Faulting module name: KERNELBASE.dll, version: 10.0.19041.4291, time stamp: 0xa956ff71
+Exception code: 0xe0434352
+Fault offset: 0x000000000002ab89
+Faulting process id: 0x72d0
+Faulting application start time: 0x01da8effd946c640
+Faulting application path: C:\Users\Calvin\AppData\Roaming\Vintagestory\Vintagestory.exe
+Faulting module path: C:\Windows\System32\KERNELBASE.dll
+Report Id: a967a375-5dae-4fa8-b243-ec97649a31f1
+Faulting package full name: 
+Faulting package-relative application ID:  }
+--------------
+{ TimeGenerated = 4/15/2024 2:20:37 AM, Site = , Source = Application Error, Message = Faulting application name: Vintagestory.exe, version: 1.19.7.0, time stamp: 0x65310000
+Faulting module name: KERNELBASE.dll, version: 10.0.19041.4291, time stamp: 0xa956ff71
+Exception code: 0xe0434352
+Fault offset: 0x000000000002ab89
+Faulting process id: 0x6f98
+Faulting application start time: 0x01da8efcfab2ef12
+Faulting application path: C:\Users\Calvin\AppData\Roaming\Vintagestory\Vintagestory.exe
+Faulting module path: C:\Windows\System32\KERNELBASE.dll
+Report Id: 5767d0fd-3e26-4d41-838e-e86113a73258
+Faulting package full name: 
+Faulting package-relative application ID:  }
+--------------
+{ TimeGenerated = 4/15/2024 2:16:35 AM, Site = , Source = Application Error, Message = Faulting application name: Vintagestory.exe, version: 1.19.7.0, time stamp: 0x65310000
+Faulting module name: KERNELBASE.dll, version: 10.0.19041.4291, time stamp: 0xa956ff71
+Exception code: 0xe0434352
+Fault offset: 0x000000000002ab89
+Faulting process id: 0x6c14
+Faulting application start time: 0x01da8efc6c1f357c
+Faulting application path: C:\Users\Calvin\AppData\Roaming\Vintagestory\Vintagestory.exe
+Faulting module path: C:\Windows\System32\KERNELBASE.dll
+Report Id: 4c9e9f18-003f-4992-9b69-3ef3980b47bd
+Faulting package full name: 
+Faulting package-relative application ID:  }

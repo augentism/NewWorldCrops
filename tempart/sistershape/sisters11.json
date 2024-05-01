@@ -1,0 +1,52 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+		"sister": [32,64],
+		"stage4-side": [16,16],
+		"stage4-top": [16,16]
+	},
+	"textures": {
+		"stage4-side": "/Users/Calvin/AppData/Roaming/Vintagestory/assets/survival/textures/block/plant/pumpkin/fruit/stage4-side",
+		"stage4-top": "/Users/Calvin/AppData/Roaming/Vintagestory/assets/survival/textures/block/plant/pumpkin/fruit/stage4-top",
+		"sister": "/workspace/VSModding/NewWorldCrops/tempart/sisters/sister11"
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"from": [ 4.0, 0.0, 4.0 ],
+			"to": [ 12.0, 6.0, 12.0 ],
+			"rotationOrigin": [ 4.0, 0.0, 4.0 ],
+			"faces": {
+				"north": { "texture": "#stage4-side", "uv": [ 2.0, 4.0, 14.0, 12.0 ], "autoUv": false },
+				"east": { "texture": "#stage4-side", "uv": [ 2.0, 4.0, 14.0, 12.0 ], "autoUv": false },
+				"south": { "texture": "#stage4-side", "uv": [ 2.0, 4.0, 14.0, 12.0 ], "autoUv": false },
+				"west": { "texture": "#stage4-side", "uv": [ 2.0, 4.0, 14.0, 12.0 ], "autoUv": false },
+				"up": { "texture": "#stage4-top", "uv": [ 2.0, 2.0, 14.0, 14.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Cube3",
+			"from": [ 5.0, 0.0, 5.0 ],
+			"to": [ 5.0, 30.0, 14.0 ],
+			"rotationOrigin": [ 5.0, 0.0, 5.0 ],
+			"rotationY": 45.0,
+			"faces": {
+				"east": { "texture": "#sister", "uv": [ 2.0, 0.0, 31.0, 78.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] }
+			}
+		},
+		{
+			"name": "Cube4",
+			"from": [ 11.0, 0.0, 5.0 ],
+			"to": [ 11.0, 30.0, 14.0 ],
+			"rotationOrigin": [ 11.0, 0.0, 5.0 ],
+			"rotationY": -45.0,
+			"faces": {
+				"east": { "texture": "#sister", "uv": [ 2.0, 0.0, 31.0, 78.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] }
+			}
+		}
+	]}
