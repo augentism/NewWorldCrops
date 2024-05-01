@@ -6,15 +6,14 @@
 	"textureWidth": 16,
 	"textureHeight": 16,
 	"textureSizes": {
-		"sister11": [32,64],
 		"stage4-side": [16,16],
 		"stage4-top": [16,16],
-		"sister10": [32,64]
+		"sister": [32,64]
 	},
 	"textures": {
 		"stage3-side": "/Users/Calvin/AppData/Roaming/Vintagestory/assets/survival/textures/block/plant/pumpkin/fruit/stage3-side",
 		"stage3-top": "/Users/Calvin/AppData/Roaming/Vintagestory/assets/survival/textures/block/plant/pumpkin/fruit/stage3-top",
-		"sister10": "/workspace/VSModding/NewWorldCrops/tempart/sisters/sister10"
+		"sister": "/workspace/VSModding/NewWorldCrops/tempart/sisters/sister9"
 	},
 	"elements": [
 		{
@@ -37,7 +36,7 @@
 			"rotationOrigin": [ 5.0, 0.0, 5.0 ],
 			"rotationY": 45.0,
 			"faces": {
-				"east": { "texture": "#sister10", "uv": [ 0.0, 0.0, 29.0, 64.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] }
+				"east": { "texture": "#sister", "uv": [ 0.0, 0.0, 29.0, 64.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] }
 			}
 		},
 		{
@@ -47,7 +46,7 @@
 			"rotationOrigin": [ 11.0, 0.0, 5.0 ],
 			"rotationY": -45.0,
 			"faces": {
-				"east": { "texture": "#sister10", "uv": [ 1.0, 0.0, 30.0, 64.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] }
+				"east": { "texture": "#sister", "uv": [ 1.0, 0.0, 30.0, 64.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] }
 			}
 		}
 	]}

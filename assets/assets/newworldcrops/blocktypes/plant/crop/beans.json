@@ -62,7 +62,7 @@
 	},
 	"cropProps": {
 		"__comment": "https://objects.lib.uidaho.edu/uiext/uiext26873.pdf",
-		"requiredNutrient": "N",
+		"requiredNutrient": "K",
 		"nutrientConsumption": 35,
 		"growthStages": 11,
 		"totalGrowthMonths": 1.25

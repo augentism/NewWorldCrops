@@ -11,8 +11,8 @@
 		"stage4-top": [16,16]
 	},
 	"textures": {
-		"stage4-side": "/Users/Calvin/AppData/Roaming/Vintagestory/assets/survival/textures/block/plant/pumpkin/fruit/stage4-side",
-		"stage4-top": "/Users/Calvin/AppData/Roaming/Vintagestory/assets/survival/textures/block/plant/pumpkin/fruit/stage4-top",
+		"stage4-side": "game:block/plant/pumpkin/fruit/stage4-side",
+		"stage4-top": "game:block/plant/pumpkin/fruit/stage4-top",
 		"sister": "/workspace/VSModding/NewWorldCrops/tempart/sisters/sister11"
 	},
 	"elements": [

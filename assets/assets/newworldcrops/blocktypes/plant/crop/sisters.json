@@ -8,13 +8,27 @@
 	],
 	"creativeinventory": { "general": ["*"], "plants": ["*"] },
 	"renderpass": "OpaqueNoCull",
-	"shapebytype": { 
-		"base": "game:block/plant/crop/cross" 
+	"shapeByType": {
+		"@(.*sister.+-(8|9|10|11))": { "base": "newworldcrops:block/plant/crop/sister/sisters{stage}" },
+		"@(.*sister.+-[1-8])": { "base": "game:block/plant/crop/cross"}
 	},
 	"blockmaterial": "Plant",
 	"randomizeRotations": true,
-	"textures": {
-		"all": { "base": "newworldcrops:block/plant/crop/{type}/normal{stage}" }
+	"texturesByType": {
+		"@(.*(black|green|kidney)-(8|9|10|11))": {
+			"stage3-side": { "base": "game:block/plant/pumpkin/fruit/stage3-side" },
+			"stage3-top": { "base": "game:block/plant/pumpkin/fruit/stage3-top" },
+			"sister": { "base": "block/plant/sisters/sister{stage}" }
+		},
+		"@(.*(black|green|kidney)sun-(8|9|10|11))": {
+			"stage3-side": { "base": "game:block/plant/pumpkin/fruit/stage3-side" },
+			"stage3-top": { "base": "game:block/plant/pumpkin/fruit/stage3-top" },
+			"sister": { "base": "block/plant/sisters/sistersun{stage}" }
+		},
+		"@(.*sister.+-[1-8])": {
+			"all": { "base": "newworldcrops:block/plant/sisters/normal{stage}" }
+		}
+		
 	},
 	"attributes": {
 		"foodTags": ["nibbleCrop"],

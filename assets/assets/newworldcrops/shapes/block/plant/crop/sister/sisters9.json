@@ -11,16 +11,16 @@
 		"sister": [32,64]
 	},
 	"textures": {
-		"stage3-side": "/Users/Calvin/AppData/Roaming/Vintagestory/assets/survival/textures/block/plant/pumpkin/fruit/stage3-side",
-		"stage3-top": "/Users/Calvin/AppData/Roaming/Vintagestory/assets/survival/textures/block/plant/pumpkin/fruit/stage3-top",
-		"sister": "/workspace/VSModding/NewWorldCrops/tempart/sisters/sister"
+		"stage3-side": "game:block/plant/pumpkin/fruit/stage3-side",
+		"stage3-top": "game:block/plant/pumpkin/fruit/stage3-top",
+		"sister": "/workspace/VSModding/NewWorldCrops/tempart/sisters/sister9"
 	},
 	"elements": [
 		{
 			"name": "Cube2",
-			"from": [ 4.0, 0.0, 4.0 ],
-			"to": [ 12.0, 4.0, 12.0 ],
-			"rotationOrigin": [ 4.0, 0.0, 4.0 ],
+			"from": [ 5.0, 0.0, 5.0 ],
+			"to": [ 11.0, 4.0, 11.0 ],
+			"rotationOrigin": [ 5.0, 0.0, 5.0 ],
 			"faces": {
 				"north": { "texture": "#stage3-side", "uv": [ 0.0, 7.0, 9.0, 13.0 ], "autoUv": false },
 				"east": { "texture": "#stage3-side", "uv": [ 0.0, 7.0, 9.0, 13.0 ], "autoUv": false },
@@ -32,21 +32,21 @@
 		{
 			"name": "Cube3",
 			"from": [ 5.0, 0.0, 5.0 ],
-			"to": [ 5.0, 30.0, 14.0 ],
+			"to": [ 5.0, 24.0, 14.0 ],
 			"rotationOrigin": [ 5.0, 0.0, 5.0 ],
 			"rotationY": 45.0,
 			"faces": {
-				"east": { "texture": "#sister", "uv": [ 0.0, 0.0, 29.0, 72.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] }
+				"east": { "texture": "#sister", "uv": [ 0.0, 0.0, 29.0, 64.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] }
 			}
 		},
 		{
 			"name": "Cube4",
 			"from": [ 11.0, 0.0, 5.0 ],
-			"to": [ 11.0, 30.0, 14.0 ],
+			"to": [ 11.0, 24.0, 14.0 ],
 			"rotationOrigin": [ 11.0, 0.0, 5.0 ],
 			"rotationY": -45.0,
 			"faces": {
-				"east": { "texture": "#sister", "uv": [ 1.0, 0.0, 30.0, 72.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] }
+				"east": { "texture": "#sister", "uv": [ 1.0, 0.0, 30.0, 64.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] }
 			}
 		}
 	]}
