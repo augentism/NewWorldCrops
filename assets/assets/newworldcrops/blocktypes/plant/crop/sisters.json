@@ -8,7 +8,9 @@
 	],
 	"creativeinventory": { "general": ["*"], "plants": ["*"] },
 	"renderpass": "OpaqueNoCull",
-	"shape": { "base": "game:block/plant/crop/cross" },
+	"shapebytype": { 
+		"base": "game:block/plant/crop/cross" 
+	},
 	"blockmaterial": "Plant",
 	"randomizeRotations": true,
 	"textures": {
@@ -128,13 +130,24 @@
 			{ "type": "item", "code": "seeds-{type}", "quantity": { "avg": 0.7 }  }
 		]
 	},
-	"cropProps": {
-		"__comment": "https://objects.lib.uidaho.edu/uiext/uiext26873.pdf",
-		"requiredNutrient": "K",
-		"nutrientConsumption": 30,
-		"growthStages": 11,
-		"totalGrowthMonths": 2.0
-	},
+	"cropPropsByType": {
+        "@(.*(black|green|kidney)-[0-9]+)": {
+            "requiredNutrient": "K",
+            "nutrientConsumption": 30,
+            "growthStages": 11,
+            "totalGrowthMonths": 2.0,
+            "coldDamageBelow": 4,
+            "heatDamageAbove": 35
+        },
+        "@(.*(black|green|kidney)sun-[0-9]+)": {
+            "requiredNutrient": "K",
+            "nutrientConsumption": 40,
+            "growthStages": 11,
+            "totalGrowthMonths": 2.0,
+            "coldDamageBelow": 4,
+            "heatDamageAbove": 35
+        }
+    },
 	"collisionbox": null,
 	"selectionbox": { "x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 0.9375, "y2": 0.25, "z2": 0.9375 },
 	"materialDensity": 200,
