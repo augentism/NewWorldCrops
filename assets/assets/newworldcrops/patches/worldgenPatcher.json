@@ -86,7 +86,7 @@
         "path": "/-",
         "value": {
             "comment": "Small patches of bell peppers",
-            "blockCodes": ["newworldcrops:crop-pepper-4", "newworldcrops:crop-pepper-10", "newworldcrops:crop-pepper-13","newworldcrops:crop-pepper-2"],
+            "blockCodes": ["newworldcrops:crop-pepper-4", "newworldcrops:crop-pepper-10", "newworldcrops:crop-pepper-12","newworldcrops:crop-pepper-2"],
             "minTemp": -10,
             "maxTemp": 14,
             "minRain": 0.35,
@@ -102,7 +102,7 @@
         "path": "/-",
         "value": {
             "comment": "Small patches of tomatoes",
-            "blockCodes": ["newworldcrops:crop-tomato-4", "newworldcrops:crop-tomato-10", "newworldcrops:crop-tomato-13","newworldcrops:crop-tomato-2"],
+            "blockCodes": ["newworldcrops:crop-tomato-4", "newworldcrops:crop-tomato-10", "newworldcrops:crop-tomato-12","newworldcrops:crop-tomato-2"],
             "minTemp": -10,
             "maxTemp": 14,
             "minRain": 0.35,
