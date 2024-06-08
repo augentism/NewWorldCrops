@@ -1,0 +1,36 @@
+{
+    "BlockPatchBiomes": {
+        "*-potato-*": [
+            "pacific neotropic"
+        ],
+        "*-blackbean-*": [
+            "pacific nearctic",
+            "atlantic nearctic",
+            "pacific neotropic",
+            "atlantic neotropic"
+        ],
+        "*-greenbean-*": [
+            "pacific nearctic",
+            "atlantic nearctic",
+            "pacific neotropic",
+            "atlantic neotropic"
+        ],
+        "*-kidneybean-*": [
+            "pacific neotropic"
+        ],
+        "*-corn-*": [
+            "pacific nearctic",
+            "atlantic nearctic"
+        ],
+        "*-tomato-*": [
+            "pacific neotropic",
+            "atlantic neotropic"
+        ],
+        "*-pepper-*": [
+            "pacific nearctic",
+            "atlantic nearctic",
+            "pacific neotropic",
+            "atlantic neotropic"
+        ]
+    }
+}
