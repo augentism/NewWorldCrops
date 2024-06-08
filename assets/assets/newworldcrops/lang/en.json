@@ -80,27 +80,32 @@
     
     
     
-    "@newworldcrops:block-crop-potato-[0-6]": "Growing Potato",
-    "@newworldcrops:block-crop-potato-7": "Mature Potato",
-    "@newworldcrops:block-crop-corn-[0-8]": "Growing Corn",
-    "@newworldcrops:block-crop-corn-9": "Mature Corn",
+    "newworldcrops:block-crop-potato-*": "Growing Potato",
+    "newworldcrops:block-crop-potato-7": "Mature Potato",
 
-    "@newworldcrops:block-crop-blackbean-([0-9]|10)$": "Growing Black Beans",
-    "@newworldcrops:block-crop-blackbean-11": "Mature Black Beans",
+    "newworldcrops:block-crop-corn-*": "Growing Corn",
+    "newworldcrops:block-crop-corn-9": "Mature Corn",
 
-    "@newworldcrops:block-crop-greenbean-([0-9]|10)$": "Growing Green Beans",
-    "@newworldcrops:block-crop-greenbean-11": "Mature Green Beans",
+    "newworldcrops:block-crop-blackbean-*": "Growing Black Beans",
+    "newworldcrops:block-crop-blackbean-11": "Mature Black Beans",
 
-    "@newworldcrops:block-crop-kidneybean-([0-9]|10)$": "Growing Kidney Beans",
-    "@newworldcrops:block-crop-kidneybean-11": "Mature Kidney Beans",
+    "newworldcrops:block-crop-greenbean-*": "Growing Green Beans",
+    "newworldcrops:block-crop-greenbean-11": "Mature Green Beans",
 
-    "@newworldcrops:block-crop-tomato-[0-8]$": "Growing Tomato",
-    "@newworldcrops:block-crop-tomato-9$": "Grown Tomato",
-    "@newworldcrops:block-crop-tomato-1[0-2]$": "Fruiting Tomato",
+    "newworldcrops:block-crop-kidneybean-*": "Growing Kidney Beans",
+    "newworldcrops:block-crop-kidneybean-11": "Mature Kidney Beans",
 
-    "@newworldcrops:block-crop-bellpepper-[0-8]$": "Growing Bell Pepper",
-    "@newworldcrops:block-crop-bellpepper-9$": "Grown Bell Pepper",
-    "@newworldcrops:block-crop-bellpepper-1[0-2]$": "Fruiting Bell Pepper",
+    "newworldcrops:block-crop-tomato-*": "Growing Tomato",
+    "newworldcrops:block-crop-tomato-9": "Tomato Plant",
+    "newworldcrops:block-crop-tomato-10": "Fruiting Tomato",
+    "newworldcrops:block-crop-tomato-11": "Fruiting Tomato",
+    "newworldcrops:block-crop-tomato-12": "Fruiting Tomato",
+
+    "newworldcrops:block-crop-pepper-*": "Growing Bell Pepper",
+    "newworldcrops:block-crop-pepper-9": "Bell Pepper Plant",
+    "newworldcrops:block-crop-pepper-10": "Fruiting Bell Pepper",
+    "newworldcrops:block-crop-pepper-11": "Fruiting Bell Pepper",
+    "newworldcrops:block-crop-pepper-12": "Fruiting Bell Pepper",
 
 
 

@@ -1,0 +1,31 @@
+Hello all,
+Would it be possible to add regex support for the lang.json interpreter as you have done for most of the other json interpreters? I believe that it would save a lot of copy and pasting.
+
+Specifically, what I am looking for is to be able to do something similar to what is pictured below:
+
+```    "@newworldcrops:block-crop-tomato-[0-8]$": "Growing Tomato",
+    "@newworldcrops:block-crop-tomato-9$": "Tomato Plant",
+    "@newworldcrops:block-crop-tomato-1[0-2]$": "Fruiting Tomato",
+
+    "@newworldcrops:block-crop-bellpepper-[0-8]$": "Growing Bell Pepper",
+    "@newworldcrops:block-crop-bellpepper-9$": "Bell Pepper Plant",
+    "@newworldcrops:block-crop-bellpepper-1[0-2]$": "Fruiting Bell Pepper",```
+
+I am aware that i can currently achieve something similar with the '*' operator, however, it is not powerful enough for every use case.
+
+Pictured below is some lines taken from the vanilla game lang/en.json. I am aware that these lines are not in use, but it highlights a very good example of the exact kind of use case that having a more powerful matching tool would be useful for.
+
+```    "block-crop-bellpepper-13": "Mature bell pepper",
+    "block-crop-bellpepper-14": "Mature bell pepper",
+    "block-crop-bellpepper-15": "Mature bell pepper",
+    "block-crop-bellpepper-16": "Mature bell pepper",
+    "block-crop-bellpepper-17": "Mature bell pepper",
+    "block-crop-bellpepper-18": "Mature bell pepper",
+    "block-crop-bellpepper-19": "Wilting bell pepper",
+    "block-crop-bellpepper-*": "Bell pepper plant",```
+
+Adding a regex implementation would allow you to cut this down to just three lines:
+
+```"@block-crop-bellpepper-([1-9]|1[0-2])$": "Bell pepper plant",
+"@block-crop-bellpepper-1[3-8]$: "Mature bell pepper",
+"@block-crop-bellpepper
