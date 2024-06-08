@@ -4,7 +4,7 @@ import io
 import shutil
 cwd = os.getcwd()
 #print(cwd)
-zip_name = "NewWorldCrops_0.0.6"
+zip_name = "NewWorldCrops_0.0.7"
 directory_name = "assets"
 fullpath = os.path.join(cwd,directory_name)
 #print(fullpath)
