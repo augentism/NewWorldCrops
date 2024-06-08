@@ -114,6 +114,19 @@
                 "quantity": {"avg": 0.4, "var": 0.2}
             }
         ],
+        "@.*-9":[
+            {
+                "type": "item",
+                "code": "newworldcrops:seeds-{type}",
+                "quantity": {"avg": 0.7}
+            },
+            {
+              "type": "block",
+              "code": "crop-{type}-9",
+              "quantity": { "avg": 1 },
+              "tool": "knife"
+            }
+        ],
         "*": [
             {
                 "type": "item",
