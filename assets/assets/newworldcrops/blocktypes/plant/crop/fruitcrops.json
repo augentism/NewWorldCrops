@@ -16,8 +16,8 @@
         "crop": { "base": "newworldcrops:block/plant/crop/{type}/e{stage}" }
     },
     "creativeinventory": {
-        "general": [ "*" ],
-        "plants": [ "*" ]
+        "general": [ "" ],
+        "plants": [ "" ]
     },
     "renderpass": "OpaqueNoCull",
     "shapeByType": {
