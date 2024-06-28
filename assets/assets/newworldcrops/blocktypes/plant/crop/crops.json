@@ -49,6 +49,14 @@
 	},
     "dropsByType": {
         "*potato-7": [
+            
+            {
+                "type": "block",
+                "code": "crop-{type}-7",
+                "quantity": { "avg": 1 },
+                "tool": "knife",
+                "lastDrop": true
+            },
             {
                 "type": "item",
                 "code": "newworldcrops:vegetable-{type}",
@@ -56,12 +64,6 @@
                     "avg": 3,
                     "var": 1
                 }
-            },
-            {
-                "type": "block",
-                "code": "crop-{type}-7",
-                "quantity": { "avg": 1 },
-                "tool": "knife"
             }
         ],
         "*": [
