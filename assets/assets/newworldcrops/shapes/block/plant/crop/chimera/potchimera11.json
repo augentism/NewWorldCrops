@@ -1,0 +1,99 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"crop": "block/plant/crop/spelt/normal8",
+		"potato": "game:item/food/vegetable/potato"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+				"north": { "texture": "#crop", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "windMode": [0,0,0,0] },
+				"east": { "texture": "#crop", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "windMode": [0,0,0,0] },
+				"south": { "texture": "#crop", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "windMode": [0,0,0,0] },
+				"west": { "texture": "#crop", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "windMode": [0,0,0,0] },
+				"up": { "texture": "#crop", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "windMode": [0,0,0,0] },
+				"down": { "texture": "#crop", "uv": [ 0.0, 0.0, 0.5, 0.5 ], "windMode": [0,0,0,0] }
+			},
+			"children": [
+				{
+					"name": "N",
+					"from": [ -8.0, 0.0, -4.0 ],
+					"to": [ 8.0, 16.0, -4.0 ],
+					"shade": false,
+					"rotationOrigin": [ -8.0, 0.0, -8.0 ],
+					"faces": {
+						"south": { "texture": "#crop", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,0,2,2], "windData": [0,0,1,1] }
+					}
+				},
+				{
+					"name": "S",
+					"from": [ -8.0, 0.0, 4.0 ],
+					"to": [ 8.0, 16.0, 4.0 ],
+					"shade": false,
+					"rotationOrigin": [ -8.0, 0.0, -8.0 ],
+					"faces": {
+						"south": { "texture": "#crop", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,0,2,2], "windData": [0,0,1,1] }
+					}
+				},
+				{
+					"name": "W",
+					"from": [ -4.0, 0.0, -8.0 ],
+					"to": [ -4.0, 16.0, 8.0 ],
+					"shade": false,
+					"rotationOrigin": [ -8.0, 0.0, -8.0 ],
+					"faces": {
+						"west": { "texture": "#crop", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,0,2,2], "windData": [0,0,1,1] }
+					}
+				},
+				{
+					"name": "E",
+					"from": [ 4.0, 0.0, -8.0 ],
+					"to": [ 4.0, 16.0, 8.0 ],
+					"shade": false,
+					"rotationOrigin": [ -8.0, 0.0, -8.0 ],
+					"faces": {
+						"west": { "texture": "#crop", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "windMode": [0,0,2,2], "windData": [0,0,1,1] }
+					}
+				}
+			]
+		},
+		{
+			"name": "Cube5",
+			"from": [ 6.0, 0.0, 10.0 ],
+			"to": [ 10.0, 2.0, 14.0 ],
+			"rotationOrigin": [ 6.0, 0.0, 10.0 ],
+			"faces": {
+				"north": { "texture": "#potato", "uv": [ 2.0, 1.0, 10.0, 5.0 ], "autoUv": false },
+				"east": { "texture": "#potato", "uv": [ 3.0, 2.0, 11.0, 6.0 ], "autoUv": false },
+				"south": { "texture": "#potato", "uv": [ 3.0, 2.0, 11.0, 6.0 ], "autoUv": false },
+				"west": { "texture": "#potato", "uv": [ 3.0, 3.0, 11.0, 7.0 ], "autoUv": false },
+				"up": { "texture": "#potato", "uv": [ 2.0, 2.0, 10.0, 10.0 ], "autoUv": false },
+				"down": { "texture": "#potato", "uv": [ 3.0, 1.0, 11.0, 9.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "Cube6",
+			"from": [ 10.0, 0.0, 2.0 ],
+			"to": [ 14.0, 2.0, 6.0 ],
+			"rotationOrigin": [ 10.0, 0.0, 2.0 ],
+			"faces": {
+				"north": { "texture": "#potato", "uv": [ 2.0, 1.0, 10.0, 5.0 ], "autoUv": false },
+				"east": { "texture": "#potato", "uv": [ 3.0, 2.0, 11.0, 6.0 ], "autoUv": false },
+				"south": { "texture": "#potato", "uv": [ 3.0, 2.0, 11.0, 6.0 ], "autoUv": false },
+				"west": { "texture": "#potato", "uv": [ 3.0, 3.0, 11.0, 7.0 ], "autoUv": false },
+				"up": { "texture": "#potato", "uv": [ 2.0, 2.0, 10.0, 10.0 ], "autoUv": false },
+				"down": { "texture": "#potato", "uv": [ 3.0, 1.0, 11.0, 9.0 ], "autoUv": false }
+			}
+		}
+	]}

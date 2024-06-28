@@ -13,7 +13,7 @@
 	"textures": {
 		"stage4-side": "game:block/plant/pumpkin/fruit/stage4-side",
 		"stage4-top": "game:block/plant/pumpkin/fruit/stage4-top",
-		"sister": "/workspace/VSModding/NewWorldCrops/tempart/sisters/sister11"
+		"sister": "block/plant/sisters/sister11"
 	},
 	"elements": [
 		{

@@ -1,0 +1,190 @@
+{
+    "code": "crop",
+    "class": "BlockCropFruit",
+    "behaviors": [ { "name": "Unstable" } ],
+    "variantgroups": [
+        {
+            "code": "root",
+            "states": ["potato"]
+        },
+        {
+            "code": "scion",
+            "states": ["pepper", "tomato"]
+        },
+        {
+            "code": "stage",
+            "states": ["1","2","3","4","5","6","7","8","9","10","11","12"]
+        }
+    ],
+    "texturesByType": {
+		"@(.*-pepper-(10|11|12))": {
+			"crop": { "base": "newworldcrops:block/plant/crop/{scion}/e{stage}" },
+			"potato": { "base": "game:item/food/vegetable/potato" }
+		},
+		"@(.*-tomato-(10|11|12))": {
+			"crop": { "base": "newworldcrops:block/plant/crop/{scion}/e{stage}" },
+			"potato": { "base": "game:item/food/vegetable/potato" }
+		}
+	},
+    "creativeinventory": {
+        "general": [ "*" ],
+        "plants": [ "*" ]
+    },
+    "renderpass": "OpaqueNoCull",
+    "shapeByType": {
+		"@(.*-(10|11|12))": { "base": "newworldcrops:block/plant/crop/chimera/{root}/potchimera{stage}" },
+		"@(.*-[1-9])": { "base": "game:block/plant/crop/vegetable"}
+	},
+    "blockmaterial": "Plant",
+    "sideopaque": {
+		"all": false
+	},
+	"sidesolid": {
+		"all": false
+	},
+    "attributes": {
+        "butterflyFeedByType": {
+        "*": true
+        },
+        "beeFeedByType": {
+        "*": true
+        },
+        "sitHeight": 0.3,
+        "tickGrowthProbability": 0.05,
+        "handbook": {
+        "include": true
+        },
+        "fruitStageByType": 
+        {
+            "*pepper*": 10,
+            "*tomato*": 10,
+            "*": 10
+        },
+        "interactionInterval": 1.00
+        
+    },
+    "dropsByType": {
+
+        "@.*tomato-(10|11|12)": [
+            {
+                "type": "item",
+                "code": "newworldcrops:vegetable-tomato",
+                "quantity": {
+                    "avg": 1.1,
+                    "var": 0
+                }
+            },
+            {
+                "type": "item",
+                "code": "newworldcrops:seeds-{type}",
+                "quantity": {"avg": 0.4, "var": 0.2}
+            }
+        ],
+        
+        "*pepper-10": [
+            {
+                "type": "item",
+                "code": "game:vegetable-bellpepper",
+                "quantity": {
+                    "avg": 1.1,
+                    "var": 0
+                }
+            },
+            {
+                "type": "item",
+                "code": "newworldcrops:seeds-{type}",
+                "quantity": {"avg": 0.4, "var": 0.2}
+            }
+        ],
+        "*pepper-11": [
+            {
+                "type": "item",
+                "code": "game:vegetable-bellpepper",
+                "quantity": {
+                    "avg": 1.1,
+                    "var": 0
+                }
+            },
+            {
+                "type": "item",
+                "code": "newworldcrops:seeds-{type}",
+                "quantity": {"avg": 0.4, "var": 0.2}
+            }
+        ],
+        "*pepper-12": [
+            {
+                "type": "item",
+                "code": "game:vegetable-bellpepper",
+                "quantity": {
+                    "avg": 1.1,
+                    "var": 0
+                }
+            },
+            {
+                "type": "item",
+                "code": "newworldcrops:seeds-{type}",
+                "quantity": {"avg": 0.4, "var": 0.2}
+            }
+        ],
+        "@.*-9":[
+            {
+                "type": "item",
+                "code": "newworldcrops:seeds-{type}",
+                "quantity": {"avg": 0.7}
+            },
+            {
+              "type": "block",
+              "code": "crop-{type}-9",
+              "quantity": { "avg": 1 },
+              "tool": "knife"
+            }
+        ],
+        "*": [
+            {
+                "type": "item",
+                "code": "newworldcrops:seeds-{type}",
+                "quantity": {"avg": 0.7}
+            }
+        ]
+        
+    },
+    "cropPropsByType": {
+        "*pepper*": {
+            "requiredNutrient": "K",
+            "nutrientConsumption": 20,
+            "growthStages": 12,
+            "totalGrowthDays": 10,
+            "coldDamageBelow": 4,
+            "heatDamageAbove": 35
+        },
+        "*tomato*": {
+            "requiredNutrient": "K",
+            "nutrientConsumption": 20,
+            "growthStages": 12,
+            "totalGrowthDays": 10,
+            "coldDamageBelow": 4,
+            "heatDamageAbove": 35
+        }
+    },
+    
+    "collisionbox": null,
+    "selectionbox": {
+        "x1": 0.0625,
+        "y1": 0,
+        "z1": 0.0625,
+        "x2": 0.9375,
+        "y2": 0.25,
+        "z2": 0.9375
+    },
+    "materialDensity": 200,
+    "combustibleProps": {
+        "burnTemperature": 600,
+        "burnDuration": 10
+    },
+    "resistance": 0.5,
+	"sounds": {
+		"place": "game:block/plant",
+		"break": "game:block/plant",
+		"hit": "game:block/plant"
+	}
+}
