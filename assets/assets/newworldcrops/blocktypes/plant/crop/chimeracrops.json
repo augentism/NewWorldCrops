@@ -30,8 +30,8 @@
 		}
 	},
     "creativeinventory": {
-        "general": [ "*" ],
-        "plants": [ "*" ]
+        "general": [ "" ],
+        "plants": [ "" ]
     },
     "renderpass": "OpaqueNoCull",
     "shapeByType": {
