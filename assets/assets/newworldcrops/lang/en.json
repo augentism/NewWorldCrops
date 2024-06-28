@@ -107,6 +107,18 @@
     "newworldcrops:block-crop-pepper-11": "Fruiting Bell Pepper",
     "newworldcrops:block-crop-pepper-12": "Fruiting Bell Pepper",
 
+    "newworldcrops:block-chimera-potato-pepper-*": "Growing Chimera Potato Bell Pepper",
+    "newworldcrops:block-chimera-potato-pepper-9": "Chimera Potato Bell Pepper Plant",
+    "newworldcrops:block-chimera-potato-pepper-10": "Fruiting Chimera Potato Bell Pepper",
+    "newworldcrops:block-chimera-potato-pepper-11": "Fruiting Chimera Potato Bell Pepper",
+    "newworldcrops:block-chimera-potato-pepper-12": "Fruiting Chimera Potato Bell Pepper",
+
+    "newworldcrops:block-chimera-potato-tomato-*": "Growing Chimera Potato Tomato",
+    "newworldcrops:block-chimera-potato-tomato-9": "Chimera Potato Tomato Plant",
+    "newworldcrops:block-chimera-potato-tomato-10": "Fruiting Chimera Potato Tomato",
+    "newworldcrops:block-chimera-potato-tomato-11": "Fruiting Chimera Potato Tomato",
+    "newworldcrops:block-chimera-potato-tomato-12": "Fruiting Chimera Potato Tomato",
+
 
 
     "game:recipeingredient-item-legume-greenbean": "green beans",

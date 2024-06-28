@@ -17,8 +17,8 @@
         "e": { "base": "game:block/plant/crop/{type}/e{stage}" }
     },
     "creativeinventory": {
-        "general": [ "" ],
-        "plants": [ "" ]
+        "general": [ "*" ],
+        "plants": [ "*" ]
     },
     "renderpass": "OpaqueNoCull",
     "shapeByType": {
@@ -56,6 +56,12 @@
                     "avg": 3,
                     "var": 1
                 }
+            },
+            {
+                "type": "block",
+                "code": "crop-{type}-7",
+                "quantity": { "avg": 1 },
+                "tool": "knife"
             }
         ],
         "*": [
