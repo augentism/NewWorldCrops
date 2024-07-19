@@ -3,25 +3,37 @@
         "file": "game:recipes/cooking/meatystew.json",
         "op": "addmerge",
         "path": "/ingredients/4/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 1/*" }
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 1/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/meatystew.json",
         "op": "addmerge",
         "path": "/ingredients/4/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:grain-*",  "shapeElement": "game:bowl/vegetable 1/*" }
+        "value": { "type": "item", "code": "newworldcrops:grain-*",  "shapeElement": "game:bowl/vegetable 1/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/meatystew.json",
         "op": "addmerge",
         "path": "/ingredients/5/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 2/*" }
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 2/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/meatystew.json",
         "op": "addmerge",
         "path": "/ingredients/5/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:grain-*",  "shapeElement": "game:bowl/vegetable 2/*" }
+        "value": { "type": "item", "code": "newworldcrops:grain-*",  "shapeElement": "game:bowl/vegetable 2/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
 
 
@@ -49,13 +61,19 @@
         "file": "game:recipes/cooking/porridge.json",
         "op": "addmerge",
         "path": "/ingredients/4/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 2/*" }
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 2/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/porridge.json",
         "op": "addmerge",
         "path": "/ingredients/4/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 2/*" }
+        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 2/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
 
 
@@ -68,43 +86,64 @@
         "file": "game:recipes/cooking/vegetablestew.json",
         "op": "addmerge",
         "path": "/ingredients/0/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 1/*" }
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 1/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/vegetablestew.json",
         "op": "addmerge",
         "path": "/ingredients/1/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 2/*" }
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 2/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/vegetablestew.json",
         "op": "addmerge",
         "path": "/ingredients/1/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 2/*" }
+        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 2/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/vegetablestew.json",
         "op": "addmerge",
         "path": "/ingredients/2/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 3/*" }
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 3/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/vegetablestew.json",
         "op": "addmerge",
         "path": "/ingredients/2/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 3/*" }
+        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 3/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/vegetablestew.json",
         "op": "addmerge",
         "path": "/ingredients/3/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 4/*" }
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 4/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/vegetablestew.json",
         "op": "addmerge",
         "path": "/ingredients/3/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 4/*" }
+        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 4/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
 
 
@@ -113,37 +152,55 @@
         "file": "game:recipes/cooking/soup.json",
         "op": "addmerge",
         "path": "/ingredients/1/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 1/*" }
+        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 1/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/soup.json",
         "op": "addmerge",
         "path": "/ingredients/1/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 1/*" }
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 1/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/soup.json",
         "op": "addmerge",
         "path": "/ingredients/2/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 2/*" }
+        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 2/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/soup.json",
         "op": "addmerge",
         "path": "/ingredients/2/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 2/*" }
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 2/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/soup.json",
         "op": "addmerge",
         "path": "/ingredients/3/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 3/*" }
+        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 3/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/soup.json",
         "op": "addmerge",
         "path": "/ingredients/3/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 3/*" }
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 3/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
 
 
@@ -152,25 +209,37 @@
         "file": "game:recipes/cooking/scrambledeggs.json",
         "op": "addmerge",
         "path": "/ingredients/3/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 1/*" }
+        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 1/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/scrambledeggs.json",
         "op": "addmerge",
         "path": "/ingredients/3/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 1/*" }
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 1/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/scrambledeggs.json",
         "op": "addmerge",
         "path": "/ingredients/4/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 2/*" }
+        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 2/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/scrambledeggs.json",
         "op": "addmerge",
         "path": "/ingredients/4/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 2/*" }
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 2/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
 
 
@@ -189,79 +258,118 @@
         "file": "game:recipes/cooking/meatystew.json",
         "op": "addmerge",
         "path": "/ingredients/4/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 1/*" }
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 1/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/meatystew.json",
         "op": "addmerge",
         "path": "/ingredients/5/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 2/*" }
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 2/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/porridge.json",
         "op": "addmerge",
         "path": "/ingredients/3/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 1/*" }
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 1/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/porridge.json",
         "op": "addmerge",
         "path": "/ingredients/4/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 2/*" }
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 2/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/vegetablestew.json",
         "op": "addmerge",
         "path": "/ingredients/0/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 1/*" }
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 1/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/vegetablestew.json",
         "op": "addmerge",
         "path": "/ingredients/1/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 2/*" }
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 2/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/vegetablestew.json",
         "op": "addmerge",
         "path": "/ingredients/2/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 3/*" }
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 3/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/vegetablestew.json",
         "op": "addmerge",
         "path": "/ingredients/3/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 4/*" }
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 4/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/soup.json",
         "op": "addmerge",
         "path": "/ingredients/1/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 1/*" }
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 1/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/soup.json",
         "op": "addmerge",
         "path": "/ingredients/2/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 2/*" }
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 2/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/soup.json",
         "op": "addmerge",
         "path": "/ingredients/3/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 3/*" }
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 3/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/scrambledeggs.json",
         "op": "addmerge",
         "path": "/ingredients/3/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 1/*" }
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 1/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
     {
         "file": "game:recipes/cooking/scrambledeggs.json",
         "op": "addmerge",
         "path": "/ingredients/4/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 2/*" }
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 2/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] }
     },
 
 
@@ -270,61 +378,91 @@
         "file": "game:recipes/cooking/meatystew.json",
         "op": "addmerge",
         "path": "/ingredients/4/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 1/*" } 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 1/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] } 
     },
     {
         "file": "game:recipes/cooking/meatystew.json",
         "op": "addmerge",
         "path": "/ingredients/5/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 2/*" } 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 2/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] } 
     },
     {
         "file": "game:recipes/cooking/porridge.json",
         "op": "addmerge",
         "path": "/ingredients/4/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 2/*" } 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 2/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] } 
     },
     {
         "file": "game:recipes/cooking/scrambledeggs.json",
         "op": "addmerge",
         "path": "/ingredients/3/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 1/*" } 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 1/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] } 
     },
     {
         "file": "game:recipes/cooking/scrambledeggs.json",
         "op": "addmerge",
         "path": "/ingredients/4/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 2/*" } 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 2/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] } 
     },
     {
         "file": "game:recipes/cooking/soup.json",
         "op": "addmerge",
         "path": "/ingredients/3/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 3/*" } 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 3/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] } 
     },
     {
         "file": "game:recipes/cooking/vegetablestew.json",
         "op": "addmerge",
         "path": "/ingredients/0/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 1/*" } 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 1/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] } 
     },
     {
         "file": "game:recipes/cooking/vegetablestew.json",
         "op": "addmerge",
         "path": "/ingredients/1/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 2/*" } 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 2/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] } 
     },
     {
         "file": "game:recipes/cooking/vegetablestew.json",
         "op": "addmerge",
         "path": "/ingredients/2/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 3/*" } 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 3/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] } 
     },
     {
         "file": "game:recipes/cooking/vegetablestew.json",
         "op": "addmerge",
         "path": "/ingredients/3/validStacks/-",
-        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 4/*" } 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 4/*", "textureMapping": [
+            "vegetable",
+            "group5"
+          ] } 
     }
 
 

@@ -151,7 +151,12 @@
             "growthStages": 11,
             "totalGrowthMonths": 2.0,
             "coldDamageBelow": 4,
-            "heatDamageAbove": 35
+            "heatDamageAbove": 35,
+            "xpByType": {
+                "-10": 0.28,
+                "-11": 0.55,
+                "*": 0.0
+            }
         },
         "@(.*(black|green|kidney)sun-[0-9]+)": {
             "requiredNutrient": "K",
@@ -159,7 +164,12 @@
             "growthStages": 11,
             "totalGrowthMonths": 2.0,
             "coldDamageBelow": 4,
-            "heatDamageAbove": 35
+            "heatDamageAbove": 35,
+            "xpByType": {
+                "-10": 0.28,
+                "-11": 0.55,
+                "*": 0.0
+            }
         }
     },
 	"collisionbox": null,

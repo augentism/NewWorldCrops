@@ -14,7 +14,7 @@
 			"endScaleY": 0.95,
 			"resultCode": "newworldcrops:bread-{type}-partbaked"
 		},
-		"inPieProperties": { "texture": "newworldcrops:/food/pie/{type}{bakeLevel}", "partType": "Crust"  },
+		"inPieProperties": { "texture": "game:block/food/pie/spelt{bakeLevel}", "partType": "Crust"  },
 		"nutritionPropsWhenInMealByType": {
 			"*-corn": { "satiety": 280, "foodcategory": "Grain" }, 
 			"*": { "satiety": 240, "foodcategory": "Grain" }	

@@ -82,7 +82,12 @@
             "growthStages": 7,
             "totalGrowthDays": 8,
             "coldDamageBelow": 4,
-            "heatDamageAbove": 35
+            "heatDamageAbove": 35,
+            "xpByType": {
+                "-6": 0.28,
+                "-7": 0.55,
+                "*": 0.0
+            }
         }
     },
     "collisionbox": null,

@@ -143,7 +143,13 @@
             "growthStages": 12,
             "totalGrowthDays": 10,
             "coldDamageBelow": 4,
-            "heatDamageAbove": 35
+            "heatDamageAbove": 35,
+            "xpByType": {
+                "-10": 0.28,
+                "-11": 0.28,
+                "-12": 0.28,
+                "*": 0.0
+            }
         },
         "*tomato*": {
             "requiredNutrient": "K",
@@ -151,7 +157,13 @@
             "growthStages": 12,
             "totalGrowthDays": 10,
             "coldDamageBelow": 4,
-            "heatDamageAbove": 35
+            "heatDamageAbove": 35,
+            "xpByType": {
+                "-10": 0.28,
+                "-11": 0.28,
+                "-12": 0.28,
+                "*": 0.0
+            }
         }
     },
     
