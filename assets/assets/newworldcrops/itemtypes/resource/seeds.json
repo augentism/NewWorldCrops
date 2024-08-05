@@ -5,7 +5,7 @@
 	"maxstacksize": 64,
 	"variantgroups": [
 		{ "code": "type",
-        "states": ["potato", "corn", "blackbean", "greenbean","kidneybean","pepper", "tomato","sisterblack","sisterkidney","sistergreen","sisterblacksun","sisterkidneysun","sistergreensun"] }
+        "states": ["potato", "corn", "blackbean", "greenbean","kidneybean","pepper", "tomato","sisterblack","sisterkidney","sistergreen","sisterblacksun","sisterkidneysun","sistergreensun", "oat"] }
 	],
     "shape": { "base": "game:item/resource/seeds/seedbag" },
 	"texturesByType": {

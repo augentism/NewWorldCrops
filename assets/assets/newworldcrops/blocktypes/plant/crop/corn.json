@@ -3,7 +3,7 @@
 	"class": "BlockCrop",
 	"behaviors": [{"name": "Unstable"}],
 	"variantgroups": [
-		{ "code": "type", "states": ["corn"] },
+		{ "code": "type", "states": ["corn", "oat"] },
 		{ "code": "stage", "states": ["1", "2", "3", "4", "5", "6", "7", "8", "9"] }
 	],
 	"creativeinventory": { "general": [""], "plants": [""] },
@@ -74,26 +74,47 @@
 	"rainPermeable": false,
 	"dropsByType": {
 		"*-8": [
-			{ "type": "item", "code": "seeds-corn", "quantity": { "avg": 1 }  },
-			{ "type": "item", "code": "grain-corn", "quantity": { "avg": 1, "var": 0.5 }  }
+			{ "type": "item", "code": "seeds-{type}", "quantity": { "avg": 1 }  },
+			{ "type": "item", "code": "grain-{type}", "quantity": { "avg": 1, "var": 0.5 }  }
 		],
 		"*-9": [
-			{ "type": "item", "code": "seeds-corn", "quantity": { "avg": 1.2 }  },
-			{ "type": "item", "code": "grain-corn", "quantity": { "avg": 6, "var": 2 }  }
+			{ "type": "item", "code": "seeds-{type}", "quantity": { "avg": 1.2 }  },
+			{ "type": "item", "code": "grain-{type}", "quantity": { "avg": 6, "var": 2 }  }
 		],
 		"*": [
-			{ "type": "item", "code": "seeds-corn", "quantity": { "avg": 0.7 }  }
+			{ "type": "item", "code": "seeds-{type}", "quantity": { "avg": 0.7 }  }
 		]
 	},
-	"cropProps": {
-		"__comment": "corn lol",
-		"requiredNutrient": "N",
-		"nutrientConsumption": 25,
-		"growthStages": 9,
-		"totalGrowthMonths": 2,
-		"coldDamageBelow": 6,
-		"heatDamageAbove": 42
-	},
+	"cropPropsByType": {
+        "*corn*": {
+			"__comment": "corn lol",
+			"requiredNutrient": "N",
+			"nutrientConsumption": 25,
+			"growthStages": 9,
+			"totalGrowthMonths": 2,
+			"coldDamageBelow": 6,
+			"heatDamageAbove": 42,
+			"xpByType": {
+				"-6": 0.28,
+				"-7": 0.55,
+				"*": 0.0
+			}
+		},
+		"*oat*": {
+			"__comment": "oat lol",
+			"requiredNutrient": "N",
+			"nutrientConsumption": 20,
+			"growthStages": 9,
+			"totalGrowthMonths": 2,
+			"coldDamageBelow": 6,
+			"heatDamageAbove": 42,
+			"xpByType": {
+				"-6": 0.28,
+				"-7": 0.55,
+				"*": 0.0
+			}
+		}
+    },
 	"collisionbox": null,
 	"selectionBoxByType": {
 		"*-1": { "x1": 0.125, "y1": -0.0625, "z1": 0.125, "x2": 0.875, "y2": 0.175, "z2": 0.875 },

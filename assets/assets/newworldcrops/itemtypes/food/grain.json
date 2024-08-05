@@ -7,7 +7,7 @@
 		"*": { "foodTags": ["{type}"], "nutritionPropsWhenInMeal": { "satiety": 240, "foodcategory": "Grain" }}
 	},
 	"variantgroups": [
-		{ "code": "type", "states": ["corn"] }
+		{ "code": "type", "states": ["corn", "oat"] }
 	],
 	"texture": { "base": "newworldcrops:block/food/grain/{type}-pile" },
 	"shape": { "base": "game:item/resource/crushed/normal"  },
