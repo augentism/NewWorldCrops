@@ -21,7 +21,7 @@
 		}
 	},
 	"variantgroups": [
-		{ "code": "type", "states": ["corn"] }
+		{ "code": "type", "states": ["corn", "oat"] }
 	],
 	"shape": { "base": "game:item/food/bread/amaranthbread-dough" },
 	"textures": {

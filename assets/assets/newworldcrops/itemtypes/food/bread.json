@@ -6,7 +6,7 @@
 	},
 	"storageFlags": 33,
 	"variantgroups": [
-		{"code": "type", "states": ["corn", "potato"] },
+		{"code": "type", "states": ["corn", "potato", "oat"] },
 		{"code": "state", "states": ["partbaked", "perfect", "charred" ] }
 	],
     "shapeByType": { 
