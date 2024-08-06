@@ -16,7 +16,7 @@
 		"*corn*": { "cornmuffinmix": {"base": "newworldcrops:item/food/flour/cornmuffinmix" },
 					"jiffyblue": {"base": "newworldcrops:item/food/flour/jiffyblue"}
 				  },
-		"*": { "base": "item/food/grain/{type}-flour" }
+		"*": { "base": "item/food/grain/{type}-flour"  }
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
 	"materialDensity": 600,
