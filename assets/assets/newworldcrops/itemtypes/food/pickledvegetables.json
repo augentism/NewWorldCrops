@@ -8,13 +8,13 @@
 		"inPieProperties": { "texture": "newworldcrops:block/wood/barrel/{type}", "partType": "Filling" }
 	},
 	"variantgroups": [
-		{ "code": "type", "states": ["cauliflower"] }
+		{ "code": "type", "states": ["cauliflower", "beet"] }
 	],
 	"shapebytype": {
 		"*": { "base": "game:item/food/pickledvegetable/soypile" }
 	},
 	"texturesbytype":{
-		"*": { "soypile": {"base": "newworldcrops:item/food/vegetable/cauliflowerpile"}}
+		"*": { "soypile": {"base": "newworldcrops:item/food/vegetable/{type}pile"}}
 	},
 	"creativeinventory": { "general": ["*"], "items": ["*"] },
 	"nutritionPropsByType": {

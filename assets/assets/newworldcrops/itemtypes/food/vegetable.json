@@ -5,7 +5,7 @@
 	"variantgroups": [
 		{
 			"code": "type",
-			"states": ["potato", "tomato", "cauliflower"]
+			"states": ["potato", "tomato", "cauliflower", "beet"]
 		}
 	],
     "attributesByType": {
@@ -76,7 +76,8 @@
         "*":{"base": "newworldcrops:item/food/vegetable/{type}"}
     },
 	"texturebytype": {
-		"*-cauliflower": { "base": "newworldcrops:item/food/vegetable/{type}"}
+		"*-cauliflower": { "base": "newworldcrops:item/food/vegetable/{type}"},
+		"*": { "base": "newworldcrops:item/food/vegetable/{type}"}
 	},
     "materialDensity": 600,
 	"guiTransformByType": {
@@ -95,6 +96,11 @@
 			"translation": { "x": 18, "y": -14, "z": 0 },
 			"rotation": { "x": 158, "y": -19, "z": 1 },
 			"scale": 2.63
+		},
+		"*beet": {
+			"translation": { "x": 29, "y": -18, "z": 0 },
+			"rotation": { "x": -165, "y": -29, "z": -23 },
+			"scale": 2.39
 		}
 	},
 	
@@ -128,6 +134,12 @@
 			"rotation": { "x": 0, "y": -1, "z": 0 },
 			"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
 			"scale": 3.17
+		},
+		"*-beet":{
+			"translation": { "x": 0, "y": 0, "z": 0 },
+			"rotation": { "x": 90, "y": 0, "z": -14 },
+			"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
+			"scale": 2.38
 		}
 	}
 }

@@ -9,7 +9,7 @@
 			"F": { 
 				"type": "item", 
 				"code": "flour-*", 
-				"allowedVariants": ["corn"],
+				"allowedVariants": ["corn", "oat"],
 				"name": "type"
 			}
 		},

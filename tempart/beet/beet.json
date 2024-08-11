@@ -1,0 +1,76 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"beet3d": "/workspace/VSModding/NewWorldCrops/tempart/beet/beet3d"
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"from": [ 7.0, 0.0, 7.0 ],
+			"to": [ 8.0, 2.0, 8.0 ],
+			"rotationOrigin": [ 7.0, 0.0, 7.0 ],
+			"faces": {
+				"north": { "texture": "#beet3d", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+				"east": { "texture": "#beet3d", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+				"south": { "texture": "#beet3d", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+				"west": { "texture": "#beet3d", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+				"up": { "texture": "#beet3d", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+				"down": { "texture": "#beet3d", "uv": [ 0.0, 0.0, 1.0, 1.0 ] }
+			},
+			"children": [
+				{
+					"name": "Cube3",
+					"from": [ -1.0, 2.0, -1.0 ],
+					"to": [ 2.0, 6.0, 2.0 ],
+					"rotationOrigin": [ -1.0, 2.0, -1.0 ],
+					"faces": {
+						"north": { "texture": "#beet3d", "uv": [ 0.0, 0.0, 3.0, 4.0 ] },
+						"east": { "texture": "#beet3d", "uv": [ 0.0, 0.0, 3.0, 4.0 ] },
+						"south": { "texture": "#beet3d", "uv": [ 0.0, 0.0, 3.0, 4.0 ] },
+						"west": { "texture": "#beet3d", "uv": [ 0.0, 0.0, 3.0, 4.0 ] },
+						"up": { "texture": "#beet3d", "uv": [ 0.0, 0.0, 3.0, 3.0 ] },
+						"down": { "texture": "#beet3d", "uv": [ 0.0, 0.0, 3.0, 3.0 ] }
+					},
+					"children": [
+						{
+							"name": "Cube4",
+							"from": [ 0.0, 4.0, 1.5 ],
+							"to": [ 3.0, 7.0, 1.5 ],
+							"rotationOrigin": [ 1.5, 4.0, 1.5 ],
+							"rotationY": 45.0,
+							"faces": {
+								"north": { "texture": "#beet3d", "uv": [ 11.0, 2.5, 14.0, 5.5 ] },
+								"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 3.0 ] },
+								"south": { "texture": "#beet3d", "uv": [ 10.5, 3.0, 13.5, 6.0 ] },
+								"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 3.0 ] },
+								"up": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+								"down": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 0.5 ] }
+							}
+						},
+						{
+							"name": "Cube5",
+							"from": [ 0.0, 4.0, 1.5 ],
+							"to": [ 3.0, 7.0, 1.5 ],
+							"rotationOrigin": [ 1.5, 4.0, 1.5 ],
+							"rotationY": -45.0,
+							"faces": {
+								"north": { "texture": "#beet3d", "uv": [ 11.5, 3.5, 14.5, 6.5 ] },
+								"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 3.0 ] },
+								"south": { "texture": "#beet3d", "uv": [ 12.0, 4.5, 15.0, 7.5 ] },
+								"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 3.0 ] },
+								"up": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+								"down": { "texture": "#null", "uv": [ 0.0, 0.0, 3.0, 0.5 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

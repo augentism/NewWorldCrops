@@ -6,7 +6,7 @@
     "variantgroups": [
         {
             "code": "type",
-            "states": ["potato", "cauliflower"]
+            "states": ["potato", "cauliflower", "beet"]
         },
         {
             "code": "stage",
@@ -20,6 +20,9 @@
         },
         "*cauliflower*":{
             "all": { "base": "newworldcrops:block/plant/crop/{type}/cauliflower_{stage}"}
+        },
+        "*":{
+            "all": { "base": "newworldcrops:block/plant/crop/{type}/{type}-{stage}"}
         }
     },
     "creativeinventory": {
@@ -91,6 +94,24 @@
                 }
             }
         ],
+        "*-7": [
+            {
+                "type": "item",
+                "code": "newworldcrops:vegetable-{type}",
+                "quantity": {
+                    "avg": 7,
+                    "var": 4
+                }
+            },
+            {
+                "type": "item",
+                "code": "newworldcrops:seeds-{type}",
+                "quantity": {
+                    "avg": 1.5,
+                    "var": 0.5
+                }
+            }
+        ],
         "*": [
             {
                 "type": "item",
@@ -119,6 +140,19 @@
             "nutrientConsumption": 30,
             "growthStages": 7,
             "totalGrowthDays": 12,
+            "coldDamageBelow": 4,
+            "heatDamageAbove": 35,
+            "xpByType": {
+                "-6": 0.28,
+                "-7": 0.55,
+                "*": 0.0
+            }
+        },
+        "*beet*": {
+            "requiredNutrient": "N",
+            "nutrientConsumption": 30,
+            "growthStages": 7,
+            "totalGrowthDays": 9,
             "coldDamageBelow": 4,
             "heatDamageAbove": 35,
             "xpByType": {
