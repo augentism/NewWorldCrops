@@ -1,6 +1,7 @@
 {
     "code": "chimera",
     "class": "BlockCropFruit",
+    "storageFlags": 33,
     "behaviors": [ { "name": "Unstable" } ],
     "variantgroups": [
         {

@@ -5,7 +5,7 @@
 	"variantgroups": [
 		{
 			"code": "type",
-			"states": ["potato", "tomato"]
+			"states": ["potato", "tomato", "cauliflower"]
 		}
 	],
     "attributesByType": {
@@ -36,8 +36,11 @@
 			}
 		},
         "*": {
+			"inContainterTexture": {"base": "newworldcrops:block/wood/barrel/{type}"},
             "displaycaseable": true,
 			"shelvable": true,
+			"crockable": true,
+			"inPieProperties": { "texture": "newworldcrops:block/wood/barrel/{type}", "partType": "Filling", "allowMixing": false },
 			"nutritionPropsWhenInMeal": {
 				"satiety": 150,
 				"foodcategory": "Vegetable"
@@ -72,6 +75,9 @@
         "*-potato": { "base": "game:item/food/vegetable/potato"},
         "*":{"base": "newworldcrops:item/food/vegetable/{type}"}
     },
+	"texturebytype": {
+		"*-cauliflower": { "base": "newworldcrops:item/food/vegetable/{type}"}
+	},
     "materialDensity": 600,
 	"guiTransformByType": {
 		"*-potato": {
@@ -84,6 +90,11 @@
 			"translation": { "x": 19, "y": -20, "z": 0 },
 			"rotation": { "x": -22, "y": -53, "z": -174 },
 			"scale": 1.67
+		},
+		"*cauliflower":{
+			"translation": { "x": 18, "y": -14, "z": 0 },
+			"rotation": { "x": 158, "y": -19, "z": 1 },
+			"scale": 2.63
 		}
 	},
 	
@@ -111,6 +122,12 @@
 			"rotation": { "x": 0, "y": 0, "z": 0 },
 			"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
 			"scale": 1.5
+		},
+		"*-cauliflower": {
+			"translation": { "x": 0, "y": 0.31, "z": 0 },
+			"rotation": { "x": 0, "y": -1, "z": 0 },
+			"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
+			"scale": 3.17
 		}
 	}
 }

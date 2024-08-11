@@ -1,31 +1,38 @@
 {
     "code": "crop",
     "class": "BlockCrop",
+    "storageFlags": 33,
     "behaviors": [ { "name": "Unstable" } ],
     "variantgroups": [
         {
             "code": "type",
-            "states": ["potato"]
+            "states": ["potato", "cauliflower"]
         },
         {
             "code": "stage",
             "states": ["1","2","3","4","5","6","7"]
         }
     ],
-    "textures":{
-        "s": { "base": "game:block/plant/crop/{type}/w{stage}" },
-        "e": { "base": "game:block/plant/crop/{type}/e{stage}" }
+    "texturesByType":{
+        "*potato*":{
+            "s": { "base": "game:block/plant/crop/{type}/w{stage}" },
+            "e": { "base": "game:block/plant/crop/{type}/e{stage}" }
+        },
+        "*cauliflower*":{
+            "all": { "base": "newworldcrops:block/plant/crop/{type}/cauliflower_{stage}"}
+        }
     },
     "creativeinventory": {
         "general": [ "" ],
-        "plants": [ "" ]
+        "plants": [ "*" ]
     },
     "renderpass": "OpaqueNoCull",
     "shapeByType": {
-        "*-5": { "base": "newworldcrops:block/plant/crop/{type}/stage5" },
-		"*-6": { "base": "newworldcrops:block/plant/crop/{type}/stage6" },
-		"*-7": { "base": "newworldcrops:block/plant/crop/{type}/stage7" },
-		"*": { "base": "newworldcrops:block/plant/crop/{type}/stage1to4" }
+        "*potato-5": { "base": "newworldcrops:block/plant/crop/{type}/stage5" },
+		"*potato-6": { "base": "newworldcrops:block/plant/crop/{type}/stage6" },
+		"*potato-7": { "base": "newworldcrops:block/plant/crop/{type}/stage7" },
+		"*potato*": { "base": "newworldcrops:block/plant/crop/{type}/stage1to4" },
+        "*": { "base": "game:block/plant/crop/cross"}
 	},
     "blockmaterial": "Plant",
     "attributes": {
@@ -66,6 +73,24 @@
                 }
             }
         ],
+        "*cauliflower-7": [
+            {
+                "type": "item",
+                "code": "newworldcrops:vegetable-{type}",
+                "quantity": {
+                    "avg": 7,
+                    "var": 4
+                }
+            },
+            {
+                "type": "item",
+                "code": "newworldcrops:seeds-{type}",
+                "quantity": {
+                    "avg": 1.5,
+                    "var": 0.5
+                }
+            }
+        ],
         "*": [
             {
                 "type": "item",
@@ -81,6 +106,19 @@
             "nutrientConsumption": 35,
             "growthStages": 7,
             "totalGrowthDays": 8,
+            "coldDamageBelow": 4,
+            "heatDamageAbove": 35,
+            "xpByType": {
+                "-6": 0.28,
+                "-7": 0.55,
+                "*": 0.0
+            }
+        },
+        "*cauliflower*": {
+            "requiredNutrient": "N",
+            "nutrientConsumption": 30,
+            "growthStages": 7,
+            "totalGrowthDays": 12,
             "coldDamageBelow": 4,
             "heatDamageAbove": 35,
             "xpByType": {
