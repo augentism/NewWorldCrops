@@ -2,14 +2,17 @@
 	{
 		"ingredientPattern": "WF",
 		"ingredients": {
-			"W": { 
-				"type": "block", 
+			"W": {
+				"type": "block",
 				"code": "game:woodbucket"
 			},
-			"F": { 
-				"type": "item", 
-				"code": "flour-*", 
-				"allowedVariants": ["corn", "oat"],
+			"F": {
+				"type": "item",
+				"code": "flour-*",
+				"allowedVariants": [
+					"corn",
+					"oat"
+				],
 				"name": "type"
 			}
 		},
@@ -17,25 +20,34 @@
 		"height": 1,
 		"attributes": {
 			"liquidContainerProps": {
-				"requiresContent": { "type": "item", "code": "game:waterportion" },
+				"requiresContent": {
+					"type": "item",
+					"code": "game:waterportion"
+				},
 				"requiresLitres": 1
 			}
 		},
 		"name": "dough",
 		"shapeless": true,
-		"output": { "type": "item", "code": "dough-{type}"  }
+		"output": {
+			"type": "item",
+			"code": "dough-{type}"
+		}
 	},
 	{
 		"ingredientPattern": "WF",
 		"ingredients": {
-			"W": { 
-				"type": "block", 
+			"W": {
+				"type": "block",
 				"code": "game:bowl-fired"
 			},
-			"F": { 
-				"type": "item", 
-				"code": "flour-*", 
-				"allowedVariants": ["corn"],
+			"F": {
+				"type": "item",
+				"code": "flour-*",
+				"allowedVariants": [
+					"corn",
+					"oat"
+				],
 				"name": "type"
 			}
 		},
@@ -43,25 +55,34 @@
 		"height": 1,
 		"attributes": {
 			"liquidContainerProps": {
-				"requiresContent": { "type": "item", "code": "game:waterportion" },
+				"requiresContent": {
+					"type": "item",
+					"code": "game:waterportion"
+				},
 				"requiresLitres": 1
 			}
 		},
 		"name": "dough",
 		"shapeless": true,
-		"output": { "type": "item", "code": "dough-{type}"  }
+		"output": {
+			"type": "item",
+			"code": "dough-{type}"
+		}
 	},
 	{
 		"ingredientPattern": "WF",
 		"ingredients": {
-			"W": { 
-				"type": "block", 
+			"W": {
+				"type": "block",
 				"code": "game:jug-*-fired"
 			},
-			"F": { 
-				"type": "item", 
-				"code": "flour-*", 
-				"allowedVariants": ["corn"],
+			"F": {
+				"type": "item",
+				"code": "flour-*",
+				"allowedVariants": [
+					"corn",
+					"oat"
+				],
 				"name": "type"
 			}
 		},
@@ -69,12 +90,18 @@
 		"height": 1,
 		"attributes": {
 			"liquidContainerProps": {
-				"requiresContent": { "type": "item", "code": "game:waterportion" },
+				"requiresContent": {
+					"type": "item",
+					"code": "game:waterportion"
+				},
 				"requiresLitres": 1
 			}
 		},
 		"name": "dough",
 		"shapeless": true,
-		"output": { "type": "item", "code": "dough-{type}"  }
+		"output": {
+			"type": "item",
+			"code": "dough-{type}"
+		}
 	}
 ]

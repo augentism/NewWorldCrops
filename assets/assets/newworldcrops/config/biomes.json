@@ -31,6 +31,18 @@
             "atlantic nearctic",
             "pacific neotropic",
             "atlantic neotropic"
+        ],
+        "*-cauliflower-*": [
+            "central palearctic",
+            "atlantic palearctic"
+        ],
+        "*-beet-*": [
+            "atlantic palearctic"
+        ],
+        "*-oat-*": [
+            "eastern palearctic",
+            "central palearctic",
+            "atlantic palearctic"
         ]
     }
 }

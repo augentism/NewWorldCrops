@@ -111,5 +111,53 @@
             "quantity": { "avg": 5, "var": 4 },
             "chance": 0.036
         }
+    },
+    {
+        "file": "game:worldgen/blockpatches/crop.json",
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+            "comment": "Small patches of cauliflower",
+            "blockCodes": ["newworldcrops:crop-cauliflower-4", "newworldcrops:crop-cauliflower-6", "newworldcrops:crop-cauliflower-7","newworldcrops:crop-cauliflower-2"],
+            "minTemp": 0,
+            "maxTemp": 25,
+            "minRain": 0.35,
+            "maxRain": 0.75,
+            "maxForest": 0.5,
+            "quantity": { "avg": 5, "var": 4 },
+            "chance": 0.036
+        }
+    },
+    {
+        "file": "game:worldgen/blockpatches/crop.json",
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+            "comment": "Small patches of beets",
+            "blockCodes": ["newworldcrops:crop-beet-4", "newworldcrops:crop-beet-6", "newworldcrops:crop-beet-7","newworldcrops:crop-beet-2"],
+            "minTemp": 0,
+            "maxTemp": 35,
+            "minRain": 0.35,
+            "maxRain": 0.75,
+            "maxForest": 0.5,
+            "quantity": { "avg": 5, "var": 4 },
+            "chance": 0.036
+        }
+    },
+    {
+        "file": "game:worldgen/blockpatches/crop.json",
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+            "comment": "Small patches of oats",
+            "blockCodes": ["newworldcrops:crop-oat-4", "newworldcrops:crop-oat-6", "newworldcrops:crop-oat-9","newworldcrops:crop-oat-2"],
+            "minTemp": 5,
+            "maxTemp": 40,
+            "minRain": 0.35,
+            "maxRain": 0.75,
+            "maxForest": 0.5,
+            "quantity": { "avg": 5, "var": 4 },
+            "chance": 0.036
+        }
     }
 ]
