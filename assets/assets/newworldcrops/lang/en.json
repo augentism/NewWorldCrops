@@ -169,6 +169,8 @@
     "newworldcrops:item-dough-oat": "Oatbread dough",
     "newworldcrops:block-crop-oat-*": "Growing Oats",
     "newworldcrops:block-crop-oat-9": "Mature Oats",
+    "game:meal-ingredient-porridge-primary-grain-oat": "Oat",
+    "game:meal-ingredient-porridge-secondary-grain-oat": "Oat",
     "game:recipeingredient-item-grain-oat": "oat",
     "game:meal-ingredient-soup-primary-grain-oat": "Oat",
     "game:meal-ingredient-soup-secondary-grain-oat": "Oat",
