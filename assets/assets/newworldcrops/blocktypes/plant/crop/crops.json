@@ -27,7 +27,7 @@
     },
     "creativeinventory": {
         "general": [ "" ],
-        "plants": [ "" ]
+        "plants": [ "*" ]
     },
     "renderpass": "OpaqueNoCull",
     "shapeByType": {
@@ -57,6 +57,7 @@
 	"sidesolid": {
 		"all": false
 	},
+	"lightAbsorption": 0,
     "dropsByType": {
         "*potato-7": [
             

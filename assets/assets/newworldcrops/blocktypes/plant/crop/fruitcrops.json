@@ -18,7 +18,7 @@
     },
     "creativeinventory": {
         "general": [ "" ],
-        "plants": [ "" ]
+        "plants": [ "*" ]
     },
     "renderpass": "OpaqueNoCull",
     "shapeByType": {
@@ -28,6 +28,7 @@
     "sideopaque": {
 		"all": false
 	},
+    "lightAbsorption": 0,
 	"sidesolid": {
 		"all": false
 	},
