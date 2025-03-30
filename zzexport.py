@@ -2,9 +2,16 @@ import os
 import zipfile
 import io
 import shutil
+import json
+
+version = "0.0.0"
+with open('./modinfo.json') as f:
+    d = json.load(f)
+    version = d["Version"]
+
 cwd = os.getcwd()
 #print(cwd)
-zip_name = "NewWorldCrops_0.0.9"
+zip_name = "NewWorldCrops_" + version
 directory_name = "assets"
 fullpath = os.path.join(cwd,directory_name)
 #print(fullpath)
