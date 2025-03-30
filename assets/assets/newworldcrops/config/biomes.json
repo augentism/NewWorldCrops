@@ -32,12 +32,12 @@
             "pacific neotropic",
             "atlantic neotropic"
         ],
-        "*-cauliflower-*": [
-            "central palearctic",
-            "atlantic palearctic"
-        ],
         "*-beet-*": [
             "atlantic palearctic"
+        ],
+        "*wildcabbage-2": [
+            "atlantic palearctic",
+            "central palearctic"
         ],
         "*-oat-*": [
             "eastern palearctic",

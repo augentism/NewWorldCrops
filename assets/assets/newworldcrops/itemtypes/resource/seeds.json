@@ -6,7 +6,7 @@
 	"variantgroups": [
 		{ "code": "type",
         "states": ["potato", "corn", "blackbean", "greenbean","kidneybean","pepper", "tomato","sisterblack","sisterkidney","sistergreen","sisterblacksun","sisterkidneysun","sistergreensun",
-				   "oat", "cauliflower", "beet"] }
+				   "oat", "cauliflower", "beet", "wildcabbage"] }
 	],
     "shape": { "base": "game:item/resource/seeds/seedbag" },
 	"texturesByType": {

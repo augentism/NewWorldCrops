@@ -30,6 +30,7 @@
     "newworldcrops:item-pickledgrain-corn": "Pickled Corn",
 
     "newworldcrops:recipeingredient-item-vegetable-insturmentalcase": "vegetables",
+    "newworldcrops:recipeingredient-item-legume-insturmentalcase": "bean",
 
 
     "game:meal-ingredient-porridge-primary-grain-corn": "Corn",
@@ -303,7 +304,10 @@
     "newworldcrops:block-crop-sistergreen-11": "Three sisters (mature)",
     "newworldcrops:block-crop-sisterblacksun-11": "Sun sisters (mature)",
     "newworldcrops:block-crop-sisterkidneysun-11": "Sun sisters (mature)",
-    "newworldcrops:block-crop-sistergreensun-11": "Sun sisters (mature)"
+    "newworldcrops:block-crop-sistergreensun-11": "Sun sisters (mature)",
+
+
+    "newworldcrops:block-crop-wildcabbage": "Wild Cabbage"
 
 
 }

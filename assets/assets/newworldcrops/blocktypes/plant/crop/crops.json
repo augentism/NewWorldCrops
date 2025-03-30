@@ -32,11 +32,11 @@
     "renderpass": "OpaqueNoCull",
     "shapeByType": {
         "*potato-5": { "base": "newworldcrops:block/plant/crop/{type}/stage5" },
-		"*potato-6": { "base": "newworldcrops:block/plant/crop/{type}/stage6" },
-		"*potato-7": { "base": "newworldcrops:block/plant/crop/{type}/stage7" },
-		"*potato*": { "base": "newworldcrops:block/plant/crop/{type}/stage1to4" },
+        "*potato-6": { "base": "newworldcrops:block/plant/crop/{type}/stage6" },
+        "*potato-7": { "base": "newworldcrops:block/plant/crop/{type}/stage7" },
+        "*potato*": { "base": "newworldcrops:block/plant/crop/{type}/stage1to4" },
         "*": { "base": "game:block/plant/crop/cross"}
-	},
+    },
     "blockmaterial": "Plant",
     "attributes": {
         "butterflyFeedByType": {
@@ -52,12 +52,12 @@
         }
     },
     "sideopaque": {
-		"all": false
-	},
-	"sidesolid": {
-		"all": false
-	},
-	"lightAbsorption": 0,
+        "all": false
+    },
+    "sidesolid": {
+        "all": false
+    },
+    "lightAbsorption": 0,
     "dropsByType": {
         "*potato-7": [
             
@@ -178,9 +178,9 @@
         "burnDuration": 10
     },
     "resistance": 0.5,
-	"sounds": {
-		"place": "game:block/plant",
-		"break": "game:block/plant",
-		"hit": "game:block/plant"
-	}
+    "sounds": {
+        "place": "game:block/plant",
+        "break": "game:block/plant",
+        "hit": "game:block/plant"
+    }
 }

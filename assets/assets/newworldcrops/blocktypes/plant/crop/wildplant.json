@@ -1,0 +1,111 @@
+
+{
+  "code": "crop",
+  "class": "BlockCrop",
+  "storageFlags": 33,
+  "behaviors": [ { "name": "Unstable" } ],
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": ["wildcabbage"]
+    },
+    {
+        "code": "stage",
+        "states": ["1","2"]
+    }
+  ],
+  "texturesByType":{
+    "*wildcabbage-2":{
+      "all": { "base": "newworldcrops:block/plant/crop/{type}/wildcabbage"}
+    },
+    "*":{
+      "all": { "base": "newworldcrops:block/plant/crop/{type}/{type}-{stage}"}
+    }
+  },
+  "creativeinventory": {
+    "general": [ "" ],
+    "plants": [ "*" ]
+  },
+  "renderpass": "OpaqueNoCull",
+  "shapeByType": {
+    "*": { "base": "game:block/plant/crop/cross"}
+  },
+  "blockmaterial": "Plant",
+  "attributes": {
+    "butterflyFeedByType": {
+    "*": true
+    },
+    "beeFeedByType": {
+    "*": true
+    },
+    "sitHeight": 0.3,
+    "tickGrowthProbability": 0.05,
+    "handbook": {
+    "include": false
+    }
+  },
+  "sideopaque": {
+  "all": false
+  },
+  "sidesolid": {
+    "all": false
+  },
+  "lightAbsorption": 0,
+  "dropsByType": {
+    "*wildcabbage-2": [
+        
+      {
+        "type": "item",
+        "code": "newworldcrops:seeds-cauliflower",
+        "quantity": {
+          "avg": 3,
+          "var": 1
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:seeds-cabbage",
+        "quantity": {
+          "avg": 3,
+          "var": 1
+        }
+      }
+    ],
+    "*": [
+    ]
+
+  },
+  "cropPropsByType": {
+    "*wildcabbage*": {
+      "requiredNutrient": "N",
+      "nutrientConsumption": 5,
+      "growthStages": 2,
+      "totalGrowthDays": 1,
+      "coldDamageBelow": -6,
+      "heatDamageAbove": 35,
+      "xpByType": {
+        "*": 0.0
+      }
+    }
+  },
+  "collisionbox": null,
+  "selectionbox": {
+    "x1": 0.0625,
+    "y1": 0,
+    "z1": 0.0625,
+    "x2": 0.9375,
+    "y2": 0.25,
+    "z2": 0.9375
+  },
+  "materialDensity": 200,
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 10
+  },
+  "resistance": 0.5,
+  "sounds": {
+    "place": "game:block/plant",
+    "break": "game:block/plant",
+    "hit": "game:block/plant"
+  }
+}

@@ -117,14 +117,14 @@
         "op": "addmerge",
         "path": "/-",
         "value": {
-            "comment": "Small patches of cauliflower",
-            "blockCodes": ["newworldcrops:crop-cauliflower-4", "newworldcrops:crop-cauliflower-6", "newworldcrops:crop-cauliflower-7","newworldcrops:crop-cauliflower-2"],
-            "minTemp": 0,
+            "comment": "Small patches of wild cabbage",
+            "blockCodes": ["newworldcrops:crop-wildcabbage-2"],
+            "minTemp": -3,
             "maxTemp": 25,
-            "minRain": 0.35,
+            "minRain": 0.3,
             "maxRain": 0.75,
             "maxForest": 0.5,
-            "quantity": { "avg": 5, "var": 4 },
+            "quantity": { "avg": 3, "var": 2 },
             "chance": 0.036
         }
     },

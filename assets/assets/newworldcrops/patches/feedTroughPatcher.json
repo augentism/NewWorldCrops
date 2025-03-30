@@ -1,0 +1,56 @@
+[
+    {
+        "file": "game:blocktypes/wood/trough-small.json",
+        "op": "addmerge",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "oat",
+            "content": {"type": "item", "code": "newworldcrops:grain-oat"},
+            "foodFor": ["chicken-*"],
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill4", "block/wood/trough/small/grainfill4"],
+            "textureCode": "contents-amaranth"
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/trough-small.json",
+        "op": "addmerge",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "corn",
+            "content": {"type": "item", "code": "newworldcrops:grain-corn"},
+            "foodFor": ["chicken-*"],
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill1", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill2", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill3", "block/wood/trough/small/grainfill4", "block/wood/trough/small/grainfill4"],
+            "textureCode": "contents-rye"
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/trough-large.json",
+        "op": "addmerge",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "oat",
+            "content": {"type": "item", "code": "newworldcrops:grain-oat"},
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+            "textureCode": "contents-amaranth"
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/trough-large.json",
+        "op": "addmerge",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "corn",
+            "content": {"type": "item", "code": "newworldcrops:grain-corn"},
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": ["block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill1", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill2", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill3", "block/wood/trough/large/grainfill4", "block/wood/trough/large/grainfill4"],
+            "textureCode": "contents-rye"
+        }
+    }
+]
