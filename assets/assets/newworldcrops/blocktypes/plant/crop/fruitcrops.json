@@ -18,7 +18,7 @@
     },
     "creativeinventory": {
         "general": [ "" ],
-        "plants": [ "*" ]
+        "plants": [ "" ]
     },
     "renderpass": "OpaqueNoCull",
     "shapeByType": {
