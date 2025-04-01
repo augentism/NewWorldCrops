@@ -1,145 +1,284 @@
 {
-    "code": "vegetable",
-	"storageFlags": 33,
-	"maxstacksize": 64,
-	"variantgroups": [
-		{
-			"code": "type",
-			"states": ["potato", "tomato", "cauliflower", "beet"]
-		}
-	],
-    "attributesByType": {
-		"*-potato": {
-			"inContainerTexture": { "base": "game:block/wood/barrel/raw-potato" },
-			"displaycaseable": true,
-			"shelvable": true,
-			"bakingProperties": {
-				"temp": 160,
-				"levelFrom": 0.0,
-				"levelTo": 0.25,
-				"startScaleY": 0.9,
-				"endScaleY": 0.95,
-				"resultCode": "newworldcrops:bread-{type}-partbaked"
-			},
-			"nutritionPropsWhenInMeal": {
-				"satiety": 150,
-				"foodcategory": "Vegetable"
-			}
-		},
-		"*-tomato": {
-			"inContainerTexture": { "base": "game:block/wood/barrel/raw-tomato" },
-			"displaycaseable": true,
-			"shelvable": true,
-			"nutritionPropsWhenInMeal": {
-				"satiety": 150,
-				"foodcategory": "Vegetable"
-			}
-		},
-        "*": {
-			"inContainterTexture": {"base": "newworldcrops:block/wood/barrel/{type}"},
-            "displaycaseable": true,
-			"shelvable": true,
-			"crockable": true,
-			"inPieProperties": { "texture": "newworldcrops:block/wood/barrel/{type}", "partType": "Filling", "allowMixing": false },
-			"nutritionPropsWhenInMeal": {
-				"satiety": 150,
-				"foodcategory": "Vegetable"
-			}
+        "code": "vegetable",
+        "storageFlags": 33,
+        "maxstacksize": 64,
+        "variantgroups": [
+                {
+                        "code": "type",
+                        "states": [
+                                "potato",
+                                "tomato",
+                                "cauliflower",
+                                "beet"
+                        ]
+                }
+        ],
+        "attributesByType": {
+                "*-potato": {
+                        "inContainerTexture": {
+                                "base": "game:block/wood/barrel/raw-potato"
+                        },
+                        "displaycaseable": true,
+                        "shelvable": true,
+                        "bakingProperties": {
+                                "temp": 160,
+                                "levelFrom": 0.0,
+                                "levelTo": 0.25,
+                                "startScaleY": 0.9,
+                                "endScaleY": 0.95,
+                                "resultCode": "newworldcrops:bread-{type}-partbaked"
+                        },
+                        "nutritionPropsWhenInMeal": {
+                                "satiety": 150,
+                                "foodcategory": "Vegetable"
+                        },
+                        "juiceablePropertiesByType": {
+                                "*-potato": {
+                                        "litresPerItem": 0.625,
+                                        "liquidStack": {
+                                                "type": "item",
+                                                "code": "newworldcrops:juiceportion-potato",
+                                                "stacksize": 1
+                                        },
+                                        "pressedStack": {
+                                                "type": "item",
+                                                "code": "newworldcrops:pressedmash-potato",
+                                                "stacksize": 2
+                                        }
+                                }
+                        }
+                },
+                "*-tomato": {
+                        "inContainerTexture": {
+                                "base": "game:block/wood/barrel/raw-tomato"
+                        },
+                        "displaycaseable": true,
+                        "shelvable": true,
+                        "nutritionPropsWhenInMeal": {
+                                "satiety": 150,
+                                "foodcategory": "Vegetable"
+                        }
+                },
+                "*": {
+                        "inContainterTexture": {
+                                "base": "newworldcrops:block/wood/barrel/{type}"
+                        },
+                        "displaycaseable": true,
+                        "shelvable": true,
+                        "crockable": true,
+                        "inPieProperties": {
+                                "texture": "newworldcrops:block/wood/barrel/{type}",
+                                "partType": "Filling",
+                                "allowMixing": false
+                        },
+                        "nutritionPropsWhenInMeal": {
+                                "satiety": 150,
+                                "foodcategory": "Vegetable"
+                        }
+                }
+        },
+        "creativeinventory": {
+                "general": [
+                        "*"
+                ],
+                "nwc": [
+                        "*"
+                ]
+        },
+        "nutritionPropsByType": {
+                "*": {
+                        "satiety": 100,
+                        "foodcategory": "Vegetable"
+                }
+        },
+        "transitionablePropsByType": {
+                "*": [
+                        {
+                                "type": "Perish",
+                                "freshHours": {
+                                        "avg": 504
+                                },
+                                "transitionHours": {
+                                        "avg": 96
+                                },
+                                "transitionedStack": {
+                                        "type": "item",
+                                        "code": "game:rot"
+                                },
+                                "transitionRatio": 0.5
+                        }
+                ]
+        },
+        "shapebytype": {
+                "*-potato": {
+                        "base": "game:item/food/vegetable/potato"
+                },
+                "*": {
+                        "base": "newworldcrops:item/food/vegetable/{type}"
+                }
+        },
+        "texturebytype": {
+                "*-cauliflower": {
+                        "base": "newworldcrops:item/food/vegetable/{type}"
+                },
+                "*": {
+                        "base": "newworldcrops:item/food/vegetable/{type}"
+                }
+        },
+        "materialDensity": 600,
+        "guiTransformByType": {
+                "*-potato": {
+                        "translation": {
+                                "x": 3,
+                                "y": 0,
+                                "z": 0
+                        },
+                        "rotation": {
+                                "x": -37,
+                                "y": 135,
+                                "z": -155
+                        },
+                        "origin": {
+                                "x": 0.5,
+                                "y": 0.22,
+                                "z": 0.5
+                        },
+                        "scale": 3
+                },
+                "*tomato": {
+                        "translation": {
+                                "x": 19,
+                                "y": -20,
+                                "z": 0
+                        },
+                        "rotation": {
+                                "x": -22,
+                                "y": -53,
+                                "z": -174
+                        },
+                        "scale": 1.67
+                },
+                "*cauliflower": {
+                        "translation": {
+                                "x": 18,
+                                "y": -14,
+                                "z": 0
+                        },
+                        "rotation": {
+                                "x": 158,
+                                "y": -19,
+                                "z": 1
+                        },
+                        "scale": 2.63
+                },
+                "*beet": {
+                        "translation": {
+                                "x": 29,
+                                "y": -18,
+                                "z": 0
+                        },
+                        "rotation": {
+                                "x": -165,
+                                "y": -29,
+                                "z": -23
+                        },
+                        "scale": 2.39
+                }
+        },
+        "fpHandTransformByType": {
+                "*-potato": {
+                        "translation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                        },
+                        "rotation": {
+                                "x": 45,
+                                "y": 47,
+                                "z": -30
+                        },
+                        "origin": {
+                                "x": 0.5,
+                                "y": 0.3,
+                                "z": 0.5
+                        },
+                        "scale": 1.9
+                }
+        },
+        "tpHandTransformByType": {
+                "*-potato": {
+                        "translation": {
+                                "x": -0.8,
+                                "y": -0.18,
+                                "z": -0.7
+                        },
+                        "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": -76
+                        },
+                        "origin": {
+                                "x": 0.5,
+                                "y": 0.1,
+                                "z": 0.5
+                        },
+                        "scale": 0.69
+                }
+        },
+        "groundTransformByType": {
+                "*-tomato": {
+                        "translation": {
+                                "x": 0,
+                                "y": 0.5,
+                                "z": 0
+                        },
+                        "rotation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                        },
+                        "origin": {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "z": 0.5299
+                        },
+                        "scale": 1.5
+                },
+                "*-cauliflower": {
+                        "translation": {
+                                "x": 0,
+                                "y": 0.31,
+                                "z": 0
+                        },
+                        "rotation": {
+                                "x": 0,
+                                "y": -1,
+                                "z": 0
+                        },
+                        "origin": {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "z": 0.5299
+                        },
+                        "scale": 3.17
+                },
+                "*-beet": {
+                        "translation": {
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                        },
+                        "rotation": {
+                                "x": 90,
+                                "y": 0,
+                                "z": -14
+                        },
+                        "origin": {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "z": 0.5299
+                        },
+                        "scale": 2.38
+                }
         }
-    },
-    "creativeinventory": {
-		"general": [ "*" ],
-		"items": [ "*" ]
-	},
-    "nutritionPropsByType": {
-		"*": {
-			"satiety": 100,
-			"foodcategory": "Vegetable"
-		}
-	},
-    "transitionablePropsByType": {
-		"*": [
-			{
-				"type": "Perish",
-				"freshHours": { "avg": 504 },
-				"transitionHours": { "avg": 96 },
-				"transitionedStack": {
-					"type": "item",
-					"code": "game:rot"
-				},
-				"transitionRatio": 0.5
-			}
-		]
-	},
-    "shapebytype": {
-        "*-potato": { "base": "game:item/food/vegetable/potato"},
-        "*":{"base": "newworldcrops:item/food/vegetable/{type}"}
-    },
-	"texturebytype": {
-		"*-cauliflower": { "base": "newworldcrops:item/food/vegetable/{type}"},
-		"*": { "base": "newworldcrops:item/food/vegetable/{type}"}
-	},
-    "materialDensity": 600,
-	"guiTransformByType": {
-		"*-potato": {
-			"translation": { "x": 3, "y": 0, "z": 0 },
-			"rotation": { "x": -37, "y": 135, "z": -155 },
-			"origin": { "x": 0.5, "y": 0.22, "z": 0.5 },
-			"scale": 3
-		},
-		"*tomato":{
-			"translation": { "x": 19, "y": -20, "z": 0 },
-			"rotation": { "x": -22, "y": -53, "z": -174 },
-			"scale": 1.67
-		},
-		"*cauliflower":{
-			"translation": { "x": 18, "y": -14, "z": 0 },
-			"rotation": { "x": 158, "y": -19, "z": 1 },
-			"scale": 2.63
-		},
-		"*beet": {
-			"translation": { "x": 29, "y": -18, "z": 0 },
-			"rotation": { "x": -165, "y": -29, "z": -23 },
-			"scale": 2.39
-		}
-	},
-	
-	"fpHandTransformByType": {
-		"*-potato": {
-			"translation": { "x": 0, "y": 0, "z": 0 },
-			"rotation": { "x": 45, "y": 47, "z": -30 },
-			"origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
-			"scale": 1.9
-		}
-		
-	},
-	"tpHandTransformByType": {
-		"*-potato": {
-			"translation": { "x": -0.8, "y": -0.18, "z": -0.7 },
-			"rotation": { "x": 0, "y": 0, "z": -76 },
-			"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
-			"scale": 0.69
-		}
-	},
-	"groundTransformByType":{
-
-		"*-tomato": {
-			"translation": { "x": 0, "y": 0.5, "z": 0 },
-			"rotation": { "x": 0, "y": 0, "z": 0 },
-			"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
-			"scale": 1.5
-		},
-		"*-cauliflower": {
-			"translation": { "x": 0, "y": 0.31, "z": 0 },
-			"rotation": { "x": 0, "y": -1, "z": 0 },
-			"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
-			"scale": 3.17
-		},
-		"*-beet":{
-			"translation": { "x": 0, "y": 0, "z": 0 },
-			"rotation": { "x": 90, "y": 0, "z": -14 },
-			"origin": { "x": 0.5, "y": 0.5, "z": 0.5299 },
-			"scale": 2.38
-		}
-	}
 }

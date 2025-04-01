@@ -2,53 +2,91 @@
     "code": "crop",
     "class": "BlockCrop",
     "storageFlags": 33,
-    "behaviors": [ { "name": "Unstable" } ],
+    "behaviors": [
+        {
+            "name": "Unstable"
+        }
+    ],
     "variantgroups": [
         {
             "code": "type",
-            "states": ["potato", "cauliflower", "beet"]
+            "states": [
+                "potato",
+                "cauliflower",
+                "beet"
+            ]
         },
         {
             "code": "stage",
-            "states": ["1","2","3","4","5","6","7"]
+            "states": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7"
+            ]
         }
     ],
-    "texturesByType":{
-        "*potato*":{
-            "s": { "base": "game:block/plant/crop/{type}/w{stage}" },
-            "e": { "base": "game:block/plant/crop/{type}/e{stage}" }
+    "texturesByType": {
+        "*potato*": {
+            "s": {
+                "base": "game:block/plant/crop/{type}/w{stage}"
+            },
+            "e": {
+                "base": "game:block/plant/crop/{type}/e{stage}"
+            }
         },
-        "*cauliflower*":{
-            "all": { "base": "newworldcrops:block/plant/crop/{type}/cauliflower_{stage}"}
+        "*cauliflower*": {
+            "all": {
+                "base": "newworldcrops:block/plant/crop/{type}/cauliflower_{stage}"
+            }
         },
-        "*":{
-            "all": { "base": "newworldcrops:block/plant/crop/{type}/{type}-{stage}"}
+        "*": {
+            "all": {
+                "base": "newworldcrops:block/plant/crop/{type}/{type}-{stage}"
+            }
         }
     },
     "creativeinventory": {
-        "general": [ "" ],
-        "plants": [ "" ]
+        "general": [
+            ""
+        ],
+        "plants": [
+            ""
+        ]
     },
     "renderpass": "OpaqueNoCull",
     "shapeByType": {
-        "*potato-5": { "base": "newworldcrops:block/plant/crop/{type}/stage5" },
-        "*potato-6": { "base": "newworldcrops:block/plant/crop/{type}/stage6" },
-        "*potato-7": { "base": "newworldcrops:block/plant/crop/{type}/stage7" },
-        "*potato*": { "base": "newworldcrops:block/plant/crop/{type}/stage1to4" },
-        "*": { "base": "game:block/plant/crop/cross"}
+        "*potato-5": {
+            "base": "newworldcrops:block/plant/crop/{type}/stage5"
+        },
+        "*potato-6": {
+            "base": "newworldcrops:block/plant/crop/{type}/stage6"
+        },
+        "*potato-7": {
+            "base": "newworldcrops:block/plant/crop/{type}/stage7"
+        },
+        "*potato*": {
+            "base": "newworldcrops:block/plant/crop/{type}/stage1to4"
+        },
+        "*": {
+            "base": "game:block/plant/crop/cross"
+        }
     },
     "blockmaterial": "Plant",
     "attributes": {
         "butterflyFeedByType": {
-        "*": true
+            "*": true
         },
         "beeFeedByType": {
-        "*": true
+            "*": true
         },
         "sitHeight": 0.3,
         "tickGrowthProbability": 0.05,
         "handbook": {
-        "include": true
+            "include": true
         }
     },
     "sideopaque": {
@@ -60,11 +98,12 @@
     "lightAbsorption": 0,
     "dropsByType": {
         "*potato-7": [
-            
             {
                 "type": "block",
                 "code": "crop-{type}-7",
-                "quantity": { "avg": 1 },
+                "quantity": {
+                    "avg": 1
+                },
                 "tool": "knife",
                 "lastDrop": true
             },
@@ -117,10 +156,11 @@
             {
                 "type": "item",
                 "code": "newworldcrops:seeds-{type}",
-                "quantity": {"avg": 0.7}
+                "quantity": {
+                    "avg": 0.7
+                }
             }
         ]
-        
     },
     "cropPropsByType": {
         "*potato*": {
@@ -128,7 +168,7 @@
             "nutrientConsumption": 35,
             "growthStages": 7,
             "totalGrowthDays": 8,
-            "coldDamageBelow": 4,
+            "coldDamageBelow": -10,
             "heatDamageAbove": 35,
             "xpByType": {
                 "-6": 0.28,
@@ -140,9 +180,9 @@
             "requiredNutrient": "N",
             "nutrientConsumption": 30,
             "growthStages": 7,
-            "totalGrowthDays": 12,
-            "coldDamageBelow": 4,
-            "heatDamageAbove": 35,
+            "totalGrowthDays": 8,
+            "coldDamageBelow": -2,
+            "heatDamageAbove": 30,
             "xpByType": {
                 "-6": 0.28,
                 "-7": 0.55,
@@ -154,7 +194,7 @@
             "nutrientConsumption": 30,
             "growthStages": 7,
             "totalGrowthDays": 9,
-            "coldDamageBelow": 4,
+            "coldDamageBelow": -10,
             "heatDamageAbove": 35,
             "xpByType": {
                 "-6": 0.28,

@@ -1,0 +1,185 @@
+{
+  "code": "ciderportion",
+  "variantGroups": [
+    {
+      "code": "fruit",
+      "states": [
+        "corn",
+        "potato"
+      ]
+    }
+  ],
+  "skipVariants": [
+    "*-pinkapple",
+    "*-redapple",
+    "*-yellowapple",
+    "*-olive"
+  ],
+  "class": "ItemLiquidPortion",
+  "matterState": "liquid",
+  "attributes": {
+    "handbook": {
+      "ignoreCreativeInvStacks": true
+    },
+    "distillationPropsbytype": {
+      "ciderportion-corn": {
+        "distilledStack": {
+          "type": "item",
+          "code": "newworldcrops:spiritportion-corn"
+        },
+        "ratio": 0.05
+      },
+      "ciderportion-potato": {
+        "distilledStack": {
+          "type": "item",
+          "code": "newworldcrops:spiritportion-potato"
+        },
+        "ratio": 0.05
+      },
+      "*": {
+        "distilledStack": {
+          "type": "item",
+          "code": "newworldcrops:spiritportion-{fruit}"
+        },
+        "ratio": 0.1
+      }
+    },
+    "waterTightContainerProps": {
+      "containable": true,
+      "itemsPerLitre": 100,
+      "texturebytype": {
+        "*-corn": {
+          "base": "game:block/food/pie/fill-gooseberry",
+          "alpha": 180
+        },
+        "*-potato": {
+          "base": "game:block/food/pie/fill-cassava",
+          "alpha": 180
+        },
+        "*": {
+          "base": "game:block/food/pie/fill-{fruit}",
+          "alpha": 180
+        }
+      },
+      "allowSpill": true,
+      "whenSpilled": {
+        "action": "DropContents",
+        "stack": {
+          "type": "item",
+          "code": "newworldcrops:ciderportion-{fruit}",
+          "states": [
+            "corn",
+            "potato"
+          ]
+        }
+      },
+      "nutritionPropsPerLitre": {
+        "satiety": 80,
+        "intoxication": 0.15,
+        "foodcategorybytype": {
+          "*-corn": "Grain",
+          "*-potato": "Grain",
+          "*": "Fruit"
+        }
+      }
+    }
+  },
+  "shape": {
+    "base": "game:item/liquid"
+  },
+  "texturebytype": {
+    "*-corn": {
+      "base": "game:block/food/pie/fill-gooseberry",
+      "alpha": 180
+    },
+    "*-potato": {
+      "base": "game:block/food/pie/fill-cassava",
+      "alpha": 180
+    },
+    "*": {
+      "base": "game:block/food/pie/fill-{fruit}",
+      "alpha": 180
+    }
+  },
+  "creativeinventoryStacks": [
+    {
+      "tabs": [
+        "nwc"
+      ],
+      "stacks": [
+        {
+          "type": "block",
+          "code": "game:woodbucket",
+          "attributes": {
+            "ucontents": [
+              {
+                "type": "item",
+                "code": "newworldcrops:ciderportion-{fruit}",
+                "states": [
+                  "corn",
+                  "potato"
+                ],
+                "makefull": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "maxstacksize": 5000,
+  "materialDensity": 200,
+  "guiTransform": {
+    "translation": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "rotation": {
+      "x": 123,
+      "y": -33,
+      "z": -13
+    },
+    "origin": {
+      "x": 0.5,
+      "y": 0,
+      "z": 0.5
+    },
+    "scale": 1.4
+  },
+  "fpHandTransform": {
+    "translation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 25,
+      "y": 157,
+      "z": -5
+    }
+  },
+  "tpHandTransform": {
+    "translation": {
+      "x": -1.5,
+      "y": -1,
+      "z": -1.4
+    }
+  },
+  "transitionableProps": [
+    {
+      "type": "Perish",
+      "freshHours": {
+        "avg": 3360
+      },
+      "transitionHours": {
+        "avg": 48
+      },
+      "transitionedStack": {
+        "type": "item",
+        "code": "game:rot"
+      },
+      "transitionRatio": 0.005
+    }
+  ]
+}

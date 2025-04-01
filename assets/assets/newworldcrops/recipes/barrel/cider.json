@@ -1,0 +1,44 @@
+[
+  {
+    "code": "corn",
+    "sealHours": 336,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:waterportion",
+        "litres": 1
+      },
+      {
+        "type": "item",
+        "code": "newworldcrops:flour-corn",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "newworldcrops:ciderportion-corn",
+      "litres": 0.2
+    }
+  },
+  {
+    "code": "potato",
+    "sealHours": 336,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "newworldcrops:juiceportion-potato",
+        "litres": 1
+      },
+      {
+        "type": "item",
+        "code": "newworldcrops:pressedmash-potato",
+        "quantity": 1
+      }
+    ],
+    "output": {
+      "type": "item",
+      "code": "newworldcrops:ciderportion-potato",
+      "litres": 0.2
+    }
+  }
+]

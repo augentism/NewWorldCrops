@@ -1,60 +1,140 @@
 {
-	"code": "flour",
-	"storageFlags": 33,
-	"maxstacksize": 64,
-	"attributes": {
-		"dissolveInWater": true
-	},
-	"variantgroups": [
-		{ "code": "type", "states": ["corn"] }
-	],
-	"shapeByType": { 
-		"*corn*":{ "base": "item/food/flour/jiffycornmuffin"},
-        "*": { "base": "game:item/food/flour"}
-	},
-	"texturesbytype": {
-		"*corn*": { "cornmuffinmix": {"base": "newworldcrops:item/food/flour/cornmuffinmix" },
-					"jiffyblue": {"base": "newworldcrops:item/food/flour/jiffyblue"}
-				  },
-		"*": { "base": "item/food/grain/{type}-flour"  }
-	},
-	"creativeinventory": { "general": ["*"], "items": ["*"] },
-	"materialDensity": 600,
-	"transitionableProps": [{
-		"type": "Perish",
-		"freshHours": { "avg": 4320 },
-		"transitionHours": { "avg": 336 },
-		"transitionedStack": { "type": "item", "code": "game:rot" },
-		"transitionRatio": 0.25
-	}],
-	"guiTransform": {
-		"translation": { "x": 12, "y": 16, "z": -22 },
-		"rotation": { "x": -25, "y": -28, "z": 180 },
-		"origin": { "x": 0, "y": 0, "z": 0 },
-		"scale": 0.20
-	},
-	"fpHandTransform": {
-		"translation": { "x": 0, "y": 0, "z": 0 },
-			"rotation": { "x": 45, "y": 47, "z": -30 },
-			"origin": { "x": 0.5, "y": 0.3, "z": 0.5 },
-			"scale": 0.05
-	},
-	"tpHandTransform": {
-		"translation": { "x": 5.96, "y": -3.6, "z": -2.8 },
-		"rotation": { "x": 137, "y": 20, "z": -74 },
-		"origin": { "x": 0, "y": 0, "z": 0 },
-		"scale": 0.25
-	},
-	"groundTransform": {
-		"translation": { "x": 0, "y": 0, "z": 0 },
-		"rotation": { "x": 0, "y": 0, "z": 0 },
-		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
-		"scale": 0.5
-	},
-	"heldRightReadyAnimationByType": {
-		"*": "holdbothhands"
-	},
-	"heldTpIdleAnimationByType": {
-		"*": "holdbothhands"
-    }
+        "code": "flour",
+        "storageFlags": 33,
+        "maxstacksize": 64,
+        "attributes": {
+                "dissolveInWater": true
+        },
+        "variantgroups": [
+                {
+                        "code": "type",
+                        "states": [
+                                "corn"
+                        ]
+                }
+        ],
+        "shapeByType": {
+                "*corn*": {
+                        "base": "item/food/flour/jiffycornmuffin"
+                },
+                "*": {
+                        "base": "game:item/food/flour"
+                }
+        },
+        "texturesbytype": {
+                "*corn*": {
+                        "cornmuffinmix": {
+                                "base": "newworldcrops:item/food/flour/cornmuffinmix"
+                        },
+                        "jiffyblue": {
+                                "base": "newworldcrops:item/food/flour/jiffyblue"
+                        }
+                },
+                "*": {
+                        "base": "item/food/grain/{type}-flour"
+                }
+        },
+        "creativeinventory": {
+                "general": [
+                        "*"
+                ],
+                "nwc": [
+                        "*"
+                ]
+        },
+        "materialDensity": 600,
+        "transitionableProps": [
+                {
+                        "type": "Perish",
+                        "freshHours": {
+                                "avg": 4320
+                        },
+                        "transitionHours": {
+                                "avg": 336
+                        },
+                        "transitionedStack": {
+                                "type": "item",
+                                "code": "game:rot"
+                        },
+                        "transitionRatio": 0.25
+                }
+        ],
+        "guiTransform": {
+                "translation": {
+                        "x": 12,
+                        "y": 16,
+                        "z": -22
+                },
+                "rotation": {
+                        "x": -25,
+                        "y": -28,
+                        "z": 180
+                },
+                "origin": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                },
+                "scale": 0.20
+        },
+        "fpHandTransform": {
+                "translation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                },
+                "rotation": {
+                        "x": 45,
+                        "y": 47,
+                        "z": -30
+                },
+                "origin": {
+                        "x": 0.5,
+                        "y": 0.3,
+                        "z": 0.5
+                },
+                "scale": 0.05
+        },
+        "tpHandTransform": {
+                "translation": {
+                        "x": 5.96,
+                        "y": -3.6,
+                        "z": -2.8
+                },
+                "rotation": {
+                        "x": 137,
+                        "y": 20,
+                        "z": -74
+                },
+                "origin": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                },
+                "scale": 0.25
+        },
+        "groundTransform": {
+                "translation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                },
+                "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                },
+                "origin": {
+                        "x": 0.5,
+                        "y": 0,
+                        "z": 0.5
+                },
+                "scale": 0.5
+        },
+        "heldRightReadyAnimationByType": {
+                "*": "holdbothhands"
+        },
+        "heldTpIdleAnimationByType": {
+                "*": "holdbothhands"
+        }
 }

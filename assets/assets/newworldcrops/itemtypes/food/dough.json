@@ -1,71 +1,157 @@
 {
-	"code": "dough",
-	"storageFlags": 33,
-	"class": "ItemDough",
-	"maxstacksize": 32,
-	"attributes": {
-		"displaycaseable": true,
-		"shelvable": true,
-		"bakingProperties": {
-			"temp": 160,
-			"levelFrom": 0.0,
-			"levelTo": 0.25,
-			"startScaleY": 0.9,
-			"endScaleY": 0.95,
-			"resultCode": "newworldcrops:bread-{type}-partbaked"
-		},
-		"inPieProperties": { "texture": "game:block/food/pie/spelt{bakeLevel}", "partType": "Crust"  },
-		"nutritionPropsWhenInMealByType": {
-			"*-corn": { "satiety": 280, "foodcategory": "Grain" }, 
-			"*": { "satiety": 240, "foodcategory": "Grain" }	
-		}
-	},
-	"variantgroups": [
-		{ "code": "type", "states": ["corn", "oat"] }
-	],
-	"shape": { "base": "game:item/food/bread/amaranthbread-dough" },
-	"textures": {
-		"amaranth": {"base": "newworldcrops:item/food/grain/cornbread-dough" }
-	},
-	"creativeinventory": { "general": ["*"], "items": ["*"] },
-	"materialDensity": 200,
-	"combustibleProps": {
-   	     "meltingPoint": 200,
-	     "meltingDuration": 20,
-	     "smeltedRatio": 1,
-	     "smeltingType": "bake",
-	     "smeltedStack": { "type": "item", "code": "bread-{type}-charred" },
-	     "requiresContainer": false
-	},
-	"guiTransform": {
-		"translation": { "x": 0, "y": 0, "z": 0 },
-		"rotation": { "x": -30, "y": 26, "z": 180 },
-		"origin": { "x": 0.52, "y": 0.07, "z": 0.5 },
-		"scale": 4.9
-	},
-	"groundTransform": {
-		"translation": { "x": 0, "y": 0, "z": 0 },
-		"rotation": { "x": 0, "y": 0, "z": 1 },
-		"origin": { "x": 0.5, "y": 0, "z": 0.5 },
-		"scale": 4
-	},
-	"fpHandTransform": {
-		"translation": { "x": 0, "y": 0.22, "z": 0.2 },
-		"rotation": { "x": 97, "y": 1, "z": -17 },
-		"origin": { "x": 0.5, "y": 0.1, "z": 0.5 },
-		"scale": 2.5
-	},
-	"tpHandTransform": {
-		"translation": { "x": -0.69, "y": -0.16, "z": -0.53 },
-		"rotation": { "x": 88, "y": -85, "z": 2 },
-		"origin": { "x": 0.5, "y": 0.13, "z": 0.5 },
-		"scale": 0.8
-	},
-	"transitionableProps": [{
-		"type": "Perish",
-		"freshHours": { "avg": 48 },
-		"transitionHours": { "avg": 24 },
-		"transitionedStack": { "type": "item", "code": "game:rot" },
-		"transitionRatio": 1
-	}]
+        "code": "dough",
+        "storageFlags": 33,
+        "class": "ItemDough",
+        "maxstacksize": 32,
+        "attributes": {
+                "displaycaseable": true,
+                "shelvable": true,
+                "bakingProperties": {
+                        "temp": 160,
+                        "levelFrom": 0.0,
+                        "levelTo": 0.25,
+                        "startScaleY": 0.9,
+                        "endScaleY": 0.95,
+                        "resultCode": "newworldcrops:bread-{type}-partbaked"
+                },
+                "inPieProperties": {
+                        "texture": "game:block/food/pie/spelt{bakeLevel}",
+                        "partType": "Crust"
+                },
+                "nutritionPropsWhenInMealByType": {
+                        "*-corn": {
+                                "satiety": 280,
+                                "foodcategory": "Grain"
+                        },
+                        "*": {
+                                "satiety": 240,
+                                "foodcategory": "Grain"
+                        }
+                }
+        },
+        "variantgroups": [
+                {
+                        "code": "type",
+                        "states": [
+                                "corn",
+                                "oat"
+                        ]
+                }
+        ],
+        "shape": {
+                "base": "game:item/food/bread/amaranthbread-dough"
+        },
+        "textures": {
+                "amaranth": {
+                        "base": "newworldcrops:item/food/grain/cornbread-dough"
+                }
+        },
+        "creativeinventory": {
+                "general": [
+                        "*"
+                ],
+                "nwc": [
+                        "*"
+                ]
+        },
+        "materialDensity": 200,
+        "combustibleProps": {
+                "meltingPoint": 200,
+                "meltingDuration": 20,
+                "smeltedRatio": 1,
+                "smeltingType": "bake",
+                "smeltedStack": {
+                        "type": "item",
+                        "code": "bread-{type}-charred"
+                },
+                "requiresContainer": false
+        },
+        "guiTransform": {
+                "translation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                },
+                "rotation": {
+                        "x": -30,
+                        "y": 26,
+                        "z": 180
+                },
+                "origin": {
+                        "x": 0.52,
+                        "y": 0.07,
+                        "z": 0.5
+                },
+                "scale": 4.9
+        },
+        "groundTransform": {
+                "translation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                },
+                "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 1
+                },
+                "origin": {
+                        "x": 0.5,
+                        "y": 0,
+                        "z": 0.5
+                },
+                "scale": 4
+        },
+        "fpHandTransform": {
+                "translation": {
+                        "x": 0,
+                        "y": 0.22,
+                        "z": 0.2
+                },
+                "rotation": {
+                        "x": 97,
+                        "y": 1,
+                        "z": -17
+                },
+                "origin": {
+                        "x": 0.5,
+                        "y": 0.1,
+                        "z": 0.5
+                },
+                "scale": 2.5
+        },
+        "tpHandTransform": {
+                "translation": {
+                        "x": -0.69,
+                        "y": -0.16,
+                        "z": -0.53
+                },
+                "rotation": {
+                        "x": 88,
+                        "y": -85,
+                        "z": 2
+                },
+                "origin": {
+                        "x": 0.5,
+                        "y": 0.13,
+                        "z": 0.5
+                },
+                "scale": 0.8
+        },
+        "transitionableProps": [
+                {
+                        "type": "Perish",
+                        "freshHours": {
+                                "avg": 48
+                        },
+                        "transitionHours": {
+                                "avg": 24
+                        },
+                        "transitionedStack": {
+                                "type": "item",
+                                "code": "game:rot"
+                        },
+                        "transitionRatio": 1
+                }
+        ]
 }

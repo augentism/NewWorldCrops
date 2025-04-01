@@ -28,14 +28,10 @@
     "newworldcrops:item-seeds-tomato": "Tomato Seeds",
     "newworldcrops:item-pickledlegume-greenbean": "Pickled Green Beans",
     "newworldcrops:item-pickledgrain-corn": "Pickled Corn",
-
     "newworldcrops:recipeingredient-item-vegetable-insturmentalcase": "vegetables",
     "newworldcrops:recipeingredient-item-legume-insturmentalcase": "bean",
-
-
     "game:meal-ingredient-porridge-primary-grain-corn": "Corn",
     "game:meal-ingredient-porridge-secondary-grain-corn": "Corn",
-
     "game:meal-ingredient-soup-primary-vegetable-potato": "Potato",
     "game:meal-ingredient-soup-primary-grain-corn": "Corn",
     "game:meal-ingredient-soup-secondary-vegetable-potato": "Potato",
@@ -44,7 +40,6 @@
     "pie-single-newworldcrops:grain-potato-partbaked": "Potato pie (part-baked)",
     "pie-single-newworldcrops:grain-potato-perfect": "Potato pie",
     "pie-single-newworldcrops:grain-potato-charred": "Potato pie (charred)",
-
     "game:meal-ingredient-stew-primary-vegetable-potato": "Potato",
     "game:meal-ingredient-stew-primary-grain-corn": "Corn",
     "game:meal-ingredient-stew-secondary-vegetable-potato": "Potato",
@@ -53,8 +48,6 @@
     "pie-single-newworldcrops:grain-corn-partbaked": "Corn pie (part-baked)",
     "pie-single-newworldcrops:grain-corn-perfect": "Corn pie",
     "pie-single-newworldcrops:grain-corn-charred": "Corn pie (charred)",
-
-
     "game:meal-ingredient-soup-primary-legume-blackbean": "Black Bean",
     "game:meal-ingredient-soup-secondary-legume-blackbean": "Black Bean",
     "game:meal-ingredient-stew-primary-legume-blackbean": "Black Bean",
@@ -63,7 +56,6 @@
     "pie-single-newworldcrops:legume-blackbean-partbaked": "Black Bean pie (part-baked)",
     "pie-single-newworldcrops:legume-blackbean-perfect": "Black Bean pie",
     "pie-single-newworldcrops:legume-blackbean-charred": "Black Bean pie (charred)",
-
     "game:meal-ingredient-soup-primary-legume-kidneybean": "Kidney Bean",
     "game:meal-ingredient-soup-secondary-legume-kidneybean": "Kidney Bean",
     "game:meal-ingredient-stew-primary-legume-kidneybean": "Kidney Bean",
@@ -72,7 +64,6 @@
     "pie-single-newworldcrops:legume-kidneybean-partbaked": "Kidney Bean pie (part-baked)",
     "pie-single-newworldcrops:legume-kidneybean-perfect": "Kidney Bean pie",
     "pie-single-newworldcrops:legume-kidneybean-charred": "Kidney Bean pie (charred)",
-
     "game:meal-ingredient-soup-primary-legume-greenbean": "Green Bean",
     "game:meal-ingredient-soup-secondary-legume-greenbean": "Green Bean",
     "game:meal-ingredient-stew-primary-legume-greenbean": "Green Bean",
@@ -81,7 +72,6 @@
     "pie-single-newworldcrops:legume-greenbean-partbaked": "Green Bean pie (part-baked)",
     "pie-single-newworldcrops:legume-greenbean-perfect": "Green Bean pie",
     "pie-single-newworldcrops:legume-greenbean-charred": "Green Bean pie (charred)",
-
     "game:meal-ingredient-soup-primary-vegetable-tomato": "Tomato",
     "game:meal-ingredient-soup-secondary-vegetable-tomato": "Tomato",
     "game:meal-ingredient-stew-primary-vegetable-tomato": "Tomato",
@@ -90,8 +80,6 @@
     "pie-single-newworldcrops:vegetable-tomato-partbaked": "Tomato pie (part-baked)",
     "pie-single-newworldcrops:vegetable-tomato-perfect": "Tomato pie",
     "pie-single-newworldcrops:vegetable-tomato-charred": "Tomato pie (charred)",
-
-
     "game:meal-ingredient-soup-primary-pickledgrain-corn": "Pickled Corn",
     "game:meal-ingredient-soup-secondary-pickledgrain-corn": "Pickled Corn",
     "game:meal-ingredient-stew-primary-pickledgrain-corn": "Pickled Corn",
@@ -100,8 +88,6 @@
     "pie-single-newworldcrops:pickledgrain-corn-partbaked": "Pickled corn pie (part-baked)",
     "pie-single-newworldcrops:pickledgrain-corn-perfect": "Pickled corn pie",
     "pie-single-newworldcrops:pickledgrain-corn-charred": "Pickled corn pie (charred)",
-
-
     "game:meal-ingredient-soup-primary-pickledlegume-greenbean": "Pickled Green Bean",
     "game:meal-ingredient-soup-secondary-pickledlegume-greenbean": "Pickled Green Bean",
     "game:meal-ingredient-stew-primary-pickledlegume-greenbean": "Pickled Green Bean",
@@ -110,8 +96,6 @@
     "pie-single-newworldcrops:pickledlegume-greenbean-partbaked": "Pickled Green Bean pie (part-baked)",
     "pie-single-newworldcrops:pickledlegume-greenbean-perfect": "Pickled Green Bean pie",
     "pie-single-newworldcrops:pickledlegume-greenbean-charred": "Pickled Green Bean pie (charred)",
-
-
     "newworldcrops:item-vegetable-cauliflower": "Cauliflower",
     "newworldcrops:item-seeds-cauliflower": "Cauliflower Seeds",
     "newworldcrops:block-crop-cauliflower-*": "Growing Cauliflower",
@@ -125,7 +109,6 @@
     "pie-single-newworldcrops:vegetable-cauliflower-perfect": "Cauliflower pie",
     "pie-single-newworldcrops:vegetable-cauliflower-charred": "Cauliflower pie (charred)",
     "game:recipeingredient-item-vegetable-cauliflower": "cauliflower",
-
     "newworldcrops:item-pickledvegetable-cauliflower": "Pickled Cauliflower",
     "game:meal-ingredient-soup-primary-pickledvegetable-cauliflower": "Pickled Cauliflower",
     "game:meal-ingredient-soup-secondary-pickledvegetable-cauliflower": "Pickled Cauliflower",
@@ -136,7 +119,6 @@
     "pie-single-newworldcrops:pickledvegetable-cauliflower-perfect": "Pickled cauliflower pie",
     "pie-single-newworldcrops:pickledvegetable-cauliflower-charred": "Pickled cauliflower pie (charred)",
     "game:recipeingredient-item-pickledvegetable-cauliflower": "pickled cauliflower",
-
     "newworldcrops:item-vegetable-beet": "Beet",
     "newworldcrops:item-seeds-beet": "Beet Seeds",
     "newworldcrops:block-crop-beet-*": "Growing Beet",
@@ -150,9 +132,6 @@
     "pie-single-newworldcrops:vegetable-beet-perfect": "Beet pie",
     "pie-single-newworldcrops:vegetable-beet-charred": "Beet pie (charred)",
     "game:recipeingredient-item-vegetable-beet": "beet",
-
-
-    
     "newworldcrops:item-pickledvegetable-beet": "Pickled Beet",
     "game:meal-ingredient-soup-primary-pickledvegetable-beet": "Pickled Beet",
     "game:meal-ingredient-soup-secondary-pickledvegetable-beet": "Pickled Beet",
@@ -163,8 +142,7 @@
     "pie-single-newworldcrops:pickledvegetable-beet-perfect": "Pickled beet pie",
     "pie-single-newworldcrops:pickledvegetable-beet-charred": "Pickled beet pie (charred)",
     "game:recipeingredient-item-pickledvegetable-beet": "beet",
-
-    "newworldcrops:item-grain-oat": "Oat",
+    "newworldcrops:item-grain-oat": "Oats",
     "newworldcrops:item-seeds-oat": "Oat Seeds",
     "newworldcrops:item-flour-oat": "Oat Flour",
     "newworldcrops:item-dough-oat": "Oatbread dough",
@@ -181,64 +159,47 @@
     "pie-single-newworldcrops:grain-oat-partbaked": "Oat pie (part-baked)",
     "pie-single-newworldcrops:grain-oat-perfect": "Oat pie",
     "pie-single-newworldcrops:grain-oat-charred": "Oat pie (charred)",
-
-
     "newworldcrops:block-crop-potato-*": "Growing Potato",
     "newworldcrops:block-crop-potato-7": "Mature Potato",
-
     "newworldcrops:block-crop-corn-*": "Growing Corn",
     "newworldcrops:block-crop-corn-9": "Mature Corn",
-
-    "newworldcrops:item-bread-oat-partbaked": "Oat (part-baked)",
-    "newworldcrops:item-bread-oat-perfect": "Oat (perfected)",
-    "newworldcrops:item-bread-oat-charred": "Oat (charred)",
-
+    "newworldcrops:item-bread-oat-partbaked": "Oat bread (part-baked)",
+    "newworldcrops:item-bread-oat-perfect": "Oat bread (perfected)",
+    "newworldcrops:item-bread-oat-charred": "Oat bread (charred)",
     "newworldcrops:block-crop-blackbean-*": "Growing Black Beans",
     "newworldcrops:block-crop-blackbean-11": "Mature Black Beans",
-
     "newworldcrops:block-crop-greenbean-*": "Growing Green Beans",
     "newworldcrops:block-crop-greenbean-11": "Mature Green Beans",
-
     "newworldcrops:block-crop-kidneybean-*": "Growing Kidney Beans",
     "newworldcrops:block-crop-kidneybean-11": "Mature Kidney Beans",
-
     "newworldcrops:block-crop-tomato-*": "Growing Tomato",
     "newworldcrops:block-crop-tomato-9": "Tomato Plant",
     "newworldcrops:block-crop-tomato-10": "Fruiting Tomato",
     "newworldcrops:block-crop-tomato-11": "Fruiting Tomato",
     "newworldcrops:block-crop-tomato-12": "Fruiting Tomato",
-
     "newworldcrops:block-crop-pepper-*": "Growing Bell Pepper",
     "newworldcrops:block-crop-pepper-9": "Bell Pepper Plant",
     "newworldcrops:block-crop-pepper-10": "Fruiting Bell Pepper",
     "newworldcrops:block-crop-pepper-11": "Fruiting Bell Pepper",
     "newworldcrops:block-crop-pepper-12": "Fruiting Bell Pepper",
-
     "newworldcrops:block-chimera-potato-pepper-*": "Growing Chimera Potato Bell Pepper",
     "newworldcrops:block-chimera-potato-pepper-9": "Chimera Potato Bell Pepper Plant",
     "newworldcrops:block-chimera-potato-pepper-10": "Fruiting Chimera Potato Bell Pepper",
     "newworldcrops:block-chimera-potato-pepper-11": "Fruiting Chimera Potato Bell Pepper",
     "newworldcrops:block-chimera-potato-pepper-12": "Fruiting Chimera Potato Bell Pepper",
-
     "newworldcrops:block-chimera-potato-tomato-*": "Growing Chimera Potato Tomato",
     "newworldcrops:block-chimera-potato-tomato-9": "Chimera Potato Tomato Plant",
     "newworldcrops:block-chimera-potato-tomato-10": "Fruiting Chimera Potato Tomato",
     "newworldcrops:block-chimera-potato-tomato-11": "Fruiting Chimera Potato Tomato",
     "newworldcrops:block-chimera-potato-tomato-12": "Fruiting Chimera Potato Tomato",
-
-
-
     "game:recipeingredient-item-legume-greenbean": "green beans",
     "game:recipeingredient-item-legume-blackbean": "black beans",
     "game:recipeingredient-item-legume-kidneybean": "kidney beans",
-
     "game:recipeingredient-item-vegetable-potato": "potatoes",
     "game:recipeingredient-item-vegetable-tomato": "tomatoes",
     "game:recipeingredient-item-grain-corn": "corn",
-
     "game:recipeingredient-item-pickledlegume-greenbean": "pickled green beans",
     "game:recipeingredient-item-pickledgrain-corn": "pickled corn",
-    
     "newworldcrops:block-crop-sisterblack-1": "Three sisters (growing)",
     "newworldcrops:block-crop-sisterkidney-1": "Three sisters (growing)",
     "newworldcrops:block-crop-sistergreen-1": "Three sisters (growing)",
@@ -305,9 +266,13 @@
     "newworldcrops:block-crop-sisterblacksun-11": "Sun sisters (mature)",
     "newworldcrops:block-crop-sisterkidneysun-11": "Sun sisters (mature)",
     "newworldcrops:block-crop-sistergreensun-11": "Sun sisters (mature)",
-
-
-    "newworldcrops:block-crop-wildcabbage-2": "Wild Cabbage"
-
-
+    "newworldcrops:block-crop-wildcabbage-2": "Wild Cabbage",
+    "newworldcrops:incontainer-item-ciderportion-corn": "Corn Ale",
+    "newworldcrops:incontainer-item-spiritportion-corn": "Corn Whiskey",
+    "newworldcrops:incontainer-item-juiceportion-potato": "Potato Juice",
+    "newworldcrops:incontainer-item-ciderportion-potato": "Potato Ale",
+    "newworldcrops:incontainer-item-spiritportion-potato": "Potato Vodka",
+    "newworldcrops:item-pressedmash-potato": "Mashed Potatoes",
+    "newworldcrops:item-pressedmash-potato-dry": "Dry Mashed Potatoes",
+    "tabname-nwc": "New World Crops"
 }

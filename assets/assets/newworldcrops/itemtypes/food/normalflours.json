@@ -1,59 +1,85 @@
 {
-	"code": "flour",
-	"maxstacksize": 64,
-	"attributes": {
-		"dissolveInWater": true
+    "code": "flour",
+    "maxstacksize": 64,
+    "attributes": {
+        "dissolveInWater": true
     },
-	"variantgroups": [
-        { "code": "type", "states": [
+    "variantgroups": [
+        {
+            "code": "type",
+            "states": [
                 "oat"
             ]
         }
     ],
-	"shape": { "base": "game:item/food/flour"
+    "shape": {
+        "base": "game:item/food/flour"
     },
-	"texture": { "base": "item/food/grain/{type}-flour"
+    "texture": {
+        "base": "item/food/grain/{type}-flour"
     },
-	"creativeinventory": {
+    "creativeinventory": {
         "general": [
             "*"
         ],
-        "items": [
+        "nwc": [
             "*"
         ]
     },
-	"materialDensity": 600,
-	"transitionableProps": [
+    "materialDensity": 600,
+    "transitionableProps": [
         {
-		"type": "Perish",
-		"freshHours": { "avg": 4320
+            "type": "Perish",
+            "freshHours": {
+                "avg": 4320
             },
-		"transitionHours": { "avg": 336
+            "transitionHours": {
+                "avg": 336
             },
-		"transitionedStack": { "type": "item", "code": "game:rot"
+            "transitionedStack": {
+                "type": "item",
+                "code": "game:rot"
             },
-		"transitionRatio": 0.25
+            "transitionRatio": 0.25
         }
     ],
-	"guiTransform": {
-		"translation": { "x": 0, "y": 0, "z": -25
+    "guiTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": -25
         },
-		"rotation": { "x": 171, "y": 57, "z": -20
+        "rotation": {
+            "x": 171,
+            "y": 57,
+            "z": -20
         },
-		"origin": { "x": 0.46, "y": 0.08, "z": 0.48
+        "origin": {
+            "x": 0.46,
+            "y": 0.08,
+            "z": 0.48
         },
-		"scale": 2.75
+        "scale": 2.75
     },
-	"fpHandTransform": {
-		"translation": { "x": 0.1, "y": 0.16, "z": 0
+    "fpHandTransform": {
+        "translation": {
+            "x": 0.1,
+            "y": 0.16,
+            "z": 0
         },
-		"rotation": { "x": 37, "y": 77, "z": 2
+        "rotation": {
+            "x": 37,
+            "y": 77,
+            "z": 2
         },
-		"origin": { "x": 0.5, "y": 0.1, "z": 0.5
+        "origin": {
+            "x": 0.5,
+            "y": 0.1,
+            "z": 0.5
         },
-		"scale": 1.95
+        "scale": 1.95
     },
-	"tpHandTransform": {
+    "tpHandTransform": {
         "translation": {
             "x": -0.04,
             "y": -0.6,
@@ -71,14 +97,23 @@
         },
         "scale": 0.48
     },
-	"groundTransform": {
-		"translation": { "x": 0, "y": 0, "z": 0
+    "groundTransform": {
+        "translation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
         },
-		"rotation": { "x": 0, "y": 0, "z": 0
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
         },
-		"origin": { "x": 0.5, "y": 0, "z": 0.5
+        "origin": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
         },
-		"scale": 3
+        "scale": 3
     },
     "heldRightReadyAnimationByType": {
         "*": "holdbothhands"

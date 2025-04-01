@@ -1,0 +1,102 @@
+[
+  {
+    "ingredientPattern": "NB",
+    "recipeGroup": 1,
+    "ingredients": {
+      "N": {
+        "type": "item",
+        "code": "newworldcrops:vegetable-potato",
+        "quantity": 1
+      },
+      "B": {
+        "type": "item",
+        "code": "foodofbrazil:vegetable-potato",
+        "quantity": 1
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "foodofbrazil:vegetable-potato",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "BN",
+    "recipeGroup": 1,
+    "ingredients": {
+      "N": {
+        "type": "item",
+        "code": "newworldcrops:vegetable-potato",
+        "quantity": 1
+      },
+      "B": {
+        "type": "item",
+        "code": "foodofbrazil:vegetable-potato",
+        "quantity": 1
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "newworldcrops:vegetable-potato",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "NB",
+    "recipeGroup": 1,
+    "ingredients": {
+      "N": {
+        "type": "item",
+        "code": "newworldcrops:vegetable-potato",
+        "quantity": 1
+      },
+      "B": {
+        "type": "item",
+        "code": "foodofbrazil:seeds-potato",
+        "quantity": 1,
+        "returnedStack": {
+          "type": "item",
+          "code": "foodofbrazil:seeds-potato"
+        }
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "foodofbrazil:vegetable-potato",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "BN",
+    "recipeGroup": 1,
+    "ingredients": {
+      "N": {
+        "type": "item",
+        "code": "newworldcrops:seeds-potato",
+        "quantity": 1,
+        "returnedStack": {
+          "type": "item",
+          "code": "foodofbrazil:seeds-potato"
+        }
+      },
+      "B": {
+        "type": "item",
+        "code": "foodofbrazil:vegetable-potato",
+        "quantity": 1
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "newworldcrops:vegetable-potato",
+      "quantity": 1
+    }
+  }
+]
