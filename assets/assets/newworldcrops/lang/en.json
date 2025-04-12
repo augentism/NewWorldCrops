@@ -266,7 +266,7 @@
     "newworldcrops:block-crop-sisterblacksun-11": "Sun sisters (mature)",
     "newworldcrops:block-crop-sisterkidneysun-11": "Sun sisters (mature)",
     "newworldcrops:block-crop-sistergreensun-11": "Sun sisters (mature)",
-    "newworldcrops:block-crop-wildcabbage-2": "Wild Cabbage",
+    "newworldcrops:block-crop-wildcabbage-*": "Wild Cabbage",
     "newworldcrops:incontainer-item-ciderportion-corn": "Corn Ale",
     "newworldcrops:incontainer-item-spiritportion-corn": "Corn Whiskey",
     "newworldcrops:incontainer-item-juiceportion-potato": "Potato Juice",

@@ -1,79 +1,84 @@
-
 {
   "code": "crop",
   "class": "BlockCrop",
   "storageFlags": 33,
-  "behaviors": [ { "name": "Unstable" } ],
+  "behaviors": [
+    {
+      "name": "Unstable"
+    }
+  ],
   "variantgroups": [
     {
       "code": "type",
-      "states": ["wildcabbage"]
+      "states": [
+        "wildcabbage"
+      ]
     },
     {
-        "code": "stage",
-        "states": ["1","2"]
+      "code": "stage",
+      "states": [
+        "1"
+      ]
     }
   ],
-  "texturesByType":{
-    "*wildcabbage-2":{
-      "all": { "base": "newworldcrops:block/plant/crop/{type}/wildcabbage"}
+  "texturesByType": {
+    "*wildcabbage-*": {
+      "all": {
+        "base": "newworldcrops:block/plant/crop/{type}/wildcabbage"
+      }
     },
-    "*":{
-      "all": { "base": "newworldcrops:block/plant/crop/{type}/{type}-{stage}"}
+    "*": {
+      "all": {
+        "base": "newworldcrops:block/plant/crop/{type}/{type}-{stage}"
+      }
     }
   },
   "creativeinventory": {
-    "general": [ "" ],
-    "plants": [ "" ]
+    "general": [
+      ""
+    ],
+    "nwc": [
+      ""
+    ]
   },
   "renderpass": "OpaqueNoCull",
   "shapeByType": {
-    "*": { "base": "game:block/plant/crop/cross"}
+    "*": {
+      "base": "game:block/plant/crop/cross"
+    }
   },
   "blockmaterial": "Plant",
   "attributes": {
     "butterflyFeedByType": {
-    "*": true
+      "*": true
     },
     "beeFeedByType": {
-    "*": true
+      "*": true
     },
     "sitHeight": 0.3,
     "tickGrowthProbability": 0.05,
     "handbook": {
-    "include": false
+      "include": false
     }
   },
   "sideopaque": {
-  "all": false
+    "all": false
   },
   "sidesolid": {
     "all": false
   },
   "lightAbsorption": 0,
   "dropsByType": {
-    "*wildcabbage-2": [
-        
-      {
-        "type": "item",
-        "code": "newworldcrops:seeds-cauliflower",
-        "quantity": {
-          "avg": 3,
-          "var": 1
-        }
-      },
+    "*wildcabbage-*": [
       {
         "type": "item",
         "code": "game:seeds-cabbage",
         "quantity": {
-          "avg": 3,
-          "var": 1
+          "avg": 1.2
         }
       }
     ],
-    "*": [
-    ]
-
+    "*": []
   },
   "cropPropsByType": {
     "*wildcabbage*": {

@@ -89,9 +89,29 @@
                 "*": {
                         "satiety": 100,
                         "foodcategory": "Vegetable"
+                },
+                "*-cauliflower": {
+                        "satiety": 300,
+                        "foodcategory": "Vegetable"
                 }
         },
         "transitionablePropsByType": {
+                "*-potato": [
+                        {
+                                "type": "Perish",
+                                "freshHours": {
+                                        "avg": 2140
+                                },
+                                "transitionHours": {
+                                        "avg": 224
+                                },
+                                "transitionedStack": {
+                                        "type": "item",
+                                        "code": "game:rot"
+                                },
+                                "transitionRatio": 0.25
+                        }
+                ],
                 "*": [
                         {
                                 "type": "Perish",

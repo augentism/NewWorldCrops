@@ -1,0 +1,14 @@
+[
+    {
+        "file": "game:blocktypes/plant/crop/cabbage.json",
+        "op": "add",
+        "path": "/dropsByType/*-12/-",
+        "value": {
+            "type": "item",
+            "code": "newworldcrops:seeds-cauliflower",
+            "quantity": {
+                "avg": 0.8
+            }
+        }
+    }
+]

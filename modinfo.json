@@ -1,19 +1,19 @@
 {
-    "Type": "content",
-    "TextureSize": 32,
-    "Name": "New World Crops",
-    "Version": "0.0.11",
-    "NetworkVersion": null,
-    "Description": "Adds some more crops to the game.",
-    "Website": "no",
-    "ModID": "newworldcrops",
-    "Authors": [
-      "augentism"
-    ],
-    "Side": "Universal",
-    "RequiredOnClient": true,
-    "RequiredOnServer": true,
-    "Dependencies": {
-      "augplantlib": "0.0.4"
-    }
+  "Type": "content",
+  "TextureSize": 32,
+  "Name": "New World Crops",
+  "Version": "0.0.12",
+  "NetworkVersion": null,
+  "Description": "Adds some more crops to the game.",
+  "Website": "no",
+  "ModID": "newworldcrops",
+  "Authors": [
+    "augentism"
+  ],
+  "Side": "Universal",
+  "RequiredOnClient": true,
+  "RequiredOnServer": true,
+  "Dependencies": {
+    "augplantlib": "0.0.4"
   }
+}

@@ -122,7 +122,7 @@
                 "code": "newworldcrops:vegetable-{type}",
                 "quantity": {
                     "avg": 7,
-                    "var": 4
+                    "var": 3
                 }
             },
             {
