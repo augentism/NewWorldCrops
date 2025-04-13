@@ -174,7 +174,7 @@
         "value": {
             "comment": "Small patches of wild cabbage",
             "blockCodes": [
-                "newworldcrops:crop-wildcabbage-2"
+                "newworldcrops:crop-wildcabbage-1"
             ],
             "minTemp": -3,
             "maxTemp": 25,
