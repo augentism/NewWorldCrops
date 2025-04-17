@@ -1,0 +1,35 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/origin2",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"contents": "block/food/grain/rice"
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 0.0, 0.0, 0.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "contents",
+					"from": [ 5.0, 4.0, 4.0 ],
+					"to": [ 16.0, 6.0, 12.0 ],
+					"rotationOrigin": [ 5.0, 8.0, 11.0 ],
+					"faces": {
+						"east": { "texture": "#contents", "uv": [ 2.0, 0.0, 4.0, 8.0 ], "rotation": 90 },
+						"up": { "texture": "#contents", "uv": [ 0.0, 8.0, 11.0, 16.0 ] }
+					}
+				}
+			]
+		}
+	]}

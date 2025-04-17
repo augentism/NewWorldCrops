@@ -1,0 +1,249 @@
+[
+    {
+        "file": "game:blocktypes/wood/trough-small.json",
+        "op": "addmerge",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "oat",
+            "content": {
+                "type": "item",
+                "code": "newworldcrops:grain-oat"
+            },
+            "foodFor": [
+                "chicken-*"
+            ],
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": [
+                "block/wood/trough/small/grainfill1",
+                "block/wood/trough/small/grainfill1",
+                "block/wood/trough/small/grainfill2",
+                "block/wood/trough/small/grainfill2",
+                "block/wood/trough/small/grainfill3",
+                "block/wood/trough/small/grainfill3",
+                "block/wood/trough/small/grainfill4",
+                "block/wood/trough/small/grainfill4"
+            ],
+            "textureCode": "contents-amaranth"
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/trough-small.json",
+        "op": "addmerge",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "corn",
+            "content": {
+                "type": "item",
+                "code": "newworldcrops:grain-corn"
+            },
+            "foodFor": [
+                "chicken-*"
+            ],
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": [
+                "block/wood/trough/small/grainfill1",
+                "block/wood/trough/small/grainfill1",
+                "block/wood/trough/small/grainfill2",
+                "block/wood/trough/small/grainfill2",
+                "block/wood/trough/small/grainfill3",
+                "block/wood/trough/small/grainfill3",
+                "block/wood/trough/small/grainfill4",
+                "block/wood/trough/small/grainfill4"
+            ],
+            "textureCode": "contents-rye"
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/trough-large.json",
+        "op": "addmerge",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "oat",
+            "content": {
+                "type": "item",
+                "code": "newworldcrops:grain-oat"
+            },
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": [
+                "block/wood/trough/large/grainfill1",
+                "block/wood/trough/large/grainfill1",
+                "block/wood/trough/large/grainfill2",
+                "block/wood/trough/large/grainfill2",
+                "block/wood/trough/large/grainfill3",
+                "block/wood/trough/large/grainfill3",
+                "block/wood/trough/large/grainfill4",
+                "block/wood/trough/large/grainfill4"
+            ],
+            "textureCode": "contents-amaranth"
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/trough-large.json",
+        "op": "addmerge",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "corn",
+            "content": {
+                "type": "item",
+                "code": "newworldcrops:grain-corn"
+            },
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": [
+                "block/wood/trough/large/grainfill1",
+                "block/wood/trough/large/grainfill1",
+                "block/wood/trough/large/grainfill2",
+                "block/wood/trough/large/grainfill2",
+                "block/wood/trough/large/grainfill3",
+                "block/wood/trough/large/grainfill3",
+                "block/wood/trough/large/grainfill4",
+                "block/wood/trough/large/grainfill4"
+            ],
+            "textureCode": "contents-rye"
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/trough-large.json",
+        "op": "addmerge",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "legume",
+            "content": {
+                "type": "item",
+                "code": "newworldcrops:legume-*"
+            },
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": [
+                "block/wood/trough/large/grainfill1",
+                "block/wood/trough/large/grainfill1",
+                "block/wood/trough/large/grainfill2",
+                "block/wood/trough/large/grainfill2",
+                "block/wood/trough/large/grainfill3",
+                "block/wood/trough/large/grainfill3",
+                "block/wood/trough/large/grainfill4",
+                "block/wood/trough/large/grainfill4"
+            ],
+            "textureCode": "*"
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/trough-large.json",
+        "op": "addmerge",
+        "path": "/attributes/contentConfig/-",
+        "value": {
+            "code": "vegetable",
+            "content": {
+                "type": "item",
+                "code": "newworldcrops:vegetable-*"
+            },
+            "quantityPerFillLevel": 1,
+            "maxFillLevels": 8,
+            "shapesPerFillLevel": [
+                "block/wood/trough/large/grainfill1",
+                "block/wood/trough/large/grainfill1",
+                "block/wood/trough/large/grainfill2",
+                "block/wood/trough/large/grainfill2",
+                "block/wood/trough/large/grainfill3",
+                "block/wood/trough/large/grainfill3",
+                "block/wood/trough/large/grainfill4",
+                "block/wood/trough/large/grainfill4"
+            ],
+            "textureCode": "*"
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/trough-large.json",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "contents-newworldcrops:vegetable-potato": {
+                "base": "game:block/wood/barrel/raw-potato",
+                "overlays": [
+                    "game:block/wood/trough/large/shadow"
+                ]
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/trough-large.json",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "contents-newworldcrops:vegetable-tomato": {
+                "base": "game:block/wood/barrel/raw-tomato",
+                "overlays": [
+                    "game:block/wood/trough/large/shadow"
+                ]
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/trough-large.json",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "contents-newworldcrops:legume-greenbean": {
+                "base": "newworldcrops:block/wood/barrel/greenbean",
+                "overlays": [
+                    "game:block/wood/trough/large/shadow"
+                ]
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/trough-large.json",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "contents-newworldcrops:legume-kidneybean": {
+                "base": "newworldcrops:block/wood/barrel/kidneybean",
+                "overlays": [
+                    "game:block/wood/trough/large/shadow"
+                ]
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/trough-large.json",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "contents-newworldcrops:vegetable-beet": {
+                "base": "newworldcrops:block/wood/barrel/beet",
+                "overlays": [
+                    "game:block/wood/trough/large/shadow"
+                ]
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/trough-large.json",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "contents-newworldcrops:vegetable-cauliflower": {
+                "base": "newworldcrops:block/wood/barrel/cauliflower",
+                "overlays": [
+                    "game:block/wood/trough/large/shadow"
+                ]
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/trough-large.json",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
+            "contents-newworldcrops:legume-blackbean": {
+                "base": "newworldcrops:block/wood/barrel/blackbean",
+                "overlays": [
+                    "game:block/wood/trough/large/shadow"
+                ]
+            }
+        }
+    }
+]
