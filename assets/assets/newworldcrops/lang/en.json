@@ -274,5 +274,5 @@
     "newworldcrops:incontainer-item-spiritportion-potato": "Potato Vodka",
     "newworldcrops:item-pressedmash-potato": "Mashed Potatoes",
     "newworldcrops:item-pressedmash-potato-dry": "Dry Mashed Potatoes",
-    "tabname-nwc": "New World Crops"
+    "game:tabname-nwc": "New World Crops"
 }
