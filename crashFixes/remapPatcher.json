@@ -1,0 +1,10 @@
+[
+    {
+        "file": "game:config/remaps.json",
+        "op": "addmerge",
+        "path": "/nwccabbagefix",
+        "value": [
+            "/bir remapq game:air newworldcrops:crop-wildcabbage-2  force"
+        ]
+    }
+]
