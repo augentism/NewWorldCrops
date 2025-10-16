@@ -1,0 +1,186 @@
+{
+  "code": "chimera",
+  "class": "BlockCropFruit",
+  "storageFlags": 33,
+  "behaviors": [
+    {
+      "name": "Unstable"
+    }
+  ],
+  "variantgroups": [
+    {
+      "code": "root",
+      "states": [
+        "ipomoeabatatas"
+      ]
+    },
+    {
+      "code": "scion",
+      "states": [
+        "pepper",
+        "tomato",
+        "eggplant"
+      ]
+    },
+    {
+      "code": "stage",
+      "states": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ]
+    }
+  ],
+  "texturesByType": {
+    "@(chimera.*-(10|11|12))": {
+      "crop": {
+        "base": "newworldcrops:block/plant/crop/{scion}/e{stage}"
+      },
+      "potato": {
+        "base": "game:item/food/vegetable/potato"
+      }
+    },
+    "@(chimera.*-[0-9])": {
+      "crop": {
+        "base": "newworldcrops:block/plant/crop/{scion}/e{stage}"
+      }
+    }
+  },
+  "creativeinventory": {
+    "general": [
+      ""
+    ],
+    "plants": [
+      ""
+    ]
+  },
+  "renderpass": "OpaqueNoCull",
+  "shapeByType": {
+    "@(chimera.*-(10|11|12))": {
+      "base": "newworldcrops:block/plant/crop/chimera/potato/potchimera{stage}"
+    },
+    "@(chimera.*-[1-9])": {
+      "base": "game:block/plant/crop/vegetable"
+    }
+  },
+  "blockmaterial": "Plant",
+  "sideopaque": {
+    "all": false
+  },
+  "lightAbsorption": 0,
+  "sidesolid": {
+    "all": false
+  },
+  "attributes": {
+    "butterflyFeedByType": {
+      "*": true
+    },
+    "beeFeedByType": {
+      "*": true
+    },
+    "sitHeight": 0.3,
+    "tickGrowthProbability": 0.05,
+    "handbook": {
+      "include": true
+    },
+    "fruitStageByType": {
+      "*pepper*": 10,
+      "*tomato*": 10,
+      "*": 10
+    },
+    "interactionInterval": 1.00
+  },
+  "dropsByType": {
+    "@chimera.*pepper-(10|11|12)": [
+      {
+        "type": "item",
+        "code": "game:vegetable-bellpepper",
+        "quantity": {
+          "avg": 1.1,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "floralzonescosmopolitanregion:vegetable-{root}",
+        "quantity": {
+          "avg": 1.1,
+          "var": 0
+        }
+      }
+    ],
+    "@(chimera.*-(10|11|12))": [
+      {
+        "type": "item",
+        "code": "newworldcrops:vegetable-{scion}",
+        "quantity": {
+          "avg": 1.1,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "floralzonescosmopolitanregion:vegetable-{root}",
+        "quantity": {
+          "avg": 1.1,
+          "var": 0
+        }
+      }
+    ]
+  },
+  "cropPropsByType": {
+    "*pepper*": {
+      "requiredNutrient": "K",
+      "nutrientConsumption": 20,
+      "growthStages": 12,
+      "totalGrowthDays": 10,
+      "coldDamageBelow": 4,
+      "heatDamageAbove": 35
+    },
+    "*tomato*": {
+      "requiredNutrient": "K",
+      "nutrientConsumption": 20,
+      "growthStages": 12,
+      "totalGrowthDays": 10,
+      "coldDamageBelow": 4,
+      "heatDamageAbove": 35
+    },
+    "*": {
+      "requiredNutrient": "K",
+      "nutrientConsumption": 20,
+      "growthStages": 12,
+      "totalGrowthDays": 10,
+      "coldDamageBelow": 4,
+      "heatDamageAbove": 35
+    }
+  },
+  "collisionbox": null,
+  "selectionbox": {
+    "x1": 0.0625,
+    "y1": 0,
+    "z1": 0.0625,
+    "x2": 0.9375,
+    "y2": 0.25,
+    "z2": 0.9375
+  },
+  "materialDensity": 200,
+  "combustibleProps": {
+    "burnTemperature": 600,
+    "burnDuration": 10
+  },
+  "resistance": 0.5,
+  "sounds": {
+    "place": "game:block/plant",
+    "break": "game:block/plant",
+    "hit": "game:block/plant"
+  }
+}
