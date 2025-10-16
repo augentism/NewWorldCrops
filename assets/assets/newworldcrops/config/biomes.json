@@ -26,6 +26,12 @@
             "pacific neotropic",
             "atlantic neotropic"
         ],
+        "*-eggplant-*": [
+            "pacific nearctic",
+            "atlantic nearctic",
+            "pacific neotropic",
+            "atlantic neotropic"
+        ],
         "*-pepper-*": [
             "pacific nearctic",
             "atlantic nearctic",

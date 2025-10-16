@@ -35,7 +35,7 @@
                 "newworldcrops:crop-corn-9",
                 "newworldcrops:crop-corn-2"
             ],
-            "minTemp": 10,
+            "minTemp": 0,
             "maxTemp": 35,
             "minRain": 0.35,
             "maxRain": 0.75,
@@ -131,7 +131,7 @@
                 "newworldcrops:crop-pepper-12",
                 "newworldcrops:crop-pepper-2"
             ],
-            "minTemp": 10,
+            "minTemp": 0,
             "maxTemp": 35,
             "minRain": 0.35,
             "maxRain": 0.75,
@@ -155,7 +155,31 @@
                 "newworldcrops:crop-tomato-12",
                 "newworldcrops:crop-tomato-2"
             ],
-            "minTemp": 10,
+            "minTemp": 0,
+            "maxTemp": 35,
+            "minRain": 0.35,
+            "maxRain": 0.75,
+            "maxForest": 0.5,
+            "quantity": {
+                "avg": 5,
+                "var": 4
+            },
+            "chance": 0.036
+        }
+    },
+    {
+        "file": "game:worldgen/blockpatches/crop.json",
+        "op": "addmerge",
+        "path": "/-",
+        "value": {
+            "comment": "Small patches of eggplants",
+            "blockCodes": [
+                "newworldcrops:crop-eggplant-4",
+                "newworldcrops:crop-eggplant-10",
+                "newworldcrops:crop-eggplant-12",
+                "newworldcrops:crop-eggplant-2"
+            ],
+            "minTemp": 0,
             "maxTemp": 35,
             "minRain": 0.35,
             "maxRain": 0.75,

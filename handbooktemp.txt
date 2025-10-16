@@ -1,0 +1,54 @@
+New World Crops
+
+New world crops adds a variety of plants, mostly from the new world (The Americas)
+
+Most of the new crops work exactly the same as the vanilla crops, however there are some new crop varients that you may either encounter or create yourself.
+
+Of the normal crop varieties that work exactly like vanilla, you have:
+
+The Legumes:
+1. Green Beans 
+2. Black Beans 
+3. Kidney Beans
+
+The Vegetables:
+1. Beets
+
+The Grains:
+1. Oats
+2. Corn
+
+There are a couple of plants that vary from their vanilla counterparts slightly.
+
+The Cauliflower:
+The cauliflower plant cannot be obtained in the wild. It is domesticated from wild cabbage, and the seeds have a small chance to drop when you harvest cabbage. It is otherwise the same.
+
+The Potato:
+The Potato plant works slightly differently than vanilla. The productive output of the plant is slightly less than its other vegetable counterparts; however, it has a special propagation method. Instead of dropping seeds when it is mature, it only drops potatoes. To acquire more seeds, craft the potato with a knife, and you will cut the potato up into four seeds that you can now plant. This allows you to propagate it extremely quickly, and it fares well under harsh conditions. 
+
+Additionally, harvesting it with a knife at full maturity drops the plant item, which is useful for a new crop variant that will be explained later.
+
+The potato can also be baked like bread.
+
+The New plant types:
+
+Fruiting Plants:
+New world crops adds a new plant type, called the fruiting plant. These plants can be reharvested multiple times near their max maturity level so long as you have the resources to sustain the plant. There are 12 growth stages in total for these plants, however the last 3 stages are "harvest" stages. When the crop is at one of these stages, which you can tell when their title starts with "Fruiting", you can hold right click to harvest a small amount of crop and reduce the growth stage by one. This can be repeated so long as the crop is in a harvest stage, but eventually you will harvest it down to stage 9, where it needs to grow its fruit again before you can reharvest.
+
+Do not break these plants, as you will receive reduced drops.
+
+Additionally, harvesting it with a knife at the last stage before its harvesting stage will drop the plant item, which is useful for a new crop variant that will be explained later.
+
+There are currently three plants implemented in this manner:
+1. Tomatos
+2. Bell Peppers
+3. Eggplants
+
+The Three Sisters and the Sun Susters:
+This is another new plant type that combines multiple crops into a single plot. Like the three sisters of old, you can combine pumpkin, any bean, and corn in a single plot and grow all 3 variants at once. To obtain the seeds for the three sisters, you simply combine the three seeds you want to plant together (1 pumpkin, 1 bean of any type, and 1 corn) together and you will get a single seed of the sisters. Additionally, you can add a sunflower seed as a fourth to create the sun sister varient, which also grows sunflowers on that same plot. Each varient of the three sisters will consume all nutrients on the farmland equally, but at a reduced rate than if you had planted them all individually.
+
+Chimeras:
+You can also create chimeric hybrids of the nightshade plants. These do not spawn naturally, and are entirely man made horrors within our comprehension.
+
+Earlier we had mentioned that you can use a knife to harvest fully mature potato plants, as well as fruiting plants in their last stage before they have any fruit. You can craft those plant objects that you have obtained together to create a chimeric hybrid that can be harvested the same way you harvest the Fruiting plants. However, now they also drop their root vegetables in addition to their scions. These plants do consume slightly more nutrients than their more natural counterparts, but sacrifices must be made in the name of science.
+

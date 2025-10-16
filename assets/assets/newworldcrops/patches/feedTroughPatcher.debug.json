@@ -225,6 +225,19 @@
         "op": "addmerge",
         "path": "/textures",
         "value": {
+            "contents-newworldcrops:vegetable-eggplant": {
+                "base": "newworldcrops:block/wood/barrel/eggplant",
+                "overlays": [
+                    "game:block/wood/trough/large/shadow"
+                ]
+            }
+        }
+    },
+    {
+        "file": "game:blocktypes/wood/trough-large.json",
+        "op": "addmerge",
+        "path": "/textures",
+        "value": {
             "contents-newworldcrops:vegetable-cauliflower": {
                 "base": "newworldcrops:block/wood/barrel/cauliflower",
                 "overlays": [

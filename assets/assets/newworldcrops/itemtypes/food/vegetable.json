@@ -61,7 +61,7 @@
                         }
                 },
                 "*": {
-                        "inContainterTexture": {
+                        "inContainerTexture": {
                                 "base": "newworldcrops:block/wood/barrel/{type}"
                         },
                         "displaycaseable": true,
@@ -204,6 +204,19 @@
                                 "z": -23
                         },
                         "scale": 2.39
+                },
+                "*eggplant": {
+                        "rotation": {
+                                "x": 71,
+                                "y": -16,
+                                "z": 0
+                        },
+                        "origin": {
+                                "x": 0.2,
+                                "y": -0.4,
+                                "z": 0
+                        },
+                        "scale": 2.27
                 }
         },
         "fpHandTransformByType": {
@@ -244,6 +257,19 @@
                                 "z": 0.5
                         },
                         "scale": 0.69
+                },
+                "*eggplant": {
+                        "rotation": {
+                                "x": 21,
+                                "y": -62,
+                                "z": 18
+                        },
+                        "origin": {
+                                "x": 0.5,
+                                "y": 0.7,
+                                "z": 0.5
+                        },
+                        "scale": 0.35
                 }
         },
         "groundTransformByType": {

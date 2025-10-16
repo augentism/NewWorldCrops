@@ -15,7 +15,29 @@
         "width": 2,
         "height": 1,
         "shapeless": true,
-        "output": { 
+        "output": {
+            "type": "block",
+            "code": "newworldcrops:chimera-potato-tomato-9",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "RS",
+        "recipeGroup": 1,
+        "ingredients": {
+            "S": {
+                "type": "block",
+                "code": "newworldcrops:crop-eggplant-9"
+            },
+            "R": {
+                "type": "block",
+                "code": "newworldcrops:crop-potato-7"
+            }
+        },
+        "width": 2,
+        "height": 1,
+        "shapeless": true,
+        "output": {
             "type": "block",
             "code": "newworldcrops:chimera-potato-tomato-9",
             "quantity": 1
@@ -37,7 +59,7 @@
         "width": 2,
         "height": 1,
         "shapeless": true,
-        "output": { 
+        "output": {
             "type": "block",
             "code": "newworldcrops:chimera-potato-pepper-9",
             "quantity": 1
