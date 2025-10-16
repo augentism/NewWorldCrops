@@ -2,92 +2,104 @@
     "code": "chimera",
     "class": "BlockCropFruit",
     "storageFlags": 33,
-    "behaviors": [ { "name": "Unstable" } ],
+    "behaviors": [
+        {
+            "name": "Unstable"
+        }
+    ],
     "variantgroups": [
         {
             "code": "root",
-            "states": ["potato"]
+            "states": [
+                "potato"
+            ]
         },
         {
             "code": "scion",
-            "states": ["pepper", "tomato"]
+            "states": [
+                "pepper",
+                "tomato",
+                "eggplant"
+            ]
         },
         {
             "code": "stage",
-            "states": ["1","2","3","4","5","6","7","8","9","10","11","12"]
+            "states": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12"
+            ]
         }
     ],
     "texturesByType": {
-		"@(chimera.*-pepper-(10|11|12))": {
-			"crop": { "base": "newworldcrops:block/plant/crop/{scion}/e{stage}" },
-			"potato": { "base": "game:item/food/vegetable/potato" }
-		},
-		"@(chimera.*-tomato-(10|11|12))": {
-			"crop": { "base": "newworldcrops:block/plant/crop/{scion}/e{stage}" },
-			"potato": { "base": "game:item/food/vegetable/potato" }
-		},
+        "@(chimera.*-(10|11|12))": {
+            "crop": {
+                "base": "newworldcrops:block/plant/crop/{scion}/e{stage}"
+            },
+            "potato": {
+                "base": "game:item/food/vegetable/potato"
+            }
+        },
         "@(chimera.*-[0-9])": {
-			"crop": { "base": "newworldcrops:block/plant/crop/{scion}/e{stage}" }
-		}
-	},
+            "crop": {
+                "base": "newworldcrops:block/plant/crop/{scion}/e{stage}"
+            }
+        }
+    },
     "creativeinventory": {
-        "general": [ "" ],
-        "plants": [ "" ]
+        "general": [
+            ""
+        ],
+        "plants": [
+            "*"
+        ]
     },
     "renderpass": "OpaqueNoCull",
     "shapeByType": {
-		"@(chimera.*-(10|11|12))": { "base": "newworldcrops:block/plant/crop/chimera/{root}/potchimera{stage}" },
-		"@(chimera.*-[1-9])": { "base": "game:block/plant/crop/vegetable"}
-	},
+        "@(chimera.*-(10|11|12))": {
+            "base": "newworldcrops:block/plant/crop/chimera/{root}/potchimera{stage}"
+        },
+        "@(chimera.*-[1-9])": {
+            "base": "game:block/plant/crop/vegetable"
+        }
+    },
     "blockmaterial": "Plant",
     "sideopaque": {
-		"all": false
-	},
+        "all": false
+    },
     "lightAbsorption": 0,
-	"sidesolid": {
-		"all": false
-	},
+    "sidesolid": {
+        "all": false
+    },
     "attributes": {
         "butterflyFeedByType": {
-        "*": true
+            "*": true
         },
         "beeFeedByType": {
-        "*": true
+            "*": true
         },
         "sitHeight": 0.3,
         "tickGrowthProbability": 0.05,
         "handbook": {
-        "include": true
+            "include": true
         },
-        "fruitStageByType": 
-        {
+        "fruitStageByType": {
             "*pepper*": 10,
             "*tomato*": 10,
             "*": 10
         },
         "interactionInterval": 1.00
-        
     },
     "dropsByType": {
-
-        "@chimera.*tomato-(10|11|12)": [
-            {
-                "type": "item",
-                "code": "newworldcrops:vegetable-tomato",
-                "quantity": {
-                    "avg": 1.1,
-                    "var": 0
-                }
-            },
-            {
-                "type": "item",
-                "code": "newworldcrops:vegetable-potato",
-                "quantity": {
-                    "avg": 1.1,
-                    "var": 0
-                }
-            }
-        ],
         "@chimera.*pepper-(10|11|12)": [
             {
                 "type": "item",
@@ -99,7 +111,25 @@
             },
             {
                 "type": "item",
-                "code": "newworldcrops:vegetable-potato",
+                "code": "newworldcrops:vegetable-{root}",
+                "quantity": {
+                    "avg": 1.1,
+                    "var": 0
+                }
+            }
+        ],
+        "@(chimera.*-(10|11|12))": [
+            {
+                "type": "item",
+                "code": "newworldcrops:vegetable-{scion}",
+                "quantity": {
+                    "avg": 1.1,
+                    "var": 0
+                }
+            },
+            {
+                "type": "item",
+                "code": "newworldcrops:vegetable-{root}",
                 "quantity": {
                     "avg": 1.1,
                     "var": 0
@@ -123,9 +153,16 @@
             "totalGrowthDays": 10,
             "coldDamageBelow": 4,
             "heatDamageAbove": 35
+        },
+        "*": {
+            "requiredNutrient": "K",
+            "nutrientConsumption": 20,
+            "growthStages": 12,
+            "totalGrowthDays": 10,
+            "coldDamageBelow": 4,
+            "heatDamageAbove": 35
         }
     },
-    
     "collisionbox": null,
     "selectionbox": {
         "x1": 0.0625,
@@ -141,9 +178,9 @@
         "burnDuration": 10
     },
     "resistance": 0.5,
-	"sounds": {
-		"place": "game:block/plant",
-		"break": "game:block/plant",
-		"hit": "game:block/plant"
-	}
+    "sounds": {
+        "place": "game:block/plant",
+        "break": "game:block/plant",
+        "hit": "game:block/plant"
+    }
 }

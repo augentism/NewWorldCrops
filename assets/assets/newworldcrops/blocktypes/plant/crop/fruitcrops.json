@@ -2,59 +2,85 @@
     "code": "crop",
     "class": "BlockCropFruit",
     "storageFlags": 33,
-    "behaviors": [ { "name": "Unstable" } ],
+    "behaviors": [
+        {
+            "name": "Unstable"
+        }
+    ],
     "variantgroups": [
         {
             "code": "type",
-            "states": ["pepper", "tomato"]
+            "states": [
+                "pepper",
+                "tomato",
+                "eggplant"
+            ]
         },
         {
             "code": "stage",
-            "states": ["1","2","3","4","5","6","7","8","9","10","11","12"]
+            "states": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12"
+            ]
         }
     ],
-    "textures":{
-        "crop": { "base": "newworldcrops:block/plant/crop/{type}/e{stage}" }
+    "textures": {
+        "crop": {
+            "base": "newworldcrops:block/plant/crop/{type}/e{stage}"
+        }
     },
     "creativeinventory": {
-        "general": [ "" ],
-        "plants": [ "" ]
+        "general": [
+            ""
+        ],
+        "plants": [
+            "*"
+        ]
     },
     "renderpass": "OpaqueNoCull",
     "shapeByType": {
-		"*": { "base": "game:block/plant/crop/vegetable" }
-	},
+        "*": {
+            "base": "game:block/plant/crop/vegetable"
+        }
+    },
     "blockmaterial": "Plant",
     "sideopaque": {
-		"all": false
-	},
+        "all": false
+    },
     "lightAbsorption": 0,
-	"sidesolid": {
-		"all": false
-	},
+    "sidesolid": {
+        "all": false
+    },
     "attributes": {
         "butterflyFeedByType": {
-        "*": true
+            "*": true
         },
         "beeFeedByType": {
-        "*": true
+            "*": true
         },
         "sitHeight": 0.3,
         "tickGrowthProbability": 0.05,
         "handbook": {
-        "include": true
+            "include": true
         },
-        "fruitStageByType": 
-        {
+        "fruitStageByType": {
             "*pepper*": 10,
             "*tomato*": 10,
             "*": 10
         },
         "interactionInterval": 1.00
-        
     },
     "dropsByType": {
-
         "@.*tomato-(10|11|12)": [
             {
                 "type": "item",
@@ -67,11 +93,13 @@
             {
                 "type": "item",
                 "code": "newworldcrops:seeds-{type}",
-                "quantity": {"avg": 0.4, "var": 0.2}
+                "quantity": {
+                    "avg": 0.4,
+                    "var": 0.2
+                }
             }
         ],
-        
-        "*pepper-10": [
+        "@.*pepper-(10|11|12)": [
             {
                 "type": "item",
                 "code": "game:vegetable-bellpepper",
@@ -83,13 +111,16 @@
             {
                 "type": "item",
                 "code": "newworldcrops:seeds-{type}",
-                "quantity": {"avg": 0.4, "var": 0.2}
+                "quantity": {
+                    "avg": 0.4,
+                    "var": 0.2
+                }
             }
         ],
-        "*pepper-11": [
+        "@.*-(10|11|12)": [
             {
                 "type": "item",
-                "code": "game:vegetable-bellpepper",
+                "code": "newworldcrops:vegetable-{type}",
                 "quantity": {
                     "avg": 1.1,
                     "var": 0
@@ -98,48 +129,55 @@
             {
                 "type": "item",
                 "code": "newworldcrops:seeds-{type}",
-                "quantity": {"avg": 0.4, "var": 0.2}
+                "quantity": {
+                    "avg": 0.4,
+                    "var": 0.2
+                }
             }
         ],
-        "*pepper-12": [
+        "@.*-9": [
             {
                 "type": "item",
-                "code": "game:vegetable-bellpepper",
+                "code": "newworldcrops:seeds-{type}",
                 "quantity": {
-                    "avg": 1.1,
-                    "var": 0
+                    "avg": 0.7
                 }
             },
             {
-                "type": "item",
-                "code": "newworldcrops:seeds-{type}",
-                "quantity": {"avg": 0.4, "var": 0.2}
-            }
-        ],
-        "@.*-9":[
-            {
-                "type": "item",
-                "code": "newworldcrops:seeds-{type}",
-                "quantity": {"avg": 0.7}
-            },
-            {
-              "type": "block",
-              "code": "crop-{type}-9",
-              "quantity": { "avg": 1 },
-              "tool": "knife"
+                "type": "block",
+                "code": "crop-{type}-9",
+                "quantity": {
+                    "avg": 1
+                },
+                "tool": "knife"
             }
         ],
         "*": [
             {
                 "type": "item",
                 "code": "newworldcrops:seeds-{type}",
-                "quantity": {"avg": 0.7}
+                "quantity": {
+                    "avg": 0.7
+                }
             }
         ]
-        
     },
     "cropPropsByType": {
         "*pepper*": {
+            "requiredNutrient": "K",
+            "nutrientConsumption": 20,
+            "growthStages": 12,
+            "totalGrowthDays": 10,
+            "coldDamageBelow": 4,
+            "heatDamageAbove": 35,
+            "xpByType": {
+                "-10": 0.28,
+                "-11": 0.28,
+                "-12": 0.28,
+                "*": 0.0
+            }
+        },
+        "*eggplant*": {
             "requiredNutrient": "K",
             "nutrientConsumption": 20,
             "growthStages": 12,
@@ -166,9 +204,22 @@
                 "-12": 0.28,
                 "*": 0.0
             }
+        },
+        "*": {
+            "requiredNutrient": "K",
+            "nutrientConsumption": 20,
+            "growthStages": 12,
+            "totalGrowthDays": 10,
+            "coldDamageBelow": 4,
+            "heatDamageAbove": 35,
+            "xpByType": {
+                "-10": 0.28,
+                "-11": 0.28,
+                "-12": 0.28,
+                "*": 0.0
+            }
         }
     },
-    
     "collisionbox": null,
     "selectionbox": {
         "x1": 0.0625,
@@ -184,9 +235,9 @@
         "burnDuration": 10
     },
     "resistance": 0.5,
-	"sounds": {
-		"place": "game:block/plant",
-		"break": "game:block/plant",
-		"hit": "game:block/plant"
-	}
+    "sounds": {
+        "place": "game:block/plant",
+        "break": "game:block/plant",
+        "hit": "game:block/plant"
+    }
 }

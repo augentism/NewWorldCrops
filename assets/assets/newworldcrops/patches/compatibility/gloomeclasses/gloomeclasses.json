@@ -1,0 +1,233 @@
+[
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*-7/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/crops.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*potato-7/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/crops.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*-10/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/beans.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*-11/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/beans.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*black-10/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/sisters.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*black-11/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/sisters.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*green-10/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/sisters.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*green-11/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/sisters.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*kidney-10/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/sisters.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*kidney-11/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/sisters.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*blacksun-10/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/sisters.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*blacksun-11/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/sisters.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*greensun-10/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/sisters.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*greensun-11/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/sisters.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*kidneysun-10/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/sisters.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*kidneysun-11/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/sisters.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/@.*tomato-(10|11|12)/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/fruitcrops.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/@.*pepper-(10|11|12)/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/fruitcrops.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/@.*-(10|11|12)/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/fruitcrops.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*-8/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/corn.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/*-9/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/corn.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  }
+]

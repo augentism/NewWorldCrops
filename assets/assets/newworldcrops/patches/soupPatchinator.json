@@ -17,7 +17,12 @@
         "file": "game:blocktypes/clay/pot.json",
         "op": "addmerge",
         "path": "/attributesByType/claypot-cooked/textureMapping",
-        "value": {"newworldcrops:vegetable-*": ["vegetable","group1"]}
+        "value": {
+            "newworldcrops:vegetable-*": [
+                "vegetable",
+                "group1"
+            ]
+        }
     },
     {
         "file": "game:recipes/cooking/meatystew.json",
@@ -37,13 +42,23 @@
         "file": "game:blocktypes/clay/pot.json",
         "op": "addmerge",
         "path": "/attributesByType/claypot-cooked/textureMapping",
-        "value": {"newworldcrops:grain-*": ["grain","group1"]}
+        "value": {
+            "newworldcrops:grain-*": [
+                "grain",
+                "group1"
+            ]
+        }
     },
     {
         "file": "game:blocktypes/clay/pot.json",
         "op": "addmerge",
         "path": "/attributesByType/claypot-cooked/textureMapping",
-        "value": {"newworldcrops:legume-*": ["vegetable","group1"]}
+        "value": {
+            "newworldcrops:legume-*": [
+                "vegetable",
+                "group1"
+            ]
+        }
     },
     {
         "file": "game:recipes/cooking/meatystew.json",

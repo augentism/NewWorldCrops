@@ -1,0 +1,400 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {},
+	"textures": {
+		"eggplant": "item/food/vegetable/eggplant"
+	},
+	"elements": [
+		{
+			"name": "Cube2",
+			"from": [
+				0.0,
+				0.0,
+				0.0
+			],
+			"to": [
+				6.0,
+				3.0,
+				4.0
+			],
+			"faces": {
+				"north": {
+					"texture": "#eggplant",
+					"uv": [
+						0.0,
+						0.0,
+						6.0,
+						3.0
+					]
+				},
+				"east": {
+					"texture": "#eggplant",
+					"uv": [
+						0.0,
+						0.0,
+						4.0,
+						3.0
+					]
+				},
+				"south": {
+					"texture": "#eggplant",
+					"uv": [
+						0.0,
+						0.0,
+						6.0,
+						3.0
+					]
+				},
+				"west": {
+					"texture": "#eggplant",
+					"uv": [
+						0.0,
+						0.0,
+						4.0,
+						3.0
+					]
+				},
+				"up": {
+					"texture": "#eggplant",
+					"uv": [
+						0.0,
+						0.0,
+						6.0,
+						4.0
+					]
+				},
+				"down": {
+					"texture": "#eggplant",
+					"uv": [
+						0.0,
+						0.0,
+						6.0,
+						4.0
+					]
+				}
+			},
+			"children": [
+				{
+					"name": "Cube3",
+					"from": [
+						4.0,
+						1.0,
+						2.0
+					],
+					"to": [
+						7.0,
+						4.0,
+						5.0
+					],
+					"rotationOrigin": [
+						4.0,
+						1.0,
+						2.0
+					],
+					"faces": {
+						"north": {
+							"texture": "#eggplant",
+							"uv": [
+								0.0,
+								0.0,
+								3.0,
+								3.0
+							]
+						},
+						"east": {
+							"texture": "#eggplant",
+							"uv": [
+								0.0,
+								0.0,
+								3.0,
+								3.0
+							]
+						},
+						"south": {
+							"texture": "#eggplant",
+							"uv": [
+								0.0,
+								0.0,
+								3.0,
+								3.0
+							]
+						},
+						"west": {
+							"texture": "#eggplant",
+							"uv": [
+								0.0,
+								0.0,
+								3.0,
+								3.0
+							]
+						},
+						"up": {
+							"texture": "#eggplant",
+							"uv": [
+								0.0,
+								0.0,
+								3.0,
+								3.0
+							]
+						},
+						"down": {
+							"texture": "#eggplant",
+							"uv": [
+								0.0,
+								0.0,
+								3.0,
+								3.0
+							]
+						}
+					},
+					"children": [
+						{
+							"name": "Cube4",
+							"from": [
+								3.0,
+								3.0,
+								3.0
+							],
+							"to": [
+								6.0,
+								3.0,
+								6.0
+							],
+							"rotationOrigin": [
+								3.0,
+								3.0,
+								3.0
+							],
+							"rotationX": 45.0,
+							"rotationY": -135.0,
+							"faces": {
+								"north": {
+									"texture": "#null",
+									"uv": [
+										0.0,
+										0.0,
+										3.0,
+										0.5
+									]
+								},
+								"east": {
+									"texture": "#null",
+									"uv": [
+										0.0,
+										0.0,
+										3.0,
+										0.5
+									]
+								},
+								"south": {
+									"texture": "#null",
+									"uv": [
+										0.0,
+										0.0,
+										3.0,
+										0.5
+									]
+								},
+								"west": {
+									"texture": "#null",
+									"uv": [
+										0.0,
+										0.0,
+										3.0,
+										0.5
+									]
+								},
+								"up": {
+									"texture": "#eggplant",
+									"uv": [
+										12.0,
+										0.0,
+										16.0,
+										4.0
+									],
+									"rotation": 270,
+									"autoUv": false
+								},
+								"down": {
+									"texture": "#eggplant",
+									"uv": [
+										12.0,
+										0.0,
+										16.0,
+										4.0
+									],
+									"autoUv": false
+								}
+							}
+						},
+						{
+							"name": "Cube5",
+							"from": [
+								3.0,
+								3.0,
+								3.0
+							],
+							"to": [
+								6.0,
+								3.0,
+								6.0
+							],
+							"rotationOrigin": [
+								3.0,
+								3.0,
+								3.0
+							],
+							"rotationX": 45.0,
+							"rotationY": -22.5,
+							"rotationZ": -45.0,
+							"faces": {
+								"north": {
+									"texture": "#null",
+									"uv": [
+										0.0,
+										0.0,
+										3.0,
+										0.5
+									]
+								},
+								"east": {
+									"texture": "#null",
+									"uv": [
+										0.0,
+										0.0,
+										3.0,
+										0.5
+									]
+								},
+								"south": {
+									"texture": "#null",
+									"uv": [
+										0.0,
+										0.0,
+										3.0,
+										0.5
+									]
+								},
+								"west": {
+									"texture": "#null",
+									"uv": [
+										0.0,
+										0.0,
+										3.0,
+										0.5
+									]
+								},
+								"up": {
+									"texture": "#eggplant",
+									"uv": [
+										12.0,
+										0.0,
+										16.0,
+										4.0
+									],
+									"rotation": 270,
+									"autoUv": false
+								},
+								"down": {
+									"texture": "#eggplant",
+									"uv": [
+										12.0,
+										0.0,
+										16.0,
+										4.0
+									],
+									"autoUv": false
+								}
+							}
+						},
+						{
+							"name": "Cube6",
+							"from": [
+								3.0,
+								3.0,
+								3.0
+							],
+							"to": [
+								6.0,
+								3.0,
+								6.0
+							],
+							"rotationOrigin": [
+								3.0,
+								3.0,
+								3.0
+							],
+							"rotationX": -45.0,
+							"rotationY": 135.0,
+							"rotationZ": 67.5,
+							"faces": {
+								"north": {
+									"texture": "#null",
+									"uv": [
+										0.0,
+										0.0,
+										3.0,
+										0.5
+									]
+								},
+								"east": {
+									"texture": "#null",
+									"uv": [
+										0.0,
+										0.0,
+										3.0,
+										0.5
+									]
+								},
+								"south": {
+									"texture": "#null",
+									"uv": [
+										0.0,
+										0.0,
+										3.0,
+										0.5
+									]
+								},
+								"west": {
+									"texture": "#null",
+									"uv": [
+										0.0,
+										0.0,
+										3.0,
+										0.5
+									]
+								},
+								"up": {
+									"texture": "#eggplant",
+									"uv": [
+										12.0,
+										0.0,
+										16.0,
+										4.0
+									],
+									"rotation": 270,
+									"autoUv": false
+								},
+								"down": {
+									"texture": "#eggplant",
+									"uv": [
+										12.0,
+										0.0,
+										16.0,
+										4.0
+									],
+									"autoUv": false
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
