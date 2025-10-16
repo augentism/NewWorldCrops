@@ -18,9 +18,9 @@
         },
         "width": 3,
         "height": 1,
-        "output": { 
+        "output": {
             "type": "item",
-            "code": "newworldcrops:seeds-sistergreen",
+            "code": "newworldcrops:seeds-pumpkin-greenbean-corn-none",
             "quantity": 1
         }
     },
@@ -43,9 +43,9 @@
         },
         "width": 3,
         "height": 1,
-        "output": { 
+        "output": {
             "type": "item",
-            "code": "newworldcrops:seeds-sisterkidney",
+            "code": "newworldcrops:seeds-pumpkin-kidneybean-corn-none",
             "quantity": 1
         }
     },
@@ -68,32 +68,9 @@
         },
         "width": 3,
         "height": 1,
-        "output": { 
+        "output": {
             "type": "item",
-            "code": "newworldcrops:seeds-sisterblack",
-            "quantity": 1
-        }
-    },
-
-
-    {
-        "ingredientPattern": "SF",
-        "recipeGroup": 1,
-        "ingredients": {
-            "S": {
-                "type": "item",
-                "code": "game:seeds-sunflower"
-            },
-            "F": {
-                "type": "item",
-                "code": "newworldcrops:seeds-sistergreen"
-            }
-        },
-        "width": 2,
-        "height": 1,
-        "output": { 
-            "type": "item",
-            "code": "newworldcrops:seeds-sistergreensun",
+            "code": "newworldcrops:seeds-pumpkin-blackbean-corn-none",
             "quantity": 1
         }
     },
@@ -107,14 +84,14 @@
             },
             "F": {
                 "type": "item",
-                "code": "newworldcrops:seeds-sisterblack"
+                "code": "newworldcrops:seeds-pumpkin-greenbean-corn-none"
             }
         },
         "width": 2,
         "height": 1,
-        "output": { 
+        "output": {
             "type": "item",
-            "code": "newworldcrops:seeds-sisterblacksun",
+            "code": "newworldcrops:seeds-pumpkin-greenbean-corn-sunflower",
             "quantity": 1
         }
     },
@@ -128,17 +105,36 @@
             },
             "F": {
                 "type": "item",
-                "code": "newworldcrops:seeds-sisterkidney"
+                "code": "newworldcrops:seeds-pumpkin-blackbean-corn-none"
             }
         },
         "width": 2,
         "height": 1,
-        "output": { 
+        "output": {
             "type": "item",
-            "code": "newworldcrops:seeds-sisterkidneysun",
+            "code": "newworldcrops:seeds-pumpkin-blackbean-corn-sunflower",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "SF",
+        "recipeGroup": 1,
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:seeds-sunflower"
+            },
+            "F": {
+                "type": "item",
+                "code": "newworldcrops:seeds-pumpkin-kidneybean-corn-none"
+            }
+        },
+        "width": 2,
+        "height": 1,
+        "output": {
+            "type": "item",
+            "code": "newworldcrops:seeds-pumpkin-kidneybean-corn-sunflower",
             "quantity": 1
         }
     }
-    
-
 ]

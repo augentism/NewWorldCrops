@@ -1,0 +1,186 @@
+[
+  {
+    "ingredientPattern": "PBC",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "floralzonescosmopolitanregion:smallberrybush-cucurbitaficifolia-empty"
+      },
+      "B": {
+        "type": "item",
+        "code": "newworldcrops:seeds-greenbean"
+      },
+      "C": {
+        "type": "item",
+        "code": "floralzonescosmopolitanregion:seeds-zeamays"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "newworldcrops:seeds-cucurbitaficifolia-greenbean-zeamays-none",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "PBC",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "floralzonescosmopolitanregion:smallberrybush-cucurbitaficifolia-empty"
+      },
+      "B": {
+        "type": "item",
+        "code": "newworldcrops:seeds-kidneybean"
+      },
+      "C": {
+        "type": "item",
+        "code": "floralzonescosmopolitanregion:seeds-zeamays"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "block",
+      "code": "newworldcrops:seeds-cucurbitaficifolia-kidneybean-zeamays-none",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "PBC",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "floralzonescosmopolitanregion:smallberrybush-cucurbitaficifolia-empty"
+      },
+      "B": {
+        "type": "item",
+        "code": "newworldcrops:seeds-blackbean"
+      },
+      "C": {
+        "type": "item",
+        "code": "floralzonescosmopolitanregion:seeds-zeamays"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "newworldcrops:seeds-cucurbitaficifolia-blackbean-zeamays-none",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "PBC",
+    "recipeGroup": 1,
+    "ingredients": {
+      "P": {
+        "type": "block",
+        "code": "floralzonescosmopolitanregion:smallberrybush-cucurbitaficifolia-empty"
+      },
+      "B": {
+        "type": "item",
+        "code": "floralzonescosmopolitanregion:seeds-phaseolusvulgaris"
+      },
+      "C": {
+        "type": "item",
+        "code": "floralzonescosmopolitanregion:seeds-zeamays"
+      }
+    },
+    "width": 3,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "newworldcrops:seeds-cucurbitaficifolia-phaseolusvulgaris-zeamays-none",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "SF",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:seeds-sunflower"
+      },
+      "F": {
+        "type": "item",
+        "code": "newworldcrops:seeds-cucurbitaficifolia-greenbean-zeamays-none"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "newworldcrops:seeds-cucurbitaficifolia-greenbean-zeamays-sunflower",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "SF",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:seeds-sunflower"
+      },
+      "F": {
+        "type": "item",
+        "code": "newworldcrops:seeds-cucurbitaficifolia-blackbean-zeamays-none"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "newworldcrops:seeds-cucurbitaficifolia-blackbean-zeamays-sunflower",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "SF",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:seeds-sunflower"
+      },
+      "F": {
+        "type": "item",
+        "code": "newworldcrops:seeds-cucurbitaficifolia-kidneybean-zeamays-none"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "newworldcrops:seeds-cucurbitaficifolia-kidneybean-zeamays-sunflower",
+      "quantity": 1
+    }
+  },
+  {
+    "ingredientPattern": "SF",
+    "recipeGroup": 1,
+    "ingredients": {
+      "S": {
+        "type": "item",
+        "code": "game:seeds-sunflower"
+      },
+      "F": {
+        "type": "item",
+        "code": "newworldcrops:seeds-cucurbitaficifolia-phaseolusvulgaris-zeamays-none"
+      }
+    },
+    "width": 2,
+    "height": 1,
+    "output": {
+      "type": "item",
+      "code": "newworldcrops:seeds-cucurbitaficifolia-phaseolusvulgaris-zeamays-sunflower",
+      "quantity": 1
+    }
+  }
+]
