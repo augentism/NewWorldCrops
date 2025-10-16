@@ -60,7 +60,7 @@
             ""
         ],
         "plants": [
-            "*"
+            ""
         ]
     },
     "renderpass": "OpaqueNoCull",
