@@ -1,0 +1,8 @@
+Implementation Notes
+
+
+Files for alcohol functionality
+    pressedmash.json
+    spirit.json
+    add juicablepropertiesbytype
+    cider.json (both of them)
