@@ -1,0 +1,369 @@
+[
+    {
+        "file": "game:recipes/cooking/augratin.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/augratin.json",
+        "op": "addmerge", 
+        "path": "/ingredients/3/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/pastahot.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:grain-corn",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/pastahot.json",
+        "op": "addmerge", 
+        "path": "/ingredients/3/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:grain-*",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/riceandbeans.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:grain-*",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/riceandbeans.json",
+        "op": "addmerge", 
+        "path": "/ingredients/3/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:grain-*",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/pastacold.json",
+        "op": "addmerge", 
+        "path": "/ingredients/1/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:grain-*",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/pastacold.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:grain-*",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/salad.json",
+        "op": "addmerge", 
+        "path": "/ingredients/0/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:grain-*",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/salad.json",
+        "op": "addmerge", 
+        "path": "/ingredients/1/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:grain-*",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/salad.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:grain-*",  "shapeElement": "game:bowl/vegetable 3/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/salad.json",
+        "op": "addmerge", 
+        "path": "/ingredients/3/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:grain-*",  "shapeElement": "game:bowl/vegetable 4/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+
+
+
+
+
+
+    {
+        "file": "game:recipes/cooking/augratin.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/augratin.json",
+        "op": "addmerge", 
+        "path": "/ingredients/3/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/pastahot.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/pastahot.json",
+        "op": "addmerge", 
+        "path": "/ingredients/3/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/riceandbeans.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/riceandbeans.json",
+        "op": "addmerge", 
+        "path": "/ingredients/3/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/pastacold.json",
+        "op": "addmerge", 
+        "path": "/ingredients/1/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/pastacold.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/salad.json",
+        "op": "addmerge", 
+        "path": "/ingredients/0/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/salad.json",
+        "op": "addmerge", 
+        "path": "/ingredients/1/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/salad.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 3/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/salad.json",
+        "op": "addmerge", 
+        "path": "/ingredients/3/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:vegetable-*",  "shapeElement": "game:bowl/vegetable 4/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+
+
+
+
+
+
+
+
+
+    {
+        "file": "game:recipes/cooking/augratin.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/augratin.json",
+        "op": "addmerge", 
+        "path": "/ingredients/3/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/pastahot.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/pastahot.json",
+        "op": "addmerge", 
+        "path": "/ingredients/3/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/riceandbeans.json",
+        "op": "addmerge", 
+        "path": "/ingredients/1/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/null/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/riceandbeans.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/riceandbeans.json",
+        "op": "addmerge", 
+        "path": "/ingredients/3/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/pastacold.json",
+        "op": "addmerge", 
+        "path": "/ingredients/1/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/pastacold.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/salad.json",
+        "op": "addmerge", 
+        "path": "/ingredients/0/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/salad.json",
+        "op": "addmerge", 
+        "path": "/ingredients/1/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/salad.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 3/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/salad.json",
+        "op": "addmerge", 
+        "path": "/ingredients/3/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:legume-*",  "shapeElement": "game:bowl/vegetable 4/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+
+
+
+
+
+
+
+    {
+        "file": "game:recipes/cooking/augratin.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/augratin.json",
+        "op": "addmerge", 
+        "path": "/ingredients/3/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/pastahot.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/pastahot.json",
+        "op": "addmerge", 
+        "path": "/ingredients/3/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/riceandbeans.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "game:recipes/cooking/riceandbeans.json",
+        "op": "addmerge", 
+        "path": "/ingredients/3/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/pastacold.json",
+        "op": "addmerge", 
+        "path": "/ingredients/1/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/pastacold.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/salad.json",
+        "op": "addmerge", 
+        "path": "/ingredients/0/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 1/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/salad.json",
+        "op": "addmerge", 
+        "path": "/ingredients/1/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 2/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/salad.json",
+        "op": "addmerge", 
+        "path": "/ingredients/2/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 3/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    },
+    {
+        "file": "expandedfoods:recipes/mixing/salad.json",
+        "op": "addmerge", 
+        "path": "/ingredients/3/validStacks/-", 
+        "value": { "type": "item", "code": "newworldcrops:pickled*",  "shapeElement": "game:bowl/vegetable 4/*" },
+        "dependsOn": [{ "modid": "expandedfoods"}]
+    }
+
+ 
+]

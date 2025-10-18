@@ -335,57 +335,41 @@
     {
         "file": "game:recipes/cooking/scrambledeggs.json",
         "op": "addmerge",
-        "path": "/ingredients/3/validStacks/-",
-        "value": {
-            "type": "item",
-            "code": "newworldcrops:grain-corn",
-            "shapeElement": "bowl/vegetable 1/*",
-            "textureMapping": [
-                "vegetable",
-                "group5"
-            ]
-        }
-    },
-    {
-        "file": "game:recipes/cooking/scrambledeggs.json",
-        "op": "addmerge",
-        "path": "/ingredients/3/validStacks/-",
+        "path": "/ingredients/5/validStacks/-",
         "value": {
             "type": "item",
             "code": "newworldcrops:vegetable-*",
-            "shapeElement": "bowl/vegetable 1/*",
-            "textureMapping": [
-                "vegetable",
-                "group5"
-            ]
+            "shapeElement": "bowl/vegetable2/*"
         }
     },
     {
         "file": "game:recipes/cooking/scrambledeggs.json",
         "op": "addmerge",
-        "path": "/ingredients/4/validStacks/-",
+        "path": "/ingredients/5/validStacks/-",
         "value": {
             "type": "item",
             "code": "newworldcrops:grain-corn",
-            "shapeElement": "bowl/vegetable 2/*",
-            "textureMapping": [
-                "vegetable",
-                "group5"
-            ]
+            "shapeElement": "bowl/vegetable2/*"
         }
     },
     {
         "file": "game:recipes/cooking/scrambledeggs.json",
         "op": "addmerge",
-        "path": "/ingredients/4/validStacks/-",
+        "path": "/ingredients/6/validStacks/-",
         "value": {
             "type": "item",
             "code": "newworldcrops:vegetable-*",
-            "shapeElement": "bowl/vegetable 2/*",
-            "textureMapping": [
-                "vegetable",
-                "group5"
-            ]
+            "shapeElement": "bowl/vegetable3/*"
+        }
+    },
+    {
+        "file": "game:recipes/cooking/scrambledeggs.json",
+        "op": "addmerge",
+        "path": "/ingredients/6/validStacks/-",
+        "value": {
+            "type": "item",
+            "code": "newworldcrops:grain-corn",
+            "shapeElement": "bowl/vegetable3/*"
         }
     },
     {
@@ -545,7 +529,7 @@
     {
         "file": "game:recipes/cooking/scrambledeggs.json",
         "op": "addmerge",
-        "path": "/ingredients/3/validStacks/-",
+        "path": "/ingredients/5/validStacks/-",
         "value": {
             "type": "item",
             "code": "newworldcrops:legume-*",
@@ -559,7 +543,7 @@
     {
         "file": "game:recipes/cooking/scrambledeggs.json",
         "op": "addmerge",
-        "path": "/ingredients/4/validStacks/-",
+        "path": "/ingredients/6/validStacks/-",
         "value": {
             "type": "item",
             "code": "newworldcrops:legume-*",
@@ -615,29 +599,21 @@
     {
         "file": "game:recipes/cooking/scrambledeggs.json",
         "op": "addmerge",
-        "path": "/ingredients/3/validStacks/-",
+        "path": "/ingredients/5/validStacks/-",
         "value": {
             "type": "item",
             "code": "newworldcrops:pickled*",
-            "shapeElement": "bowl/vegetable 1/*",
-            "textureMapping": [
-                "vegetable",
-                "group5"
-            ]
+            "shapeElement": "bowl/vegetable2/*"
         }
     },
     {
         "file": "game:recipes/cooking/scrambledeggs.json",
         "op": "addmerge",
-        "path": "/ingredients/4/validStacks/-",
+        "path": "/ingredients/6/validStacks/-",
         "value": {
             "type": "item",
             "code": "newworldcrops:pickled*",
-            "shapeElement": "bowl/vegetable 2/*",
-            "textureMapping": [
-                "vegetable",
-                "group5"
-            ]
+            "shapeElement": "bowl/vegetable3/*"
         }
     },
     {
