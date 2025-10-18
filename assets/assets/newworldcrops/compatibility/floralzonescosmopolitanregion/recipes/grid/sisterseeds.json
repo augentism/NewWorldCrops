@@ -44,7 +44,7 @@
     "width": 3,
     "height": 1,
     "output": {
-      "type": "block",
+      "type": "item",
       "code": "newworldcrops:seeds-cucurbitaficifolia-kidneybean-zeamays-none",
       "quantity": 1
     }
