@@ -26,7 +26,7 @@ with zipfile.ZipFile(zip_name +".zip", mode='a') as zf:
     zf.write("./modinfo.json")
     zf.write("./modicon.png")
 
-if os.path.isfile("C:\\Users\\Calvin\\AppData\\Roaming\\Vintagestory\\Mods\\" + zip_name + ".zip"):
-    os.remove("C:\\Users\\Calvin\\AppData\\Roaming\\Vintagestory\\Mods\\" + zip_name + ".zip")
+if os.path.isfile("C:\\Users\\Calvin\\AppData\\Roaming\\VintagestoryData\\Mods\\" + zip_name + ".zip"):
+    os.remove("C:\\Users\\Calvin\\AppData\\Roaming\\VintagestoryData\\Mods\\" + zip_name + ".zip")
 
-shutil.copy("./" + zip_name +".zip", "C:\\Users\\Calvin\\AppData\\Roaming\\Vintagestory\\Mods\\")
+shutil.copy("./" + zip_name +".zip", "C:\\Users\\Calvin\\AppData\\Roaming\\VintagestoryData\\Mods\\")

@@ -1,0 +1,215 @@
+[
+  {
+    "ingredientPattern": "PC,S_",
+    "width": 2,
+    "height": 2,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:drygrass",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:grain-*",
+        "quantity": 1
+      },
+      "S": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:waterportion"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "pigfeed:pigfeed",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "PC,S_",
+    "width": 2,
+    "height": 2,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:drygrass",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:grain-*",
+        "quantity": 1
+      },
+      "S": {
+        "type": "block",
+        "code": "game:woodbucket"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:waterportion"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "pigfeed:pigfeed",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "PC,S_",
+    "width": 2,
+    "height": 2,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "game:drygrass",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:grain-*",
+        "quantity": 1
+      },
+      "S": {
+        "type": "block",
+        "code": "game:jug-*-fired"
+      }
+    },
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:waterportion"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "pigfeed:pigfeed",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "PC,S_",
+    "width": 2,
+    "height": 2,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "newworldcrops:pressedmash-*",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:grain-*",
+        "quantity": 1
+      },
+      "S": {
+        "type": "block",
+        "code": "game:bowl-*-fired"
+      }
+    },
+    "recipeGroup": 1,
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:waterportion"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "pigfeed:pigfeed",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "PC,S_",
+    "width": 2,
+    "height": 2,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "newworldcrops:pressedmash-*",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:grain-*",
+        "quantity": 1
+      },
+      "S": {
+        "type": "block",
+        "code": "game:woodbucket"
+      }
+    },
+    "recipeGroup": 1,
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:waterportion"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "pigfeed:pigfeed",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "PC,S_",
+    "width": 2,
+    "height": 2,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "newworldcrops:pressedmash-*",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:grain-*",
+        "quantity": 1
+      },
+      "S": {
+        "type": "block",
+        "code": "game:jug-*-fired"
+      }
+    },
+    "recipeGroup": 1,
+    "attributes": {
+      "liquidContainerProps": {
+        "requiresContent": {
+          "type": "item",
+          "code": "game:waterportion"
+        },
+        "requiresLitres": 1
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "pigfeed:pigfeed",
+      "quantity": 4
+    }
+  }
+]
