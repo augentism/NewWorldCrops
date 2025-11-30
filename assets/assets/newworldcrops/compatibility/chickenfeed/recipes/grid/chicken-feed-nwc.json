@@ -1,0 +1,162 @@
+[
+  {
+    "ingredientPattern": "PC",
+    "width": 2,
+    "height": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "newworldcrops:grain-*",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:drygrass",
+        "quantity": 1
+      }
+    },
+    "output": {
+      "type": "item",
+      "code": "chickenfeed:chickenfeed",
+      "quantity": 2
+    }
+  },
+  {
+    "ingredientPattern": "PC",
+    "width": 2,
+    "height": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "newworldcrops:grain-*",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:vegetable-turnip",
+        "quantity": 1
+      }
+    },
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "chickenfeed:chickenfeed",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "PC",
+    "width": 2,
+    "height": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "newworldcrops:grain-*",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:vegetable-carrot",
+        "quantity": 1
+      }
+    },
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "chickenfeed:chickenfeed",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "PC",
+    "width": 2,
+    "height": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "newworldcrops:grain-*",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:vegetable-cabbage",
+        "quantity": 1
+      }
+    },
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "chickenfeed:chickenfeed",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "PC",
+    "width": 2,
+    "height": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "newworldcrops:grain-*",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:vegetable-parsnip",
+        "quantity": 1
+      }
+    },
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "chickenfeed:chickenfeed",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "PC",
+    "width": 2,
+    "height": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "newworldcrops:grain-*",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:vegetable-pumpkin",
+        "quantity": 1
+      }
+    },
+    "recipeGroup": 1,
+    "output": {
+      "type": "item",
+      "code": "chickenfeed:chickenfeed",
+      "quantity": 4
+    }
+  },
+  {
+    "ingredientPattern": "PC",
+    "width": 2,
+    "height": 1,
+    "ingredients": {
+      "P": {
+        "type": "item",
+        "code": "newworldcrops:grain-*",
+        "quantity": 1
+      },
+      "C": {
+        "type": "item",
+        "code": "game:insect-*",
+        "quantity": 2
+      }
+    },
+    "recipeGroup": 3,
+    "output": {
+      "type": "item",
+      "code": "chickenfeed:chickenfeed",
+      "quantity": 4
+    }
+  }
+]

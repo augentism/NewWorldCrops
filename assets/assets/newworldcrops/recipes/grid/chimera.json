@@ -39,7 +39,7 @@
         "shapeless": true,
         "output": {
             "type": "block",
-            "code": "newworldcrops:chimera-potato-tomato-9",
+            "code": "newworldcrops:chimera-potato-eggplant-9",
             "quantity": 1
         }
     },

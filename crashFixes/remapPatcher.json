@@ -77,7 +77,13 @@
             "/bir remapq newworldcrops:block-crop-pumpkin-greenbean-corn-none-11 newworldcrops:block-crop-sistergreen-11 force",
             "/bir remapq newworldcrops:block-crop-pumpkin-blackbean-corn-sunflower-11 newworldcrops:block-crop-sisterblacksun-11 force",
             "/bir remapq newworldcrops:block-crop-pumpkin-kidneybean-corn-sunflower-11 newworldcrops:block-crop-sisterkidneysun-11 force",
-            "/bir remapq newworldcrops:block-crop-pumpkin-greenbean-corn-sunflower-11 newworldcrops:block-crop-sistergreensun-11 force"
+            "/bir remapq newworldcrops:block-crop-pumpkin-greenbean-corn-sunflower-11 newworldcrops:block-crop-sistergreensun-11 force",
+            "/iir remap newworldcrops:item-seeds-pumpkin-blackbean-corn-none newworldcrops:item-seeds-sisterblack force",
+            "/iir remap newworldcrops:item-seeds-pumpkin-kidneybean-corn-none newworldcrops:item-seeds-sisterkidney force",
+            "/iir remap newworldcrops:item-seeds-pumpkin-greenbean-corn-none newworldcrops:item-seeds-sistergreen force",
+            "/iir remap newworldcrops:item-seeds-pumpkin-blackbean-corn-sunflower newworldcrops:item-seeds-sisterblacksun force",
+            "/iir remap newworldcrops:item-seeds-pumpkin-kidneybean-corn-sunflower newworldcrops:item-seeds-sisterkidneysun force",
+            "/iir remap newworldcrops:item-seeds-pumpkin-greenbean-corn-sunflower newworldcrops:item-seeds-sistergreensun force"
         ]
     }
 ]

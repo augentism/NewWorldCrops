@@ -1,0 +1,24 @@
+[
+  {
+    "op": "add",
+    "path": "/dropsByType/@.*pepper-(10|11|12)/0/code",
+    "value": "wildcraftfruit:vegetable-orangebellpepper",
+    "file": "newworldcrops:blocktypes/plant/crop/fruitcrops.json",
+    "dependsOn": [
+      {
+        "modid": "wildcraftfruit"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/dropsByType/@chimera.*pepper-(10|11|12)/0/code",
+    "value": "wildcraftfruit:vegetable-orangebellpepper",
+    "file": "newworldcrops:blocktypes/plant/crop/chimeracrops.json",
+    "dependsOn": [
+      {
+        "modid": "wildcraftfruit"
+      }
+    ]
+  }
+]

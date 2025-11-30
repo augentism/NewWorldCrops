@@ -70,7 +70,7 @@
                         "inPieProperties": {
                                 "texture": "newworldcrops:block/wood/barrel/{type}",
                                 "partType": "Filling",
-                                "allowMixing": false
+                                "allowMixing": true
                         },
                         "nutritionPropsWhenInMeal": {
                                 "satiety": 150,
