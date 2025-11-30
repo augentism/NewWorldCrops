@@ -408,7 +408,7 @@
 			"growthStages": 11,
 			"totalGrowthMonths": 2.0,
 			"coldDamageBelow": 4,
-			"heatDamageAbove": 35,
+			"heatDamageAbove": 40,
 			"xpByType": {
 				"-10": 0.28,
 				"-11": 0.55,
@@ -421,7 +421,7 @@
 			"growthStages": 11,
 			"totalGrowthMonths": 2.0,
 			"coldDamageBelow": 4,
-			"heatDamageAbove": 35,
+			"heatDamageAbove": 40,
 			"xpByType": {
 				"-10": 0.28,
 				"-11": 0.55,
