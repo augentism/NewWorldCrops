@@ -1,0 +1,19 @@
+[
+    {
+        "ingredientPattern": "P",
+        "recipeGroup": 1,
+        "ingredients": {
+            "P": {
+                "type": "item",
+                "code": "newworldcrops:legume-*"
+            }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {
+            "type": "item",
+            "code": "newworldcrops:legume-mixedbean",
+            "quantity": 1
+        }
+    }
+]
