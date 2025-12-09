@@ -65,7 +65,7 @@
                                 "levelFrom": 0.25,
                                 "levelTo": 0.5,
                                 "startScaleY": 0.95,
-                                "endScaleY": 1.10,
+                                "endScaleY": 1.05,
                                 "resultCode": "newworldcrops:bread-{type}-perfect",
                                 "initialCode": "newworldcrops:vegetable-{type}"
                         }
@@ -81,6 +81,14 @@
                                 "endScaleY": 1.10,
                                 "resultCode": "newworldcrops:bread-{type}-perfect",
                                 "initialCode": "newworldcrops:dough-{type}"
+                        },
+                        "onshelfTransform": {
+                                "origin": {
+                                        "x": 0.5,
+                                        "y": 0,
+                                        "z": 0.5
+                                },
+                                "scale": 0.3
                         }
                 },
                 "*-perfect": {
@@ -94,6 +102,14 @@
                                 "endScaleY": 1.13,
                                 "resultCode": "newworldcrops:bread-{type}-charred",
                                 "initialCode": "newworldcrops:bread-{type}-partbaked"
+                        },
+                        "onshelfTransform": {
+                                "origin": {
+                                        "x": 0.5,
+                                        "y": 0,
+                                        "z": 0.5
+                                },
+                                "scale": 0.3
                         }
                 },
                 "*-charred": {
@@ -106,6 +122,14 @@
                                 "startScaleY": 1.13,
                                 "endScaleY": 1.10,
                                 "initialCode": "newworldcrops:bread-{type}-perfect"
+                        },
+                        "onshelfTransform": {
+                                "origin": {
+                                        "x": 0.5,
+                                        "y": 0,
+                                        "z": 0.5
+                                },
+                                "scale": 0.3
                         }
                 }
         },
