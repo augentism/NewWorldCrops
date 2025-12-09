@@ -38,6 +38,7 @@
                 ]
         },
         "renderpass": "OpaqueNoCull",
+        "frostable": "true",
         "shapeByType": {
                 "*-9": {
                         "base": "game:block/plant/crop/tallcrossdense"

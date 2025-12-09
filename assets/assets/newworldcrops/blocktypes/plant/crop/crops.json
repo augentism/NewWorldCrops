@@ -58,6 +58,7 @@
         ]
     },
     "renderpass": "OpaqueNoCull",
+    "frostable": "true",
     "shapeByType": {
         "*potato-5": {
             "base": "newworldcrops:block/plant/crop/{type}/stage5"

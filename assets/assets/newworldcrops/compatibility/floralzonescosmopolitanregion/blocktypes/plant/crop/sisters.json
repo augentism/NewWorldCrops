@@ -61,6 +61,7 @@
 		]
 	},
 	"renderpass": "OpaqueNoCull",
+	"frostable": "true",
 	"shapeByType": {
 		"@(.*crop.+-(8|9|10|11))": {
 			"base": "newworldcrops:block/plant/crop/sister/sisters{stage}"

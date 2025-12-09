@@ -45,6 +45,7 @@
     "base": "game:block/plant/crop/cross"
   },
   "blockmaterial": "Plant",
+  "frostable": "true",
   "randomizeRotations": true,
   "textures": {
     "all": {

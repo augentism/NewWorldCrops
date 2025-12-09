@@ -64,6 +64,7 @@
         ]
     },
     "renderpass": "OpaqueNoCull",
+    "frostable": "true",
     "shapeByType": {
         "@(chimera.*-(10|11|12))": {
             "base": "newworldcrops:block/plant/crop/chimera/{root}/potchimera{stage}"

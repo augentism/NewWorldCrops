@@ -48,6 +48,7 @@
         ]
     },
     "renderpass": "OpaqueNoCull",
+    "frostable": "true",
     "shapeByType": {
         "*": {
             "base": "game:block/plant/crop/vegetable"
