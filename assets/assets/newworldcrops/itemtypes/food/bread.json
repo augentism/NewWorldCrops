@@ -33,17 +33,17 @@
         },
         "texturesbytype": {
                 "*-partbaked": {
-                        "cornbread": {
+                        "bread": {
                                 "base": "newworldcrops:item/food/grain/{type}bread2"
                         }
                 },
                 "*-perfect": {
-                        "cornbread": {
+                        "bread": {
                                 "base": "newworldcrops:item/food/grain/{type}bread"
                         }
                 },
                 "*-charred": {
-                        "cornbread": {
+                        "bread": {
                                 "base": "newworldcrops:item/food/grain/{type}bread1"
                         }
                 }
