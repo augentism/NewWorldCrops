@@ -122,6 +122,28 @@
   },
   {
     "op": "addmerge",
+    "path": "/dropsByType/@(chimera.*-(10|11|12))/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/chimeracrops.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
+    "path": "/dropsByType/@chimera.*pepper-(10|11|12)/1/dropModbyStat",
+    "value": "cropDropRate",
+    "file": "newworldcrops:blocktypes/plant/crop/chimeracrops.json",
+    "dependsOn": [
+      {
+        "modid": "gloomeclasses"
+      }
+    ]
+  },
+  {
+    "op": "addmerge",
     "path": "/dropsByType/*-8/1/dropModbyStat",
     "value": "cropDropRate",
     "file": "newworldcrops:blocktypes/plant/crop/corn.json",
