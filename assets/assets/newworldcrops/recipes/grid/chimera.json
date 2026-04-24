@@ -16,8 +16,8 @@
         "height": 1,
         "shapeless": true,
         "output": {
-            "type": "block",
-            "code": "newworldcrops:chimera-potato-tomato-9",
+            "type": "item",
+            "code": "newworldcrops:seeds-chimera-potato-tomato",
             "quantity": 1
         }
     },
@@ -38,8 +38,8 @@
         "height": 1,
         "shapeless": true,
         "output": {
-            "type": "block",
-            "code": "newworldcrops:chimera-potato-eggplant-9",
+            "type": "item",
+            "code": "newworldcrops:seeds-chimera-potato-eggplant",
             "quantity": 1
         }
     },
@@ -60,8 +60,8 @@
         "height": 1,
         "shapeless": true,
         "output": {
-            "type": "block",
-            "code": "newworldcrops:chimera-potato-pepper-9",
+            "type": "item",
+            "code": "newworldcrops:seeds-chimera-potato-pepper",
             "quantity": 1
         }
     }

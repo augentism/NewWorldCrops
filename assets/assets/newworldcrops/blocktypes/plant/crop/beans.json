@@ -137,6 +137,8 @@
     "requiredNutrient": "K",
     "nutrientConsumption": 35,
     "growthStages": 11,
+    "coldDamageBelow": 5,
+    "heatDamageAbove": 40,
     "totalGrowthMonths": 1.25
   },
   "collisionbox": null,

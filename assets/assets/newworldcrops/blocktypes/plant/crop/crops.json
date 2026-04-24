@@ -169,7 +169,7 @@
             "nutrientConsumption": 35,
             "growthStages": 7,
             "totalGrowthDays": 8,
-            "coldDamageBelow": -10,
+            "coldDamageBelow": 0,
             "heatDamageAbove": 35,
             "xpByType": {
                 "-6": 0.28,
@@ -191,12 +191,12 @@
             }
         },
         "*beet*": {
-            "requiredNutrient": "N",
+            "requiredNutrient": "K",
             "nutrientConsumption": 30,
             "growthStages": 7,
             "totalGrowthDays": 9,
             "coldDamageBelow": -10,
-            "heatDamageAbove": 35,
+            "heatDamageAbove": 27,
             "xpByType": {
                 "-6": 0.28,
                 "-7": 0.55,

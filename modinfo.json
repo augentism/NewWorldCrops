@@ -2,7 +2,7 @@
   "Type": "content",
   "TextureSize": 32,
   "Name": "New World Crops",
-  "Version": "0.0.18",
+  "Version": "0.0.19",
   "NetworkVersion": null,
   "Description": "Adds some more crops to the game.",
   "Website": "https://mods.vintagestory.at/newworldcrops",
@@ -14,6 +14,6 @@
   "RequiredOnClient": true,
   "RequiredOnServer": true,
   "Dependencies": {
-    "augplantlib": "0.0.5"
+    "augplantlib": "0.0.6"
   }
 }

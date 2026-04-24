@@ -14,9 +14,9 @@
         }
     },
     {
-        "file": "game:blocktypes/clay/pot.json",
+        "file": "game:blocktypes/clay/fired/pot.json",
         "op": "addmerge",
-        "path": "/attributesByType/claypot-cooked/textureMapping",
+        "path": "/attributesByType/claypot-blue-cooked/textureMapping",
         "value": {
             "newworldcrops:vegetable-*": [
                 "vegetable",
@@ -39,9 +39,9 @@
         }
     },
     {
-        "file": "game:blocktypes/clay/pot.json",
+        "file": "game:blocktypes/clay/fired/pot.json",
         "op": "addmerge",
-        "path": "/attributesByType/claypot-cooked/textureMapping",
+        "path": "/attributesByType/claypot-blue-cooked/textureMapping",
         "value": {
             "newworldcrops:grain-*": [
                 "grain",
@@ -50,9 +50,9 @@
         }
     },
     {
-        "file": "game:blocktypes/clay/pot.json",
+        "file": "game:blocktypes/clay/fired/pot.json",
         "op": "addmerge",
-        "path": "/attributesByType/claypot-cooked/textureMapping",
+        "path": "/attributesByType/claypot-blue-cooked/textureMapping",
         "value": {
             "newworldcrops:legume-*": [
                 "vegetable",

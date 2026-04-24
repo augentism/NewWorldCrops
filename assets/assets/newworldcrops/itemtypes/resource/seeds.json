@@ -20,6 +20,9 @@
                                 "pumpkin-blackbean-corn-sunflower",
                                 "pumpkin-kidneybean-corn-sunflower",
                                 "pumpkin-greenbean-corn-sunflower",
+                                "chimera-potato-tomato",
+                                "chimera-potato-pepper",
+                                "chimera-potato-eggplant",
                                 "oat",
                                 "cauliflower",
                                 "eggplant",
@@ -27,11 +30,13 @@
                         ]
                 }
         ],
-        "shape": {
-                "base": "game:item/resource/seeds/seedbag"
+        "shapeByType": {
+                "*": {
+                        "base": "game:item/resource/seeds/seedbag"
+                }
         },
         "texturesByType": {
-                "*-pepper": {
+                "seeds-pepper": {
                         "seed": {
                                 "base": "game:item/resource/seeds/bellpepper"
                         }

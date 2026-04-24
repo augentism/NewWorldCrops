@@ -1,0 +1,36 @@
+[
+    {
+        "ingredientPattern": "V",
+        "recipeGroup": 1,
+        "ingredients": {
+            "V": {
+                "type": "item",
+                "code": "newworldcrops:vegetable-potato"
+            }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {
+            "type": "item",
+            "code": "newworldcrops:vegetable-throwable-potato",
+            "quantity": 1
+        }
+    },
+    {
+        "ingredientPattern": "V",
+        "recipeGroup": 1,
+        "ingredients": {
+            "V": {
+                "type": "item",
+                "code": "newworldcrops:vegetable-tomato"
+            }
+        },
+        "width": 1,
+        "height": 1,
+        "output": {
+            "type": "item",
+            "code": "newworldcrops:vegetable-throwable-tomato",
+            "quantity": 1
+        }
+    }
+]

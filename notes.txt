@@ -1,5 +1,7 @@
 Implementation Notes
+json lang key autoquoter
 
+s/\(\w\+\)\s*:/"\1":/g
 
 Files for alcohol functionality
     pressedmash.json

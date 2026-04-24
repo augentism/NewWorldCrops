@@ -11,8 +11,8 @@
                 "newworldcrops:crop-potato-7",
                 "newworldcrops:crop-potato-2"
             ],
-            "minTemp": 0,
-            "maxTemp": 25,
+            "minTemp": 20,
+            "maxTemp": 35,
             "minRain": 0.35,
             "maxRain": 0.75,
             "maxForest": 0.5,
@@ -35,7 +35,7 @@
                 "newworldcrops:crop-corn-9",
                 "newworldcrops:crop-corn-2"
             ],
-            "minTemp": 0,
+            "minTemp": 20,
             "maxTemp": 35,
             "minRain": 0.35,
             "maxRain": 0.75,
@@ -59,8 +59,8 @@
                 "newworldcrops:crop-blackbean-11",
                 "newworldcrops:crop-blackbean-2"
             ],
-            "minTemp": 5,
-            "maxTemp": 30,
+            "minTemp": 15,
+            "maxTemp": 35,
             "minRain": 0.35,
             "maxRain": 0.75,
             "maxForest": 0.5,
@@ -83,8 +83,8 @@
                 "newworldcrops:crop-greenbean-11",
                 "newworldcrops:crop-greenbean-2"
             ],
-            "minTemp": 5,
-            "maxTemp": 30,
+            "minTemp": 20,
+            "maxTemp": 35,
             "minRain": 0.35,
             "maxRain": 0.75,
             "maxForest": 0.5,
@@ -107,8 +107,8 @@
                 "newworldcrops:crop-kidneybean-11",
                 "newworldcrops:crop-kidneybean-2"
             ],
-            "minTemp": 5,
-            "maxTemp": 30,
+            "minTemp": 20,
+            "maxTemp": 35,
             "minRain": 0.35,
             "maxRain": 0.75,
             "maxForest": 0.5,
@@ -131,7 +131,7 @@
                 "newworldcrops:crop-pepper-12",
                 "newworldcrops:crop-pepper-2"
             ],
-            "minTemp": 0,
+            "minTemp": 20,
             "maxTemp": 35,
             "minRain": 0.35,
             "maxRain": 0.75,
@@ -155,7 +155,7 @@
                 "newworldcrops:crop-tomato-12",
                 "newworldcrops:crop-tomato-2"
             ],
-            "minTemp": 0,
+            "minTemp": 20,
             "maxTemp": 35,
             "minRain": 0.35,
             "maxRain": 0.75,
@@ -179,7 +179,7 @@
                 "newworldcrops:crop-eggplant-12",
                 "newworldcrops:crop-eggplant-2"
             ],
-            "minTemp": 0,
+            "minTemp": 20,
             "maxTemp": 35,
             "minRain": 0.35,
             "maxRain": 0.75,
@@ -200,8 +200,8 @@
             "blockCodes": [
                 "newworldcrops:crop-wildcabbage-2"
             ],
-            "minTemp": -3,
-            "maxTemp": 25,
+            "minTemp": 10,
+            "maxTemp": 30,
             "minRain": 0.3,
             "maxRain": 0.75,
             "maxForest": 0.5,
@@ -224,8 +224,8 @@
                 "newworldcrops:crop-beet-7",
                 "newworldcrops:crop-beet-2"
             ],
-            "minTemp": 0,
-            "maxTemp": 35,
+            "minTemp": 10,
+            "maxTemp": 25,
             "minRain": 0.35,
             "maxRain": 0.75,
             "maxForest": 0.5,
@@ -249,7 +249,7 @@
                 "newworldcrops:crop-oat-2"
             ],
             "minTemp": 5,
-            "maxTemp": 40,
+            "maxTemp": 30,
             "minRain": 0.35,
             "maxRain": 0.75,
             "maxForest": 0.5,

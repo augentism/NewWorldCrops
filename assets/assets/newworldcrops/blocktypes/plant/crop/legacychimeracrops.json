@@ -1,6 +1,6 @@
 {
-    "code": "crop-chimera",
-    "class": "BlockCropFruit",
+    "code": "chimera",
+    "class": "BlockCrop",
     "storageFlags": 33,
     "behaviors": [
         {
@@ -25,41 +25,25 @@
         {
             "code": "stage",
             "states": [
-                "1",
-                "2",
-                "3",
-                "4"
+                "9",
+                "10",
+                "11",
+                "12"
             ]
         }
     ],
     "texturesByType": {
-        "@(crop-chimera.*-1)": {
+        "@(chimera.*-(10|11|12))": {
             "crop": {
-                "base": "newworldcrops:block/plant/crop/{scion}/e9"
-            }
-        },
-        "@(crop-chimera.*-2)": {
-            "crop": {
-                "base": "newworldcrops:block/plant/crop/{scion}/e10"
+                "base": "newworldcrops:block/plant/crop/{scion}/e{stage}"
             },
             "potato": {
                 "base": "game:item/food/vegetable/potato"
             }
         },
-        "@(crop-chimera.*-3)": {
+        "@(chimera.*-[0-9])": {
             "crop": {
-                "base": "newworldcrops:block/plant/crop/{scion}/e11"
-            },
-            "potato": {
-                "base": "game:item/food/vegetable/potato"
-            }
-        },
-        "@(crop-chimera.*-4)": {
-            "crop": {
-                "base": "newworldcrops:block/plant/crop/{scion}/e12"
-            },
-            "potato": {
-                "base": "game:item/food/vegetable/potato"
+                "base": "newworldcrops:block/plant/crop/{scion}/e{stage}"
             }
         }
     },
@@ -67,17 +51,17 @@
         "general": [
             ""
         ],
-        "nwc": [
+        "plants": [
             ""
         ]
     },
     "renderpass": "OpaqueNoCull",
     "frostable": "true",
     "shapeByType": {
-        "@(crop-chimera.*-(2|3|4))": {
+        "@(chimera.*-(10|11|12))": {
             "base": "newworldcrops:block/plant/crop/chimera/{root}/potchimera{stage}"
         },
-        "@(crop-chimera.*-1)": {
+        "@(chimera.*-[1-9])": {
             "base": "game:block/plant/crop/vegetable"
         }
     },
@@ -102,43 +86,17 @@
             "include": true
         },
         "fruitStageByType": {
-            "*pepper*": 2,
-            "*tomato*": 2,
-            "*": 2
+            "*pepper*": 10,
+            "*tomato*": 10,
+            "*": 10
         },
         "interactionInterval": 1.00
     },
     "dropsByType": {
-        "@crop-chimera.*pepper-(2|3|4)": [
+        "*": [
             {
                 "type": "item",
-                "code": "game:vegetable-bellpepper",
-                "quantity": {
-                    "avg": 1.1,
-                    "var": 0
-                }
-            },
-            {
-                "type": "item",
-                "code": "newworldcrops:vegetable-{root}",
-                "quantity": {
-                    "avg": 1.1,
-                    "var": 0
-                }
-            }
-        ],
-        "@(crop-chimera.*-(2|3|4))": [
-            {
-                "type": "item",
-                "code": "newworldcrops:vegetable-{scion}",
-                "quantity": {
-                    "avg": 1.1,
-                    "var": 0
-                }
-            },
-            {
-                "type": "item",
-                "code": "newworldcrops:vegetable-{root}",
+                "code": "newworldcrops:seeds-chimera-{root}-{scion}",
                 "quantity": {
                     "avg": 1.1,
                     "var": 0
@@ -150,24 +108,24 @@
         "*pepper*": {
             "requiredNutrient": "K",
             "nutrientConsumption": 20,
-            "growthStages": 4,
-            "totalGrowthDays": 4,
+            "growthStages": 12,
+            "totalGrowthDays": 10,
             "coldDamageBelow": 4,
             "heatDamageAbove": 35
         },
         "*tomato*": {
             "requiredNutrient": "K",
             "nutrientConsumption": 20,
-            "growthStages": 4,
-            "totalGrowthDays": 4,
+            "growthStages": 12,
+            "totalGrowthDays": 10,
             "coldDamageBelow": 4,
             "heatDamageAbove": 35
         },
         "*": {
             "requiredNutrient": "K",
             "nutrientConsumption": 20,
-            "growthStages": 4,
-            "totalGrowthDays": 4,
+            "growthStages": 12,
+            "totalGrowthDays": 10,
             "coldDamageBelow": 4,
             "heatDamageAbove": 35
         }

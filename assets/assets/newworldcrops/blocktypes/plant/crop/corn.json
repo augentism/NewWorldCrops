@@ -190,7 +190,7 @@
                         "growthStages": 9,
                         "totalGrowthMonths": 2,
                         "coldDamageBelow": -7,
-                        "heatDamageAbove": 42,
+                        "heatDamageAbove": 35,
                         "xpByType": {
                                 "-6": 0.28,
                                 "-7": 0.55,

@@ -183,7 +183,7 @@
             "nutrientConsumption": 20,
             "growthStages": 12,
             "totalGrowthDays": 10,
-            "coldDamageBelow": 4,
+            "coldDamageBelow": 10,
             "heatDamageAbove": 35,
             "xpByType": {
                 "-10": 0.28,
@@ -196,8 +196,8 @@
             "requiredNutrient": "K",
             "nutrientConsumption": 20,
             "growthStages": 12,
-            "totalGrowthDays": 10,
-            "coldDamageBelow": 4,
+            "totalGrowthDays": 4,
+            "coldDamageBelow": 10,
             "heatDamageAbove": 35,
             "xpByType": {
                 "-10": 0.28,
@@ -211,7 +211,7 @@
             "nutrientConsumption": 20,
             "growthStages": 12,
             "totalGrowthDays": 10,
-            "coldDamageBelow": 4,
+            "coldDamageBelow": 10,
             "heatDamageAbove": 35,
             "xpByType": {
                 "-10": 0.28,

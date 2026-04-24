@@ -1,5 +1,5 @@
 {
-        "code": "vegetable",
+        "code": "vegetable-throwable",
         "storageFlags": 33,
         "maxstacksize": 64,
         "variantgroups": [
@@ -7,10 +7,7 @@
                         "code": "type",
                         "states": [
                                 "potato",
-                                "tomato",
-                                "cauliflower",
-                                "eggplant",
-                                "beet"
+                                "tomato"
                         ]
                 }
         ],
@@ -20,44 +17,11 @@
                                 "base": "game:block/wood/barrel/raw-potato"
                         },
                         "displaycaseable": true,
-                        "shelvable": true,
-                        "bakingProperties": {
-                                "temp": 160,
-                                "levelFrom": 0.0,
-                                "levelTo": 0.25,
-                                "startScaleY": 0.9,
-                                "endScaleY": 0.95,
-                                "resultCode": "newworldcrops:bread-{type}-partbaked"
-                        },
-                        "nutritionPropsWhenInMeal": {
-                                "satiety": 150,
-                                "foodcategory": "Vegetable"
-                        },
-                        "juiceablePropertiesByType": {
-                                "*-potato": {
-                                        "litresPerItem": 0.625,
-                                        "liquidStack": {
-                                                "type": "item",
-                                                "code": "newworldcrops:juiceportion-potato",
-                                                "stacksize": 1
-                                        },
-                                        "pressedStack": {
-                                                "type": "item",
-                                                "code": "newworldcrops:pressedmash-potato",
-                                                "stacksize": 2
-                                        }
-                                }
-                        }
+                        "shelvable": true
                 },
                 "*-tomato": {
                         "inContainerTexture": {
                                 "base": "game:block/wood/barrel/raw-tomato"
-                        },
-                        "displaycaseable": true,
-                        "shelvable": true,
-                        "nutritionPropsWhenInMeal": {
-                                "satiety": 150,
-                                "foodcategory": "Vegetable"
                         }
                 },
                 "*": {
@@ -65,18 +29,22 @@
                                 "base": "newworldcrops:block/wood/barrel/{type}"
                         },
                         "displaycaseable": true,
-                        "shelvable": true,
-                        "crockable": true,
-                        "inPieProperties": {
-                                "texture": "newworldcrops:block/wood/barrel/{type}",
-                                "partType": "Filling",
-                                "allowMixing": true
-                        },
-                        "nutritionPropsWhenInMeal": {
-                                "satiety": 150,
-                                "foodcategory": "Vegetable"
-                        }
+                        "shelvable": true
                 }
+        },
+        "behaviorsByType": {
+                "*": [
+                        {
+                                "name": "Throwable",
+                                "properties": {
+                                        "damage": 1,
+                                        "thrownProjectileCode": "thrownitem",
+                                        "damageType": "BluntAttack",
+                                        "randomThrowYaw": true,
+                                        "dropOnImpactChance": 0
+                                }
+                        }
+                ]
         },
         "creativeinventory": {
                 "general": [
@@ -85,16 +53,6 @@
                 "nwc": [
                         "*"
                 ]
-        },
-        "nutritionPropsByType": {
-                "*": {
-                        "satiety": 100,
-                        "foodcategory": "Vegetable"
-                },
-                "*-cauliflower": {
-                        "satiety": 300,
-                        "foodcategory": "Vegetable"
-                }
         },
         "transitionablePropsByType": {
                 "*-potato": [
@@ -180,30 +138,30 @@
                         "scale": 1.67
                 },
                 "*cauliflower": {
+                        "translation": {
+                                "x": 18,
+                                "y": -14,
+                                "z": 0
+                        },
                         "rotation": {
                                 "x": 158,
                                 "y": -19,
                                 "z": 1
                         },
-                        "origin": {
-                                "x": 0.47,
-                                "y": 0.2,
-                                "z": 0.5
-                        },
-                        "scale": 2.73
+                        "scale": 2.63
                 },
                 "*beet": {
+                        "translation": {
+                                "x": 29,
+                                "y": -18,
+                                "z": 0
+                        },
                         "rotation": {
-                                "x": -138,
-                                "y": 17,
-                                "z": -39
+                                "x": -165,
+                                "y": -29,
+                                "z": -23
                         },
-                        "origin": {
-                                "x": 0.35,
-                                "y": 0.3,
-                                "z": 0.5
-                        },
-                        "scale": 2.86
+                        "scale": 2.39
                 },
                 "*eggplant": {
                         "rotation": {
@@ -286,7 +244,7 @@
                         },
                         "origin": {
                                 "x": 0.5,
-                                "y": 1.65,
+                                "y": 0.5,
                                 "z": 0.5299
                         },
                         "scale": 1.5
